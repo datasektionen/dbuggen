@@ -1,0 +1,46 @@
+$home: "museo-sans";
+$home: "futura-pt";
+// "brandon-grotesque";
+// "rooney-sans";
+
+$fonts: ("futura-pt", "rooney-web", "adelle", "expo-sans-pro");
+$colors: (
+  // #008dbc,
+  #ff7243,
+  #e2007f,
+  #99cc00,
+  #ffcb00
+);
+
+// #f54785
+$black: #333;
+$white: #fff;
+
+
+@mixin theme($name, $font, $color, $header:$color) {
+  .#{$name} {
+    @include link($color);
+    font-family: $font;
+    ::selection {
+      background-color: $color;
+    }
+    .theme {
+      color: $color;
+    }
+  }
+  .#{$name}.site-header {
+    @include link($header);
+  }
+}
+
+@for $i from 1 through 4 {
+  @include theme($name: "issue-#{$i}", $font: nth($fonts, $i), $color: nth($colors, $i));
+}
+
+// @include theme("colophon", $home, #ff4c4c);
+@include theme("issue-0", $home, #00b3b3);
+
+// @include theme("issue-1", $font-1, #008dbc);
+// @include theme("issue-2", $font-2, #e2007f);
+// @include theme("issue-3",  $font-3, #99cc00);
+// @include theme("issue-4", $font-4, #ffcb00, $white);

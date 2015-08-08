@@ -1,0 +1,62 @@
+body {
+  font-family: "Helvetica Neue", sans-serif; // fallback
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  width: 90%;
+  margin: auto;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+em {
+  font-style: italic;
+  font-weight: 400;
+}
+
+b {
+  font-weight: 700;
+}
+
+.site-header {
+  font-size: 1.25em;
+  h1 {
+    font-size: 20vw;
+    @include min-width(600px) {
+      font-size: 15vw;
+    }
+  }
+}
+
+.post-header {
+  .tags {
+    font-style: italic;
+  }
+  p {
+    margin: 0.5em auto;
+  }
+}
+
+header {
+  text-align: center;
+}
+
+article {
+  text-align: justify;
+  margin: 5em auto;
+}
+
+article p {
+  font-size: 1.25em;
+  line-height: 1.6;
+  margin: 1em auto;
+}
+
+@include max-width(600px) {
+  q {
+    font-size: 0.5em;
+  }
+}

@@ -1,0 +1,27 @@
+# Site settings
+title: dbuggen
+email: chefred@d.kth.se
+description: >
+  dbuggen är en en tidning som produceras av Redaqtionen på Datasektionen vid KTH i Stockholm
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://dbu.gg" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+# permalink: pretty
+permalink: /:title
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+
+# sass
+sass:
+  sass_dir: _sass
+  style: :expanded
+
+# dev options
+port: 3000

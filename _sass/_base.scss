@@ -1,0 +1,55 @@
+body {
+  color: #333;
+  font-weight: 400;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+}
+
+// images
+img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+// quotes
+blockquote {
+  font-size: 1.25em;
+  margin: 0 auto;
+  width: 90%;
+  @include max-width(600px) {
+    width: 100%;
+  }
+}
+
+blockquote p {
+  font-style: italic;
+  border-left: 10px solid #333;
+  padding: 0.4em 20px;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+blockquote p:before {
+  content: open-quote;
+}
+
+blockquote p:after {
+  content: close-quote;
+}
+
+// lists
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+// misc
+::selection {
+  color: #fff;
+}
+
+.colophon {
+  margin-top: 5em;
+}

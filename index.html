@@ -1,0 +1,20 @@
+---
+layout: default
+category: 0
+---
+
+<main class="issue-list issue-0">
+  <h2>Här är numren vi släppt under 2015!</h2>
+  <div class="text">
+    {% for issue in site.data.issues %}
+      <h2 class="issue-name">
+        {% if issue.number != 2 %}
+          <a href="/issues/{{ issue.number }}">{{ issue.name }}</a>
+        {% else %}
+          {{ issue.name }}
+        {% endif %}
+      </h2>
+      <p>{{ issue.description }}</p>
+    {% endfor %}
+  </div>
+</main>

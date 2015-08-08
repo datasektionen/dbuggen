@@ -1,0 +1,29 @@
+@mixin max-width($width) {
+    @media screen and (max-width: $width) {
+        @content;
+    }
+}
+
+@mixin min-width($width) {
+    @media screen and (min-width: $width) {
+        @content;
+    }
+}
+
+@mixin orientation($orientation) {
+    @media screen and (orientation: $orientation) {
+        @content;
+    }
+}
+
+@mixin columns($columns, $width) {
+  @media (min-height: 800px) {
+    columns: $columns $width;
+  }
+}
+
+@mixin columns-class($columns, $width) {
+  .columns-#{$columns} {
+    @include columns($columns, $width);
+  }
+}

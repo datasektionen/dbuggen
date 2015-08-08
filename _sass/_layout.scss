@@ -1,0 +1,68 @@
+main {
+  margin: 3em auto;
+}
+
+.text {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1100px;
+  text-align: justify;
+  @include max-width(600px) {
+    hyphens: auto;
+  }
+  @include min-width(800px) {
+    p {
+      width: 80%;
+    }
+  }
+}
+
+.issue-list {
+  .text {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 auto;
+    p {
+      width: 95%;
+      margin: 1em auto;
+    }
+    .issue-name {
+      font-size: 2em;
+      margin: 1em auto 0;
+    }
+    @include min-width(900px) {
+      width: 60vw;
+    }
+    @include max-width(900px) {
+      font-size: 1.25em;
+      width: 95%;
+    }
+  }
+}
+
+.site-header {
+  margin: 0 auto 2em;
+  p {
+    margin: auto;
+    padding: 1em;
+  }
+  h1 {
+    width: 100%;
+    // padding: 10vh 0;
+  }
+  .logo {
+    padding-top: 10vh;
+  }
+  .logo.header-image {
+    padding-bottom: 10vh;
+    color: #fff;
+    p, h1 {
+      background-color: rgba(33, 33, 33, .75);
+    }
+  }
+  .header-image {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

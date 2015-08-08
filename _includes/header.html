@@ -1,0 +1,10 @@
+<header class="site-header issue-{{ page.category }} {% if page.img %} image {% endif %}">
+  {% if page.img %}
+    <div class="logo header-image" style="background-image: url('/images/{{page.category}}.jpg');">
+  {% else %}
+    <div class="logo">
+  {% endif %}
+      <h1><a href="/">dbuggen</a></h1>
+      {% markdown description.md %}
+    </div>
+</header>

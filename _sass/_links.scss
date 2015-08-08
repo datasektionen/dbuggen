@@ -1,0 +1,17 @@
+@mixin link($color) {
+  a {
+    color: $color;
+    position: relative;
+    text-decoration: none;
+    &:visited {
+      color: $color;
+    }
+    &:hover {
+      color: invert($color);
+    }
+    &:active {
+      top: 3px;
+      color: $color;
+    }
+  }
+}
