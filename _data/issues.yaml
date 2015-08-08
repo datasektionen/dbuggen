@@ -4,9 +4,9 @@
 - number: 2
   name: mottagningsdbuggen
   description: Ett nummer om mottagningen. Finns tyvärr inte på webben för tillfället.
-# - number: 3
-#   name: teambuildingdbuggen
-#   description: "Ett nummer om IORs teambuilding, gjort under IORs teambuilding"
+- number: 3
+  name: teambuildingdbuggen
+  description: "Ett nummer om IORs teambuilding, gjort under IORs teambuilding"
 - number: 4
   name: nØlledbuggen
   description: nØllans första dbuggen!
