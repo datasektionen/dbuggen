@@ -7,14 +7,12 @@ category: 0
   <h2>Här är numren vi släppt under 2015!</h2>
   <div class="text">
     {% for issue in site.data.issues %}
-      <h2 class="issue-name">
-        {% if issue.number != 2 %}
+      {% if issue.number != 2 and issue.number != 3 %}
+        <h2 class="issue-name">
           <a href="/issues/{{ issue.number }}">{{ issue.name }}</a>
-        {% else %}
-          {{ issue.name }}
-        {% endif %}
-      </h2>
-      <p>{{ issue.description }}</p>
+        </h2>
+        <p>{{ issue.description }}</p>
+      {% endif %}
     {% endfor %}
   </div>
 </main>
