@@ -26,7 +26,7 @@ b {
   h1 {
     font-size: 20vw;
     @include min-width(600px) {
-      font-size: 15vw;
+      font-size: 12vw;
     }
   }
 }
