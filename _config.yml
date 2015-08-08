@@ -25,3 +25,7 @@ sass:
 
 # dev options
 port: 3000
+
+# production options
+gems: ['kramdown', 'yaml']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
