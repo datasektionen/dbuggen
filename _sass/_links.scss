@@ -1,4 +1,17 @@
 @mixin link($color) {
+  article p a {
+    padding: 5px;
+    background: $color;
+    color: #fff;
+    &:visited {
+      background: $color;
+      color: #fff;
+    }
+    &:hover {
+      background: invert($color);
+      color: #fff;
+    }
+  }
   a {
     color: $color;
     position: relative;
