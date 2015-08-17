@@ -3,6 +3,7 @@ title: "Reinfeldt hade hoppats på rollen som ICA-Stig"
 category: 4
 author: Redaqtionen
 tags: ["satir"]
+order: 3
 ---
 
 >Ja, det var en vild chansning att hoppa av rollen som partiledare, men jag trodde jag hade en bra chans
