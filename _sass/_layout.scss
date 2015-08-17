@@ -43,21 +43,19 @@ main {
 .site-header {
   margin: 0 auto 2em;
   p {
-    margin: auto;
+    margin: 1em auto;
     padding: 1em;
   }
   h1 {
     width: 100%;
-    // padding: 10vh 0;
-  }
-  .logo {
-    padding-top: 10vh;
+    margin: auto;
   }
   .logo.header-image {
-    padding-bottom: 10vh;
-    color: #fff;
-    p, h1 {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    h1 {
       background-color: rgba(33, 33, 33, .75);
+      padding: 25px 0;
     }
   }
   .header-image {
@@ -66,3 +64,16 @@ main {
     background-repeat: no-repeat;
   }
 }
+
+.two-columns {
+  columns: 2 500px;
+  column-cap: 1em;
+  column-rule: 1px dotted #ccc;
+}
+
+.colophon {
+  @media print {
+    display: none;
+  }
+}
+
