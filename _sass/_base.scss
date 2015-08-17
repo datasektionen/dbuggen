@@ -10,8 +10,15 @@ body {
 img {
   width: 100%;
   height: auto;
+  max-height: 33vh;
+  object-fit: cover;
+  object-position: top;
   margin: 0 auto;
   text-align: center;
+}
+
+.symbol {
+  vertical-align: middle;
 }
 
 // quotes
@@ -41,7 +48,7 @@ blockquote p:after {
 
 // lists
 ul {
-  list-style-type: none;
+  list-style-type: "–";
   padding: 0;
 }
 
