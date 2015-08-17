@@ -43,7 +43,7 @@ $white: #fff;
   }
 }
 
-@include theme("issue-0", $home, #e2007f);
+@include theme("issue-0", $home, #1dff80);
 @for $i from 1 through 4 {
   @include theme($name: "issue-#{$i}", $font: nth($fonts, $i), $color: nth($colors, $i));
 }
