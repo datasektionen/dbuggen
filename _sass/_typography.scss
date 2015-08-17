@@ -1,14 +1,19 @@
+$base-font: "Roboto", "Helvetica", sans-serif;
+
 body {
-  font-family: "Helvetica Neue", sans-serif; // fallback
+  font-family: $base-font; // fallback
   text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
   width: 90%;
-  margin: auto;
+  margin: 1em auto auto;
+  font-weight: 600;
+  text-align: center;
 }
+
 h1 {
   font-size: 3rem;
-  font-weight: 700;
+  // font-weight: 700;
   text-align: center;
 }
 
@@ -18,7 +23,7 @@ em {
 }
 
 b {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .site-header {
@@ -28,7 +33,14 @@ b {
     @include min-width(600px) {
       font-size: 12vw;
     }
+    @media print {
+      font-size: 8vw;
+    }
   }
+}
+
+.issue-name {
+  margin: 5rem auto;
 }
 
 .post-header {
