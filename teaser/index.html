@@ -11,10 +11,14 @@
                 margin: 0 auto;
                 /*width: 100vw;*/
                 /*height: 100vh;*/
+                text-align: center;
             }
             p {
                 margin: 45vh auto 0;
-                text-align: center;
+            }
+
+            .audiojs {
+                margin: 5vh auto 0;
             }
         </style>
     </head>
@@ -22,7 +26,7 @@
         <script src="//use.typekit.net/gsq0orq.js"></script>
         <script>try{Typekit.load();}catch(e){}</script>
 
-        <script src="/audiojs/audio.min.js"></script>
+        <script src="audiojs/audio.min.js"></script>
 
         <script>
             audiojs.events.ready(function() {
@@ -30,8 +34,8 @@
             });
         </script>
 
-        <audio autoplay loop id="teaser">
-            <source src="/teaser/teaser.mp3" type="audio/mpeg">
+        <audio src="teaser.mp3" preload="auto" autoplay loop id="teaser">
+            <!-- <source src="/teaser/teaser.mp3" type="audio/mpeg"> -->
         </audio>
         <p>
             Snart är den här!
