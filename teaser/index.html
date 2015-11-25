@@ -22,6 +22,14 @@
         <script src="//use.typekit.net/gsq0orq.js"></script>
         <script>try{Typekit.load();}catch(e){}</script>
 
+        <script src="/audiojs/audio.min.js"></script>
+
+        <script>
+            audiojs.events.ready(function() {
+                var as = audiojs.createAll();
+            });
+        </script>
+
         <audio autoplay loop id="teaser">
             <source src="/teaser/teaser.mp3" type="audio/mpeg">
         </audio>
