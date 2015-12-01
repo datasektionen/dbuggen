@@ -1,1 +1,0 @@
-dbuggen är en tidning som produceras av Redaqtionen på Datasektionen vid KTH i Stockholm
