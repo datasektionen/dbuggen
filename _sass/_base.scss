@@ -48,8 +48,16 @@ blockquote p:after {
 
 // lists
 ul {
-  list-style-type: "–";
+  list-style-type: none;
   padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  &:before {
+    content: "– ";
+  }
 }
 
 // misc
