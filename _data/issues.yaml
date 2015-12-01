@@ -3,7 +3,8 @@
   description: "Redaqtionen firar in det nya året med en ordentlig salva trams"
 - number: 2
   name: mottagningsdbuggen
-  description: Ett nummer om mottagningen. Finns tyvärr inte på webben för tillfället.
+  subtitle: numret där vi sålde ut oss billigare än Karjalan på kryssningen
+  description: Ett nummer om mottagningen
 - number: 3
   name: teambuildingdbuggen
   description: "Ett nummer om IORs teambuilding, gjort under IORs teambuilding"
