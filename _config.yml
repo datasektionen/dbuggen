@@ -24,7 +24,7 @@ sass:
   style: :expanded
 
 # dev options
-port: 3000
+port: 9000
 
 # production options
 gems: ['kramdown', 'yaml']
