@@ -1,0 +1,30 @@
+.issue-99.site-header {
+    p {
+        color: $white;
+    }
+    ::selection {
+        color: $black;
+    }
+}
+
+.redaqtionen {
+    font-family: "rooney-web";
+    .about {
+        margin-bottom: 5em;
+    }
+    .member {
+        margin-bottom: 3em;
+    }
+    img.redaqtionen-member-image {
+        width: 200px;
+        height: auto;
+        max-height: 100vh;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .name {
+        font-weight: 700;
+    }
+}
