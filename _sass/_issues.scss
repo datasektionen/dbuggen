@@ -1,27 +1,12 @@
-$home: "pt-sans";
 // future fonts:
 // "brandon-grotesque";
 // "rooney-sans";
 
-$fonts: (
-  "futura-pt"
-  "rooney-web"
-  "adelle"
-  "expo-sans-pro"
-);
-$colors: (
-  // #008dbc,
-  #ff7243
-  #e2007f
-  #99cc00
-  #ffcb00
-);
 // future colors:
 // #f54785
 
-$black: #333;
+$black: #141312;
 $white: #fff;
-
 
 @mixin theme($name, $font, $color, $header:$color) {
   .#{$name} {
@@ -38,12 +23,16 @@ $white: #fff;
     @include link($header);
     p {
       background: $color;
-      color: #333;
+      color: $white;
     }
   }
 }
 
-@include theme("issue-0", $home, #1dff80);
-@for $i from 1 through 4 {
-  @include theme($name: "issue-#{$i}", $font: nth($fonts, $i), $color: nth($colors, $i));
-}
+// @include theme("issue-0", $home, #1dff80);
+@include theme("issue-0", "pt-sans", $black, $white);
+@include theme("issue-99", "rooney-web", #008dec);
+@include theme("issue-1", "futura-pt", #ff7243);
+@include theme("issue-2", "rooney-web", #e2007f);
+@include theme("issue-3", "adelle", #99cc00);
+@include theme("issue-4", "expo-sans-pro", #ffcb00);
+@include theme("issue-5", "ff-tisa-sans-web-pro", #ff1947);
