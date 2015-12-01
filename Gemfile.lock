@@ -8,15 +8,41 @@ GEM
       timers (~> 4.0.0)
     classifier-reborn (2.0.3)
       fast-stemmer (~> 1.0)
+    coderay (1.1.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
     coffee-script-source (1.9.1.1)
     colorator (0.1)
+    daemons (1.2.3)
+    em-websocket (0.5.1)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.6.0)
+    eventmachine (1.0.8)
     execjs (2.5.2)
     fast-stemmer (1.0.2)
     ffi (1.9.10)
+    formatador (0.2.5)
+    guard (2.13.0)
+      formatador (>= 0.2.4)
+      listen (>= 2.7, <= 4.0)
+      lumberjack (~> 1.0)
+      nenv (~> 0.1)
+      notiffany (~> 0.0)
+      pry (>= 0.9.12)
+      shellany (~> 0.0)
+      thor (>= 0.18.1)
+    guard-compat (1.2.1)
+    guard-jekyll-plus (2.0.2)
+      guard (~> 2.10, >= 2.10.3)
+      guard-compat (~> 1.1)
+      jekyll (>= 1.0.0)
+    guard-livereload (2.4.0)
+      em-websocket (~> 0.5)
+      guard (~> 2.8)
+      multi_json (~> 1.8)
     hitimes (1.2.2)
+    http_parser.rb (0.6.0)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -46,7 +72,14 @@ GEM
       celluloid (~> 0.16.0)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
+    lumberjack (1.0.9)
     mercenary (0.3.5)
+    method_source (0.8.2)
+    multi_json (1.11.2)
+    nenv (0.2.0)
+    notiffany (0.0.8)
+      nenv (~> 0.1)
+      shellany (~> 0.0)
     octopress-autoprefixer (1.0.1)
       autoprefixer-rails (~> 2.2)
       jekyll (>= 2.0)
@@ -56,6 +89,10 @@ GEM
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.11)
+    pry (0.10.2)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
     puma (2.12.3)
     pygments.rb (0.6.3)
       posix-spawn (~> 0.3.6)
@@ -71,6 +108,13 @@ GEM
     redcarpet (3.3.2)
     safe_yaml (1.0.4)
     sass (3.4.16)
+    shellany (0.0.1)
+    slop (3.6.0)
+    thin (1.6.4)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0, >= 1.0.4)
+      rack (~> 1.0)
+    thor (0.19.1)
     timers (4.0.1)
       hitimes
     toml (0.1.2)
@@ -82,12 +126,16 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
+  guard
+  guard-jekyll-plus
+  guard-livereload
   jekyll
   kramdown
   octopress-autoprefixer
   puma
   rack-jekyll
   rake
+  thin
 
 BUNDLED WITH
    1.10.6
