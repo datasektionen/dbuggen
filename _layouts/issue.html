@@ -5,7 +5,10 @@ excerpts: false
 
 <main class="issue-{{ page.category }}">
   {% assign issue = page.category | minus: 1 %}
-  <h1 class="issue-name">{{ site.data.issues[issue].name }}</h1>
+  <header class="issue-name">
+    <h1>{{ site.data.issues[issue].name }}</h1>
+    <h2>{{ site.data.issues[issue].subtitle}}</h2>
+  </header>
   {% assign sorted_posts = site.posts | sort: 'order' %}
   {% for post in sorted_posts %}
     {% if post.category != page.category %}
