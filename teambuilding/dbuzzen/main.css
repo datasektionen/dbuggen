@@ -1,0 +1,41 @@
+body {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 17px;
+  line-height: 175%; }
+
+#container {
+  width: 1000px;
+  margin: 50px auto; }
+
+.center {
+  text-align: center;
+  padding: 50px; }
+
+.left {
+  width: 49%;
+  float: left; }
+
+.right {
+  width: 49%;
+  float: right; }
+
+.clear {
+  clear: both;
+  margin: 10px; }
+
+h1 {
+  color: #e2007f;
+  line-height: 150%; }
+
+p {
+  color: #555; }
+
+blockquote {
+  text-align: center;
+  font-style: italic;
+  color: #999;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee; }
