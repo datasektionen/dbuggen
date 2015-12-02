@@ -5,11 +5,13 @@ gem 'kramdown'
 gem 'rack-jekyll'
 gem 'rake'
 gem 'puma'
-gem 'thin'
 
-gem 'guard'
-gem 'guard-jekyll-plus'
-gem 'guard-livereload'
+group :development do
+  gem 'thin'
+  gem 'guard'
+  gem 'guard-jekyll-plus'
+  gem 'guard-livereload'
+end
 
 group :jekyll_plugins do
   gem "octopress-autoprefixer"
