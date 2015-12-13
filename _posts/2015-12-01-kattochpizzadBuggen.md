@@ -5,6 +5,9 @@ author: ""
 order: 4
 ---
 
-Kommentarer här.
-
-[Katt och pizza dBuggen](/teambuilding/kattochpizzadBuggen.pdf)
+<div class="center">  
+  <p>
+    <a href="/teambuilding/kattochpizzadBuggen.pdf">Katt och pizza dBuggen</a>
+  </p>
+  <p>Good job guys</p>
+</div>
