@@ -8,12 +8,10 @@ img: "https://images.unsplash.com/photo-1438216983993-cdcd7dea84ce?q=80&fm=jpg&s
   <h2>Här är numren vi släppt under 2015!</h2>
   <div class="text">
     {% for issue in site.data.issues %}
-    {% if issue.number != 3 %}
       <h2 class="issue-name">
         <a href="/issues/{{ issue.number }}">{{ issue.name }}</a>
       </h2>
       <p>{{ issue.description }}</p>
-    {% endif %}
     {% endfor %}
   </div>
 </main>
