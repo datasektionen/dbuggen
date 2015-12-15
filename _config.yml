@@ -6,7 +6,7 @@ description: >
   dbuggen är en en tidning som produceras av Redaqtionen på Datasektionen vid KTH i Stockholm
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dbu.gg" # the base hostname & protocol for your site
-squareLogo: "https://scontent-ams3-1.xx.fbcdn.net/hphotos-xtp1/t31.0-8/12291669_909735382436061_4482356889120832467_o.jpg"
+squareLogo: "http://files.dbu.gg/dbuggen.jpg"
 # Build settings
 markdown: kramdown
 # permalink: pretty
