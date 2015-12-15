@@ -1,11 +1,11 @@
-.issue-99.site-header {
-    p {
-        color: $white;
-    }
-    ::selection {
-        color: $black;
-    }
-}
+// .issue-redaqtionen.site-header {
+//     p {
+//         color: $white;
+//     }
+//     ::selection {
+//         color: $black;
+//     }
+// }
 
 .redaqtionen {
     font-family: "rooney-web";
@@ -13,6 +13,7 @@
         margin-bottom: 5em;
     }
     .member {
+        display: inline-block;
         margin-bottom: 3em;
     }
     img.redaqtionen-member-image {

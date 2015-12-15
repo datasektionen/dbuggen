@@ -8,29 +8,30 @@
 $black: #141312;
 $white: #fff;
 
-@mixin theme($name, $font, $color, $header:$color) {
+@mixin theme($name, $font, $color, $subtext:$white) {
   .#{$name} {
     @include link($color);
     font-family: $font, $base-font;
     ::selection {
       background-color: $color;
+      color: $white;
     }
     .theme {
       color: $color;
     }
   }
   .#{$name}.site-header {
-    @include link($header);
+    @include link($color);
     p {
       background: $color;
-      color: $white;
+      color: $subtext;
     }
   }
 }
 
 // @include theme("issue-0", "pt-sans", $black, $white);
 @include theme("issue-0", "pt-sans", #1dff80);
-@include theme("issue-99", "rooney-web", #008dec);
+@include theme("issue-redaqtionen", "rooney-web", #F7E9AA, $black);
 @include theme("issue-podcast", "ff-tisa-sans-web-pro", #FF5268);
 
 @include theme("issue-1", "futura-pt", #ff7243);
