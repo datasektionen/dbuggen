@@ -17,7 +17,8 @@ keywords: "dbuggen, sektionspolitik, data"
 
 dbuggens premiär i podcastande tar världen med storm! Temat är demokratik, problemati, och hur fungerar ens ord?
 
-
 <audio src="{{ page.link }}" preload="auto"></audio> 
 
-<a href="{{ page.link }}">Ladda ned MP3</a>
+<p class="center">
+  <a class="center" href="{{ page.link }}">Ladda ned mp3</a>
+</p>
