@@ -1,0 +1,50 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+	<channel>
+		<title>{{ site.title }}</title>
+		<description>{{ site.description }}</description>
+		<link>{{ site.url }}</link>
+		<language>sv</language>
+		<managingEditor>{{ site.author }} ({{ site.email }})</managingEditor>
+		<webMaster>{{ site.author }} ({{ site.email }})</webMaster>
+		<copyright>2015-{{site.time | "%Y" }} {{ site.title }}</copyright>
+		<pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S GMT" }}</pubDate>
+		<lastBuildDate>{{ site.time | date: "%a, %d %b %Y" }}</lastBuildDate>
+		<image>
+			<link>{{ site.url}}</link>
+			<url>{{ site.squareLogo}}</url>
+			<title>{{ site.title }}</title>
+		</image>
+		<itunes:subtitle>{{ site.podcastSubtitle }}</itunes:subtitle>
+		<itunes:author>{{ site.organizationName }}</itunes:author>
+		<itunes:summary></itunes:summary>
+		<itunes:keywords></itunes:keywords>
+		<itunes:owner>
+			<itunes:name>{{ site.author }}</itunes:name>
+			<itunes:email>{{ site.email }}</itunes:email>
+		</itunes:owner>
+		<itunes:image href="{{ site.squareLogo}}" />
+		<itunes:category text="News &amp; Politics" />
+		{% for post in site.posts %}
+      {% if post.category == 'podcast' %}
+  			<item>
+  				<title>{{ post.title }}</title>
+  				<link>{{ site.url }}{{ post.url }}</link>
+  				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S GMT" }}</pubDate>
+  				<description>{{ post.description }}</description>
+  				<guid isPermaLink="true">{{ post.link }}</guid>
+  				<enclosure url="{{ post.link }}" length="{{ post.length }}" type="audio/mp3"/>
+  				<itunes:author>{{ post.speaker }}</itunes:author>
+  				<itunes:subtitle></itunes:subtitle>
+  				<itunes:summary>{{ post.description }}</itunes:summary>
+  				<itunes:duration>{{ post.podcastLength }}</itunes:duration>
+  				<itunes:keywords>{{ post.keywords }}</itunes:keywords>
+  				<itunes:image href="{% if post.image %}{{ post.image }}{% else %}{{site.squareLogo}}{% endif %}" />
+  				<itunes:explicit>no</itunes:explicit>
+  			</item>
+      {% endif %}
+		{% endfor %}
+	</channel>
+</rss>
