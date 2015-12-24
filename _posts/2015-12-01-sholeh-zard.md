@@ -36,7 +36,7 @@ Sätt på kastrull-locket och låt det stå och koka i 20 min utan att pilla på
 
 Häll ut allt i en rund-ish form. Nu ska vi göra så att det ser snyggt ut! Gör coola mönster på denna röra med kanel, sötmandel, pistagekärnor. Det kan vara rutmönster, det kan vara kryss, det kan vara ett hjärta. Här får man vara 200% kreativ!
 
-Nu kan du gå med två varianter på denna efterrätt: den kalla (originalet) eller den varma (exotisk-alternativ-varianten). Den kalla är den klassiskt persiska varianten. Gudarnas gudmat. Gudfadrarnas gudfarsmat. Gudmodrarnas gudmorsmat. Den varma är mitt egna påhitt för att kunna servera det med typ glass. Det är gott!
+Nu kan du gå med två varianter på denna efterrätt: den kalla (originalet) eller den varma (exotiskt-alternativ-varianten). Den kalla är den klassiskt persiska varianten. Gudarnas gudmat. Gudfadrarnas gudfarsmat. Gudmodrarnas gudmorsmat. Den varma är mitt egna påhitt för att kunna servera det med typ glass. Det är gott!
 
 **Den kalla**: Låt den svalna en stund och ställ in den i kylen efter ett tag. Efter ett tag till så plockar du ut den och serverar. Ett tag kan vara typ kvartsintervall.
 
