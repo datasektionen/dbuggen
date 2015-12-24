@@ -1,6 +1,6 @@
 @mixin link($color) {
   article p a {
-    padding: 5px;
+    padding: 1px 5px;
     background: $color;
     color: #fff;
     &:visited {
