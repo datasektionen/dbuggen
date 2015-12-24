@@ -2,7 +2,7 @@
 title: Rocket League viktigare än pladder
 category: 5
 author: Axel Samuelsson
-order: 1
+order: 2
 ---
 
 Häromåret läste jag en artikel vars rubrik fick mig att höja på ögonbrynen och vars innehåll gjorde mig riktigt jävla förbannad: Susanna Birgerssons ledare “Macbeth viktigare än klotter”. DN Kultur har en lång historia av att vara minst sagt out of touch med vanliga människo — se till exempel Kristofer Ahlströms nedlåtande epos “‘Game of thrones’ blottar tv-mediets svaghet” — men nu har tidningen bokstavligt talat bestämt sig för att sätta bakåtsträvarna på förstasidan.

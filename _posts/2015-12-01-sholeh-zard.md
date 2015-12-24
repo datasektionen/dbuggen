@@ -3,7 +3,7 @@ title: Sholeh Zard
 category: 5
 author: Karl Hungus
 tags: 
-order: 1
+order: 5
 ---
 
 När den bitande kylan slår din själ likt vågor mot havsklipporna, börjar du fundera över vad på denna värld som kan få humöret att svikta från total misär till överdriven njutning på så kort tid som möjligt. Vi låter våra tankar flyga över ett antal länder till horisonten vid mellanöstern i västra Asien. Vi kommer till det halvstora landet Iran, med en lång historia av en stark matkultur med starka traditioner. Vi skippar allt man äter under dagen och hoppar direkt till efterätten, där den persiska matkulturen gärna består av exotiska lyxigheter som saffran, nötter, torkade frukter, russin och frön, och definitivt med te till.
