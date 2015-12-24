@@ -5,7 +5,7 @@ author: Axel Samuelsson
 order: 2
 ---
 
-Häromåret läste jag en artikel vars rubrik fick mig att höja på ögonbrynen och vars innehåll gjorde mig riktigt jävla förbannad: Susanna Birgerssons ledare “Macbeth viktigare än klotter”. DN Kultur har en lång historia av att vara minst sagt out of touch med vanliga människo — se till exempel Kristofer Ahlströms nedlåtande epos “‘Game of thrones’ blottar tv-mediets svaghet” — men nu har tidningen bokstavligt talat bestämt sig för att sätta bakåtsträvarna på förstasidan.
+Häromåret läste jag en artikel vars rubrik fick mig att höja på ögonbrynen och vars innehåll gjorde mig riktigt jävla förbannad: Susanna Birgerssons ledare “Macbeth viktigare än klotter”. DN Kultur har en lång historia av att vara minst sagt out of touch med vanliga människor — se till exempel Kristofer Ahlströms nedlåtande epos “‘Game of thrones’ blottar tv-mediets svaghet” — men nu har tidningen bokstavligt talat bestämt sig för att sätta bakåtsträvarna på förstasidan.
 
 dbuggen är annorlunda, vi främjar alla typer av kultur. Macbeth och traditionella medieformer i all ära, men om man vill uppleva aktuell kultur som formar dagens generationer får man vända sig någon annanstans. Jag själv tyr mig till Rocket League på PlayStation 4, gärna med en kall Pabst Blue Ribbon till.
 
