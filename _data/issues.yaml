@@ -11,5 +11,8 @@
 - number: 4
   name: nØlledbuggen
   description: nØllans första dbuggen!
+- number: 5
+  name: juldbuggen
+  description: Nu är julstämningen på topp!
 - name: dbuggens podcast
   description: dbuggens podcast!!!
