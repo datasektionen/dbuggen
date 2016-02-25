@@ -12,17 +12,19 @@ img: "https://files.slack.com/files-pri/T02D9V1NR-F0FBW58PM/tumblr_static_space.
   <h2>Här är numren vi släppt under 2015!</h2>
   <div class="text">
     {% for issue in site.data.issues reversed %}
-      {% if issue.number %}
-        <h2 class="issue-name">
-          <a href="/issues/{{ issue.number }}">{{ issue.name }}</a>
-        </h2>
-        <p>{{ issue.description }}</p>
-      {% endif %}
+      <div class="issue">
+        {% if issue.number %}
+          <h2 class="issue-name">
+            <a href="/issues/{{ issue.number }}">{{ issue.name }}</a>
+          </h2>
           {% if issue.date %}
             <h5 class="issue-date">
               {{ issue.date }}
             </h5>
           {% endif %}
+          <p>{{ issue.description }}</p>
+        {% endif %}
+      </div>
     {% endfor %}
   </div>
 </main>
