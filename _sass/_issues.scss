@@ -29,7 +29,7 @@ $white: #fff;
   }
 }
 
-@include theme("issue-0", "pt-sans", #1dff80, $black);
+@include theme("issue-0", "pt-sans", $black, $white);
 @include theme("issue-redaqtionen", "rooney-web", #F7E9AA, $black);
 @include theme("issue-podcast", "ff-tisa-sans-web-pro", #FF5268);
 @include theme("issue-99", "rooney-web", #008dec);
