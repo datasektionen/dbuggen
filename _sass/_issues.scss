@@ -38,3 +38,4 @@ $white: #fff;
 @include theme("issue-3", "source-sans-pro", #ac6188);
 @include theme("issue-4", "expo-sans-pro", #ffcb00);
 @include theme("issue-5", "ff-tisa-sans-web-pro", #ff1947);
+@include theme("issue-6", "ff-tisa-sans-web-pro", $black);
