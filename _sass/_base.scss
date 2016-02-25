@@ -12,10 +12,15 @@ img {
   height: auto;
   max-height: 50vh;
   object-fit: cover;
-  object-position: top;
+  object-position: 50% 50%;
   margin: 2em auto;
   text-align: center;
+  &.no-crop {
+    max-height: none;
+  }
 }
+
+
 
 .symbol {
   vertical-align: middle;
