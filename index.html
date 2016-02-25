@@ -18,6 +18,11 @@ img: "https://files.slack.com/files-pri/T02D9V1NR-F0FBW58PM/tumblr_static_space.
         </h2>
         <p>{{ issue.description }}</p>
       {% endif %}
+          {% if issue.date %}
+            <h5 class="issue-date">
+              {{ issue.date }}
+            </h5>
+          {% endif %}
     {% endfor %}
   </div>
 </main>
