@@ -43,6 +43,11 @@ main {
   }
 }
 
+article + article {
+  border-top: 5px solid #222;
+  padding: 5rem 0;
+}
+
 .site-header {
   margin: 0 auto 2em;
   p {
