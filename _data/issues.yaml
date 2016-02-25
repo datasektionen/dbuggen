@@ -19,6 +19,10 @@
   name: juldbuggen
   description: Nu är julstämningen på topp!
   date: "Dec 2015"
+- number: 6
+  name: deppbuggen
+  description: Svart och svår
+  date: "Feb 2016"
 - name: dbuggens podcast
   description: dbuggens podcast!!!
   date: "Dec 2015"
