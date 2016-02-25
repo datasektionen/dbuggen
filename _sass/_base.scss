@@ -8,8 +8,10 @@ body {
 
 // images
 img {
-  width: 100%;
-  height: auto;
+  &:not([width]) {
+    width: 100%;
+    height: auto;
+  }
   max-height: 50vh;
   object-fit: cover;
   object-position: 50% 50%;
