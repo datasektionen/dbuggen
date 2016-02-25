@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem 'bundler'
-gem 'jekyll'
+gem 'jekyll', '>= 3.1.2'
 gem 'kramdown'
 gem 'rack-jekyll'
 gem 'rake'
@@ -9,7 +9,6 @@ gem 'puma'
 group :development do
   gem 'thin'
   gem 'guard'
-  gem 'guard-jekyll-plus'
   gem 'guard-livereload'
 end
 

@@ -5,3 +5,5 @@ images/
 
 *.sublime-project
 *.sublime-workspace
+
+.jekyll-metadata

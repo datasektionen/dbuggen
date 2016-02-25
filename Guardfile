@@ -15,11 +15,6 @@
 #
 # and, you'll have to watch "config/Guardfile" instead of "Guardfile"
 
-guard 'jekyll-plus', :serve => true do
-  watch /.*/
-  ignore /^_site/
-end
-
 guard 'livereload' do
-  watch /.*/
+  watch(/^_site/)
 end
