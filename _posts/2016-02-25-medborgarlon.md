@@ -2,7 +2,7 @@
 title: Medborgarlön och annan kommunism
 category: 6
 author: Axel Samuelsson
-order: 2
+order: 1
 tags: debatt
 ---
 

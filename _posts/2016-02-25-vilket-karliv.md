@@ -2,7 +2,7 @@
 title: Vilket kårliv?
 category: 6
 author: Karl Hungus
-order: 1
+order: 6
 tags: ledare
 ---
 
