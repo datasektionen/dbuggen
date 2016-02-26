@@ -30,12 +30,12 @@ excerpts: false
         </header>
         <div class="text">
           {% assign words = post.content | number_of_words %}
-          {% if page.excerpts %}
+          {% if page.excerpts == true %}
             {{ post.content | truncatewords: 25 | remove: '</p>' }}
             <a href="{{ post.url }}">Läs hela</a>
             </p>
           {% else %}
-            {{ post.content }}
+            {{ post.content || markdownify }}
           {% endif %}
         </div>
       </article>
