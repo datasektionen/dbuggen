@@ -1,167 +1,150 @@
 ---
-title: "Om mottagningen"
+title: ""
 category: 7
-author: Redaqtionen
 order: 1
 ---
 
 <style>
-    article p {
-        font-size: 1.5rem;
-        /*width: 90vw;*/
-        /*margin: 0 auto;*/
-    }
-
-    article p q {
-      font-size: 2.25rem;
-      font-style: italic;
-    }
-
-    .post-header {
-      display: none;
-    }
-
-    img {
-      width: 100%;
-      height: auto !important;
-      max-height: none;
-    }
+  img {
+    max-height: none;
+  }
+  q {
+    font-style: italic;
+  }
 </style>
 
-<div class="text">
-  <header>
-    <h1 style="font-size: 4.5vw;">
-      <a href="http://datasektionen.se/mottagningen/janifattar">SÖK MOTTAGNINGEN!</a>
-    </h1>
-  </header>
+<h1 style="font-size: 4.5vw;">
+  <a href="http://datasektionen.se/mottagningen/janifattar">SÖK MOTTAGNINGEN!</a>
+</h1>
+Det finns många som tycker att Mottagningen är fantastisk, där gör vi definitivt också.
 
-  <article class="two-column">
-    <p>
-      Det finns många som tycker att Mottagningen är fantastisk, där gör vi definitivt också.
-    </p>
-    <p>
-    Man märker att det är något väldigt speciellt med Mottagningen redan när man är med om den för första gången, men inte förrän man börjar jobba med Mottagningen inser man hur mycket kärlek som ligger bakom och att det är därifrån magin kommer!
-    </p>
-    <p>
-      Vännerna och erfarenheterna man får genom Mottagningen är ovärderliga, därför är det LÄTT det BÄSTA som går att göra på Datasektionen.
-    </p>
-    <p>
-      Visst låter det bra? Såklart det gör! SÖK NU!
-    <a href="http://datasektionen.se/mottagningen/janifattar">datasektionen.se/mottagningen/janifattar</a>
-    </p>
-    <footer>
-      <p>/Titel 16</p>
-    </footer>
-  </article>
+Man märker att det är något väldigt speciellt med Mottagningen redan när man är med om den för första gången, men inte förrän man börjar jobba med Mottagningen inser man hur mycket kärlek som ligger bakom och att det är därifrån magin kommer!
 
-   <article>
-     <img src="http://i.imgur.com/uLDJqUr.jpg">
-     <h2>Agnes Åman / Storasyster</h2>
-   </article>
+Vännerna och erfarenheterna man får genom Mottagningen är ovärderliga, därför är det LÄTT det BÄSTA som går att göra på Datasektionen.
 
-  <article>
-    <p><q>Alla internfester har varit galet bra. Jag har ärligt talat inget speciellt att säga. Det är alldeles för svårt att sammanfatta på ett vettigt sätt, förutom att peppnivån har varit maximal från början, och bara stigit efter det.</q></p>
-  </article>
+Visst låter det bra? Såklart det gör! SÖK NU!
+<a href="http://datasektionen.se/mottagningen/janifattar">datasektionen.se/mottagningen/janifattar</a>
 
-  <article>
-    <img src="http://i.imgur.com/tajX6wA.jpg">
-    <h2>Hanna Nyblom / Konglig Öfverdrif</h2>
-  </article>
+/Titel 16
 
-  <article>
-    <p><q>Om mottagningen var bra när man började på data så bleknar det ändå i jämförelse med att vara med på andra sidan av mottagningen. Jag tycker att ni har gjort ett otroligt bra jobb, och att allting har flutit på så bra det bara kunnat. </q></p>
-  </article>
+<article>
+  <p>
+   <img src="http://i.imgur.com/uLDJqUr.jpg">
+ </p>
+ <h2>Agnes Åman / Storasyster</h2>
+ <p>
+   <img src="http://i.imgur.com/tajX6wA.jpg">
+ </p>
+ <h2>Hanna Nyblom / Konglig Öfverdrif</h2>
+</article>
 
-  <article>
+<article>
+  <p>Citat från mottagningspersonal:</p>
+  <p><q>Att arbeta mot samma mål väldigt intensivt är en fett häftig grej, speciellt när resultatet blir bra. Jag älskar att träffa nya människor och är det något som händer i mottagningen är det ju ett byggande av broar mellan människor och kulturer som är fantastiskt att få vara med och uppleva.</q></p>
+
+  <p><q>Bästa tiden på året. Trotts allt slit är allt värt det, 1000x om! Alla nya vänner, alla upplevelser... Sa jag alla nya vänner!?</q></p>
+
+  <p><q>allting var bra inget var dåligt</q></p>
+</article>
+
+<article>
+  <p>
     <img src="http://i.imgur.com/wnjQPzj.jpg">
-    <h2>Sasha Hellstenius / Lillasyster</h2>
-  </article>
-
-  <article><p><q>#GÖREBAAHHH</q></p></article>
-
-  <article>
+  </p>
+  <h2>Sasha Hellstenius / Lillasyster</h2>
+  <p>
     <img src="http://i.imgur.com/hIofx66.jpg">
-    <h2>Shapour Jahanshahi / Konglig Indrif</h2>
-  </article>
+  </p>
+  <h2>Shapour Jahanshahi / Konglig Indrif</h2>
+</article>
 
-  <article>
-    <p><q>Otroligt roliga veckor med nya människor, gamla människor, roliga fester och givande arbete! Mottagningen får 5 av 5 kokosoljeflaskor!</q></p>
-  </article>
+<article>
+  <p><q>Det var väldigt roligt. Förmodligen det roligaste jag gjort hittills på KTH, möjligtvis undantaget min egen mottagning.</q></p>
 
-  <article>
+  <p><q>Jag har verkligen svårt att tro att något annat engagemang i sektionen kan innebära denna mängd av kulhet och lärande :)</q></p>
+
+  <p><q>Mentaliteten och glädjen som kommer med mottagningen är ett privilegium att få ta del av!</q></p>
+</article>
+
+<article>
+  <p>
     <img src="http://i.imgur.com/stPMYRY.jpg">
-    <h2>Mikael Forsmark / Lillebror</h2>
-  </article>
-
-  <article>
-    <p><q>Riktigt bra, många positiva människor som verkligen gav 110% för att göra mottagningen så bra som den bara kan bli.</q></p>
-  </article>
-
-  <article>
+  </p>
+  <h2>Mikael Forsmark / Lillebror</h2>
+  <p>
     <img src="http://i.imgur.com/J680N7R.jpg">
-    <h2>Wilhelm Åkermark / Konglig Direktifdrif</h2>
-  </article>
+  </p>
+  <h2>Wilhelm Åkermark / Konglig Direktifdrif</h2>
+</article>
 
-  <article>
-    <p><q>A+++ 11/10 would party again.</q></p>
-    <p>(Om internfesterna, reds. anm.)</p>
-  </article>
+<article>
+  <p><q>Mottagning är otroligt rolig. Man lägger ner väldigt mycket tid på det, men att se nØllans blick när de kommer ut från placeringsprovet, det gör det hela värt det.</q></p>
 
-  <article>
+  <p><q>Känt att jag lärt mig så mycket, fått så många nya vänner. Plus att det har varit så kul!! skrattat något enormt mycket under den här tiden :)))))))</q></p>
+
+  <p><q>Mottagning är otroligt rolig. Man lägger ner väldigt mycket tid på det, men att se nØllans blick när de kommer ut från placeringsprovet, det gör det hela värt det.</q></p>
+</article>
+
+<article>
+  <p>
     <img src="http://i.imgur.com/ZFRwETw.jpg">
-    <h2>Jonas Dahl / Mamma</h2>
-  </article>
-
-  <article>
-    <p><q>Det har varit väldigt roligt att vara med :) Man lär känna så många nya vänner, både de nya eleverna, men framförallt alla i personalen som man har tid att komma riktigt nära.</q></p>
-  </article>
-
-  <article>
+  </p>
+  <h2>Jonas Dahl / Mamma</h2>
+  <p>
     <img src="http://i.imgur.com/FThczN0.jpg">
-    <h2>Andreas Mårtensson / Samdoquise</h2>
-  </article>
+  </p>
+  <h2>Andreas Mårtensson / Samdoquise</h2>
+</article>
 
-  <article>
-    <p><q>Jag tycker att stämningen har varit otroligt bra. Även när folk har varit trötta och utmattade så har de ändå varit peppande och glada. </q></p>
-  </article>
+<article>
+  <p><q>Det här var en av de roligaste upplevelserna jag har haft i mitt liv och jag vill fortsätta samarbeta med världens bästa människor!</q></p>
 
-  <h1>Mottagningen 2014</h1>
-  <img src="http://i.imgur.com/ZRaZUm8.jpg">
-  <img src="http://i.imgur.com/07reqgY.jpg">
-  <img src="http://i.imgur.com/VAcYGov.jpg">
-  <img src="http://i.imgur.com/ITEFXHQ.jpg">
-  <img src="http://i.imgur.com/8ldWTgF.jpg">
-  <img src="http://i.imgur.com/ZnrHqrL.jpg">
-  <img src="http://i.imgur.com/yotxRQp.jpg">
-  <img src="http://i.imgur.com/25DAlkt.jpg">
-  <img src="http://i.imgur.com/jj9Wl4v.jpg">
-  <img src="http://i.imgur.com/VG22vDt.jpg">
-  <img src="http://i.imgur.com/e4xlQ6S.jpg">
-  <img src="http://i.imgur.com/cGVNBJE.jpg">
-  <img src="http://i.imgur.com/gqOerxm.jpg">
-  <img src="http://i.imgur.com/GCRvEaM.jpg">
-  <img src="http://i.imgur.com/Sy8ahqV.jpg">
-  <img src="http://i.imgur.com/DmCppHG.jpg">
-  <img src="http://i.imgur.com/YjRXlyY.jpg">
-  <img src="http://i.imgur.com/YYzcx3w.jpg">
-  <img src="http://i.imgur.com/CFvxUHz.jpg">
-  <img src="http://i.imgur.com/y3a2Znq.jpg">
-  <img src="http://i.imgur.com/fqatN3r.jpg">
-  <img src="http://i.imgur.com/uUwvEot.jpg">
-  <img src="http://i.imgur.com/StbWb0H.jpg">
-  <img src="http://i.imgur.com/P8PX5Mj.jpg">
-  <img src="http://i.imgur.com/yCEltPp.jpg">
-  <img src="http://i.imgur.com/lwSi21b.jpg">
-  <img src="http://i.imgur.com/171USeW.jpg">
-  <img src="http://i.imgur.com/AxMtLMo.jpg">
-  <img src="http://i.imgur.com/GPfXw0a.jpg">
+  <p><q>Alltså detta kan serri vara en utav dom bästa grejerna jag varit med om i hela mitt liv!! Blir typ ledsen när jag hör låtar som är kopplade till mottagningen för att man saknar det så :'( <3 hårt arbete men så gryymt roligt på samma gång!!!! <3 <3 Å så himla glad för alla vänner man vunnit <3</q></p>
 
-  <header>
-    <h1>
-      <a href="http://datasektionen.se/mottagningen/janifattar">SÖK!</a>
-    </h1>
-    <h2>
-      <span class="heart">&hearts;</span> / Redaqtionen &amp; Titel
-    </h2>
-  </header>
-</div>
+  <p><q>Jag har fått tillbaka mitt nedlagda arbete gånger en miljon, minst!</q></p>
+</article>
+
+<h1>Bilder från Mottagningen 2015</h1>
+<p>
+  <img src="http://i.imgur.com/NXPFA3K.jpg">
+  <img src="http://i.imgur.com/3UQLM9O.jpg">
+  <img src="http://i.imgur.com/adSN9rC.jpg">
+  <img src="http://i.imgur.com/ercmW7J.jpg">
+  <img src="http://i.imgur.com/apqzTZw.jpg">
+  <img src="http://i.imgur.com/wAh55aI.jpg">
+  <img src="http://i.imgur.com/LcsocUx.jpg">
+  <img src="http://i.imgur.com/r2iNSSd.jpg">
+  <img src="http://i.imgur.com/Rm1L2cS.jpg">
+  <img src="http://i.imgur.com/tfLnTkj.jpg">
+  <img src="http://i.imgur.com/ZQG9xTa.jpg">
+  <img src="http://i.imgur.com/KpvriRF.jpg">
+  <img src="http://i.imgur.com/IYoTzTx.jpg">
+  <img src="http://i.imgur.com/4dlUlna.jpg">
+  <img src="http://i.imgur.com/uVUDq4c.jpg">
+  <img src="http://i.imgur.com/k3Wn6ru.jpg">
+  <img src="http://i.imgur.com/5ZVQcWK.jpg">
+  <img src="http://i.imgur.com/RJPF87S.jpg">
+  <img src="http://i.imgur.com/RbO0Ajh.jpg">
+  <img src="http://i.imgur.com/40U2gBJ.jpg">
+  <img src="http://i.imgur.com/ZBei6kD.jpg">
+  <img src="http://i.imgur.com/Wu3ezFy.jpg">
+  <img src="http://i.imgur.com/Ny2yUAm.jpg">
+  <img src="http://i.imgur.com/5IdCQ1k.jpg">
+  <img src="http://i.imgur.com/Oi39Z5S.jpg">
+  <img src="http://i.imgur.com/7MlVqY6.jpg">
+  <img src="http://i.imgur.com/GphwMYq.jpg">
+  <img src="http://i.imgur.com/VztBuCg.jpg">
+  <img src="http://i.imgur.com/2aA9r0o.jpg">
+  <img src="http://i.imgur.com/IgctacB.jpg">
+  <img src="http://i.imgur.com/WUaiiKo.jpg">
+  <img src="http://i.imgur.com/h6AMfL7.jpg">
+</p>
+
+<header>
+  <h1>
+    <a href="http://datasektionen.se/mottagningen/janifattar">SÖK!</a>
+  </h1>
+  <h2>
+    <span class="heart">&hearts;</span> / Redaqtionen &amp; Titel
+  </h2>
+</header>
