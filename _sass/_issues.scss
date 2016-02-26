@@ -13,11 +13,19 @@ $white: #fff;
     @include link($headers);
     font-family: $font, $base-font;
     ::selection {
-      background-color: $color;
+      @if $color == $white {
+        background-color: $black;
+      } @else {
+        background-color: $color;
+      }
       color: $white;
     }
     .theme {
-      color: $color;
+      @if $color == $white {
+        color: $black;
+      } @else {
+        color: $color;
+      }
     }
   }
   .#{$name}.site-header {
