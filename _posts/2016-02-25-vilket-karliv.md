@@ -1,7 +1,7 @@
 ---
 title: Vilket kårliv?
 category: 6
-author: Karl Hungus
+author: Shayan Effati
 order: 6
 tags: ledare
 ---
