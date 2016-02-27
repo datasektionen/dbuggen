@@ -10,7 +10,7 @@ squareLogo: "http://dbuggen.s3-eu-west-1.amazonaws.com/dbuggen.jpg"
 # Build settings
 markdown: kramdown
 # permalink: pretty
-permalink: /:title
+permalink: /:title/
 defaults:
   -
     scope:
