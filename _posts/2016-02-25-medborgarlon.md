@@ -4,6 +4,7 @@ category: 6
 author: Axel Samuelsson
 order: 1
 tags: debatt
+img: "https://images.unsplash.com/photo-1443110189928-4448af4a2bc5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9aef14cb3e2a476d537aa5f680adcda6"
 ---
 
 Alla vet vad det betyder att vara arbetslös: i Sverige har vi en arbetslöshet på typ 8%. I Grekland har de en runt 25%. Det här är människor som vill ha ett jobb men som inte kan få ett jobb, och de har inte de pengar de vill ha, de kan inte göra vad de vill i sitt liv och spenderar varje dag med att försöka få ihop till mat och husrum. Men det är inte den enda sortens arbetslöshet. 1985 fick Steve Jobs sparken från Apple. Innan han återvände 1997 hade han varit med och grundat både NeXT och Pixar, och när han kom tillbaka ledde han Apple in i ett 2000-tal fyllt med iPods och MacBooks. Allt för att han blev arbetslös.
