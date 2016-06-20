@@ -27,6 +27,10 @@
   name: mottagningsdbuggen
   description: Varför du ska söka Mottagningen 2016
   date: "Feb 2016"
+- number: 8
+  name: Sommaren är kort-dbuggen
+  description: Nånting nånting Shayan fixa
+  date: "Jun 2016"
 - name: dbuggens podcast
   description: dbuggens podcast!!!
   date: "Dec 2015"
