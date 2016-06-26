@@ -2,7 +2,7 @@
 title: Pastarätter för alla fyllenätter
 category: 8
 author: Karl Hungus
-order: 4
+order: 6
 ---
 
 Du har kanske funderat på hur du kan introducera en ny maträtt i din minimala repertoar av matlagningskunskaper. Kanske har du stirrat in i frysdisken i din mataffär och fått tanken “jag har tröttnat på allt”. Kanske kommer du hem kl 2 en onsdagnatt, öppnar kylskåpet och inser att ditt liv är miserabelt tomt. Vi låter våra tankar flyga vidare för att fylla detta tomma hål i våra kroppar. Idag kommer flyget ta oss till landet Italien, som gett oss så många kulinariska mästerverk. Framförallt har detta klackskoformade land populariserat något som antagligen bott så länge i studenternas skafferi att de växt fast, nämligen vanlig jävla pasta.
