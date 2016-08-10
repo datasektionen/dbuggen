@@ -62,15 +62,15 @@ blockquote p:after {
 // lists
 ul {
   font-size: 1.15rem;
-  list-style-type: none;
+  list-style-type: "– ";
+  list-style-position: outside;
   margin-left: auto;
   margin-right: auto;
+  padding: 0;
 }
 
 li {
-  &:before {
-    content: "– ";
-  }
+  margin: 1em 0;
 }
 
 // misc
