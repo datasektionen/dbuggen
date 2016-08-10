@@ -13,7 +13,7 @@ main {
     hyphens: auto;
   }
   @include min-width(800px) {
-    p, ul, ol, li {
+    p, ul, ol, li, hr {
       width: 80%;
       max-width: 900px;
     }
