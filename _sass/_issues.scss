@@ -37,6 +37,11 @@ $white: #fff;
       color: $subtext;
     }
   }
+  .#{$name}.site-banner {
+    @include link($subtext);
+    background: $color;
+    color: $subtext;
+  }
 }
 
 @include theme("issue-0", "pt-sans", lighten(#1E62BA, 20%), $white);
