@@ -4,11 +4,12 @@ category: 4
 author: "BQ, Sektionsidrottsledare"
 tags: ["reklam"]
 order: 9
+hide: true
 ---
 
 Hej nØllan!
 
-Gillar du att bli svettig tillsammans med andra dataloger? Då kan du delta i idrottsnämndens aktiviteter! Det är ju lite konstigt att det är din anledning, men jag kommer inte döma. Själv så deltar och leder jag traditionellt veckovis aktiviteter såsom fotboll, innebandy, volleyboll m.m. Detta gör jag för att jag tycker det är kul med sport och fantastiskt kul att få dela mina intressen med fellow students. 
+Gillar du att bli svettig tillsammans med andra dataloger? Då kan du delta i idrottsnämndens aktiviteter! Det är ju lite konstigt att det är din anledning, men jag kommer inte döma. Själv så deltar och leder jag traditionellt veckovis aktiviteter såsom fotboll, innebandy, volleyboll m.m. Detta gör jag för att jag tycker det är kul med sport och fantastiskt kul att få dela mina intressen med fellow students.
 
 Ibland anordnas även större event som exempelvis ishockey på Hovet i fjol och målet är att göra något liknande i år!
 

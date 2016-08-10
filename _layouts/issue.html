@@ -14,6 +14,9 @@ excerpts: false
     {% if post.category != page.category %}
       {% continue %}
     {% endif %}
+    {% if post.hide %}
+      {% continue %}
+    {% endif %}
       <article>
         <header class="post-header">
           <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
