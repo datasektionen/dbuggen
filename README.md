@@ -15,3 +15,6 @@ Run rake to start a local development server
 `rake`
 
 Site is now live at `localhost:9000`
+
+### Deploying
+dbuggen is hosted on a dokku server. To deploy, first ask someone important to add your ssh key in the right place. Then, push to the remote `dokku@glass.datasektionen.se:dbuggen` to deploy.
