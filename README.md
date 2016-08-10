@@ -5,11 +5,13 @@ dbu.gg är en jekyll-app. För att kunna deployas på dokku är den dock fulhack
 
 ### Setup
 
-If you need to, install bundler
+If you need to, install bundler  
 `gem install bundler`
-Install gems
+
+Install gems  
 `bundle`
-Run rake to start a local development server
+
+Run rake to start a local development server  
 `rake`
 
 Site is now live at `localhost:9000`
