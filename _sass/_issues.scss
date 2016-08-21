@@ -7,9 +7,6 @@
 // #0E8893
 // #F3DD77
 
-$black: #141312;
-$white: #fff;
-
 @mixin theme($name, $font, $color, $subtext:$black, $headers:$color) {
   .#{$name} {
     @include link($headers);

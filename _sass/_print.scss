@@ -1,5 +1,16 @@
 @media print {
+  .issue-name h1 {
+    font-size: 5rem;
+  }
   article {
-    page-break-after: always;
+    page-break-before: always;
+    padding: 0;
+    border-top: 5px solid #222;
+    & + article {
+      padding: 0;
+    }
+    p {
+      font-size: .985em;
+    }
   }
 }

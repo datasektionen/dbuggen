@@ -5,7 +5,7 @@ order: 5
 author: Redaqtionen
 ---
 
-Ute på ett forum på “the dark web” har det uppstått en måttligt populär diskussion, där konspirationsteoretiker vill hitta svaret på vem som står bakom titeln “Mamma”. I ett grävande reportage i tre delar kommer dbuggen att söka svaret på frågan, med hjälp av internet. Är "mamma" egentligen mångmiljardären och entreprenören Jonas Dahl? Stay tuned…
+Ute på ett forum på “the dark web” har det uppstått en måttligt populär diskussion, där konspirationsteoretiker vill hitta svaret på vem som står bakom titeln "__Mamma__". I ett grävande reportage i tre delar kommer dbuggen att söka svaret på frågan, med hjälp av internet. Är "__Mamma__" egentligen mångmiljardären och entreprenören Jonas Dahl? Stay tuned…
 
 <hr>
 
@@ -13,7 +13,7 @@ Varför behöver egentligen Pokémon GO tillgång till Doqumenteriets bilder? db
 
 <hr>
 
-I vad som ser ut att vara en sjukligt märklig ritual-akt har dbuggens redaqtion vittnat ett gäng daddor ligga både på och bredvid varandra ute i solen. En intervju var inte möjlig av pressetiska skäl.
+I vad som ser ut att vara en sjukligt märklig ritual-akt har dbuggens redaqtion vittnat ett gäng daddor ligga både på och bredvid varandra ute i solen. En intervju var inte möjlig av press-etiska skäl.
 
 <hr>
 
