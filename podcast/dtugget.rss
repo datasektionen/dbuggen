@@ -27,6 +27,7 @@
 		</itunes:owner>
 		<itunes:image href="https://s3.amazonaws.com/dbuggen/dtugget-podcover.png" />
 		<itunes:category text="Entertainment" />
+        <itunes:explicit>no</itunes:explicit>
 		{% for post in site.posts %}
       {% if post.category == 'dtugget' %}
   			<item>
