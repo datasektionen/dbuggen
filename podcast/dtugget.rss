@@ -29,7 +29,7 @@
 		<itunes:category text="Entertainment" />
         <itunes:explicit>no</itunes:explicit>
 		{% for post in site.posts %}
-      {% if post.category == 'dtugget' %}
+      {% if post.feed == 'dtugget' %}
   			<item>
   				<title>{{ post.title }}</title>
   				<link>{{ site.url }}{{ post.url }}</link>
