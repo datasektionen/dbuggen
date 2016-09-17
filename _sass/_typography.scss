@@ -76,6 +76,7 @@ article p {
   font-size: 1.25em;
   line-height: 1.6;
   margin: 1em auto;
+  text-align: center;
 }
 
 @include max-width(600px) {

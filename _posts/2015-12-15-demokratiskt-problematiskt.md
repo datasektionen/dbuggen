@@ -1,6 +1,6 @@
 ---
 title: Demokratiskt Problematiskt
-category: "demokratiskt-problematiskt"
+category: podcast
 custom_path: podcast
 link: "http://dbuggen.s3-eu-west-1.amazonaws.com/Demokratiskt_Problematiskt_Ep1.mp3"
 speaker: "Aron Strandberg, Axel Samuelsson, Jesper Bränn"
