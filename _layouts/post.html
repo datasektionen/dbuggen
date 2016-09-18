@@ -5,9 +5,17 @@ layout: default
 <main class="issue-{{ page.category }}">
   {% assign issue = page.category | minus: 1 %}
   {% if page.custom_path %}
-    <h1><a href="/{{ page.custom_path }}"><span class="symbol">&larr;</span>{{ site.data.issues[issue].name }}</a></h1>
+    <h1>
+      <a href="/{{ page.custom_path }}">
+        <span class="symbol">&larr;</span>{{ site.data.pages[page.custom_path].title }}
+      </a>
+    </h1>
   {% else %}
-    <h1><a href="/issues/{{ page.category }}"><span class="symbol">&larr;</span>{{ site.data.issues[issue].name }}</a></h1>
+    <h1>
+      <a href="/issues/{{ page.category }}">
+        <span class="symbol">&larr;</span>{{ site.data.issues[issue].name }}
+      </a>
+    </h1>
   {% endif %}
   <article>
     <header class="post-header">
