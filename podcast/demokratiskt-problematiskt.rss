@@ -28,7 +28,7 @@
 		<itunes:image href="{{ site.squareLogo}}" />
 		<itunes:category text="News &amp; Politics" />
 		{% for post in site.posts %}
-      {% if post.category == 'demokratiskt-problematiskt' %}
+      {% if post.feed == 'demokratiskt-problematiskt' %}
   			<item>
   				<title>{{ post.title }}</title>
   				<link>{{ site.url }}{{ post.url }}</link>

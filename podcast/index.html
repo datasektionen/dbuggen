@@ -1,17 +1,24 @@
 ---
 layout: default
+category: podcast
+img: "http://dbuggen.s3-eu-west-1.amazonaws.com/podcast.jpg"
 ---
 
-{% for post in site.posts %}
-  {% if post.category != 'demokratiskt-problematiskt' and post.category != 'dtugget' %}
-    {% continue %}
-  {% endif %}
-  <article>
-    <header class="post-header">
-      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    </header>
-    <p>
-      {{ post.content }}
-    </p>
-  </article>
-{% endfor %}
+<main class="issue-{{ page.category }}">
+  <header class="issue-name">
+    <h1>dbuggens podcast</h1>
+  </header>
+
+  {% for post in site.posts %}
+    {% if page.category == post.category %}
+      <article>
+        <header class="post-header">
+          <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        </header>
+        <p>
+          {{ post.description }}
+        </p>
+      </article>
+    {% endif %}
+  {% endfor %}
+</main>
