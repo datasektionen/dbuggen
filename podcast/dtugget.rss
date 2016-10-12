@@ -14,13 +14,13 @@
 		<lastBuildDate>{{ site.time | date: "%a, %d %b %Y" }}</lastBuildDate>
 		<image>
 			<link>{{ site.url}}</link>
-			<url>https://s3.amazonaws.com/dbuggen/dtugget-podcover.png</url>
+			<url>http://s3.amazonaws.com/dbuggen/dtugget-podcover.png</url>
 			<title>dtugget</title>
 		</image>
 		<itunes:subtitle>Från världens objektivt sett sämsta tidning - dbuggen.</itunes:subtitle>
 		<itunes:author>dbuggen</itunes:author>
-		<itunes:summary></itunes:summary>
-		<itunes:keywords></itunes:keywords>
+		<itunes:summary>En podcast som görs som en del av dbuggen - en tidning producerad av Redaqtionen vid Datasektionen, KTH.</itunes:summary>
+		<itunes:keywords>dtugget, dbuggen, datasektionen</itunes:keywords>
 		<itunes:owner>
 			<itunes:name>{{ site.author }}</itunes:name>
 			<itunes:email>{{ site.email }}</itunes:email>
