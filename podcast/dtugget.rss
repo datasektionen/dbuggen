@@ -26,8 +26,10 @@
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
 		<itunes:image href="http://dbuggen.s3-eu-west-1.amazonaws.com/podcover-3000.png" />
-		<itunes:category text="Entertainment" />
-        <itunes:explicit>no</itunes:explicit>
+       		<itunes:category text="Arts & Entertainment">
+        	    <itunes:category text="Entertainment"/>
+	        </itunes:category>
+        	<itunes:explicit>no</itunes:explicit>
 		{% for post in site.posts %}
       {% if post.feed == 'dtugget' %}
   			<item>
