@@ -46,6 +46,9 @@
   				<itunes:keywords>{{ post.keywords }}</itunes:keywords>
   				<itunes:image href="{% if post.image %}{{ post.image }}{% else %}http://dbuggen.s3-eu-west-1.amazonaws.com/podcover-3000.png{% endif %}" />
   				<itunes:explicit>no</itunes:explicit>
+       				<itunes:category text="Arts &amp; Entertainment">
+		        	    <itunes:category text="Entertainment"/>
+	        		</itunes:category>
   			</item>
       {% endif %}
 		{% endfor %}
