@@ -26,7 +26,7 @@
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
 		<itunes:image href="http://dbuggen.s3-eu-west-1.amazonaws.com/podcover-3000.png" />
-       		<itunes:category text="Arts & Entertainment">
+       		<itunes:category text="Arts &amp; Entertainment">
         	    <itunes:category text="Entertainment"/>
 	        </itunes:category>
         	<itunes:explicit>no</itunes:explicit>
