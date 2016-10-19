@@ -14,7 +14,7 @@
 		<lastBuildDate>{{ site.time | date: "%a, %d %b %Y" }}</lastBuildDate>
 		<image>
 			<link>{{ site.url}}</link>
-			<url>http://s3.amazonaws.com/dbuggen/dtugget-podcover.png</url>
+			<url>http://dbuggen.s3-eu-west-1.amazonaws.com/podcover-3000.png</url>
 			<title>dtugget</title>
 		</image>
 		<itunes:subtitle>Från världens objektivt sett sämsta tidning - dbuggen.</itunes:subtitle>
