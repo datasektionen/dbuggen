@@ -42,7 +42,7 @@
   				<itunes:summary>{{ post.description }}</itunes:summary>
   				<itunes:duration>{{ post.duration }}</itunes:duration>
   				<itunes:keywords>{{ post.keywords }}</itunes:keywords>
-  				<itunes:image href="{% if post.image %}{{ post.image }}{% else %}{{site.squareLogo}}{% endif %}" />
+  				<itunes:image href="{% if post.image %}{{ post.image }}{% else %}http://dbuggen.s3-eu-west-1.amazonaws.com/podcover-3000.png{% endif %}" />
   				<itunes:explicit>no</itunes:explicit>
   			</item>
       {% endif %}
