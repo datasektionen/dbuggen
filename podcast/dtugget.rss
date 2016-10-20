@@ -7,8 +7,8 @@
 		<description>Från världens objektivt sett sämsta tidning - dbuggen.</description>
 		<link>{{ site.url}}</link>
 		<language>sv</language>
-		<managingEditor>{{ site.email }}</managingEditor>
-		<webMaster>{{ site.email }}</webMaster>
+		<managingEditor>{{ site.author }} &lt;{{ site.email }}&gt;</managingEditor>
+		<webMaster>{{ site.author }} &lt;{{ site.email }}&gt;</webMaster>
 		<copyright>2016- {{ site.title }}</copyright>
 		<pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S GMT" }}</pubDate>
 		<lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S GMT" }}</lastBuildDate>
@@ -26,9 +26,9 @@
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
 		<itunes:image href="http://dbuggen.s3-eu-west-1.amazonaws.com/podcover-3000.png" />
-       		<itunes:category text="Arts &amp; Entertainment">
-			<itunes:category text="Entertainment"/>
-	        </itunes:category>
+		<itunes:category text="Comedy"/>
+		<itunes:category text="Technology"/>
+		<itunes:category text="Society &amp; Culture" />
         	<itunes:explicit>no</itunes:explicit>
 		{% for post in site.posts %}
       {% if post.feed == 'dtugget' %}
