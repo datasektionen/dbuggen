@@ -7,11 +7,11 @@
 		<description>Från världens objektivt sett sämsta tidning - dbuggen.</description>
 		<link>{{ site.url}}</link>
 		<language>sv</language>
-		<managingEditor>{{ site.author }} ({{ site.email }})</managingEditor>
-		<webMaster>{{ site.author }} ({{ site.email }})</webMaster>
+		<managingEditor>{{ site.email }}</managingEditor>
+		<webMaster>{{ site.email }}</webMaster>
 		<copyright>2016- {{ site.title }}</copyright>
 		<pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S GMT" }}</pubDate>
-		<lastBuildDate>{{ site.time | date: "%a, %d %b %Y" }}</lastBuildDate>
+		<lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S GMT" }}</lastBuildDate>
 		<image>
 			<link>{{ site.url}}</link>
 			<url>http://dbuggen.s3-eu-west-1.amazonaws.com/podcover-3000.png</url>
@@ -27,7 +27,7 @@
 		</itunes:owner>
 		<itunes:image href="http://dbuggen.s3-eu-west-1.amazonaws.com/podcover-3000.png" />
        		<itunes:category text="Arts &amp; Entertainment">
-        	    <itunes:category text="Entertainment"/>
+			<itunes:category text="Entertainment"/>
 	        </itunes:category>
         	<itunes:explicit>no</itunes:explicit>
 		{% for post in site.posts %}
@@ -38,7 +38,7 @@
   				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S GMT" }}</pubDate>
   				<description>{{ post.description }}</description>
   				<guid isPermaLink="true">{{ post.link }}</guid>
-  				<enclosure url="{{ post.link }}" length="{{ post.length }}" type="audio/mp3"/>
+  				<enclosure url="{{ post.link }}" type="audio/mp3"/>
   				<itunes:author>{{ post.speaker }}</itunes:author>
   				<itunes:subtitle></itunes:subtitle>
   				<itunes:summary>{{ post.description }}</itunes:summary>
@@ -46,9 +46,6 @@
   				<itunes:keywords>{{ post.keywords }}</itunes:keywords>
   				<itunes:image href="{% if post.image %}{{ post.image }}{% else %}http://dbuggen.s3-eu-west-1.amazonaws.com/podcover-3000.png{% endif %}" />
   				<itunes:explicit>no</itunes:explicit>
-       				<itunes:category text="Arts &amp; Entertainment">
-		        	    <itunes:category text="Entertainment"/>
-	        		</itunes:category>
   			</item>
       {% endif %}
 		{% endfor %}
