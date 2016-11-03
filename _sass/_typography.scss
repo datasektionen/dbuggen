@@ -41,9 +41,6 @@ b {
 
 .issue {
   margin: 10rem auto;
-  &:first-child {
-    margin: 5rem auto 10rem auto;
-  }
 }
 
 .issue-name {
@@ -60,6 +57,7 @@ b {
   }
   .tags {
     font-style: italic;
+    text-align: center;
   }
   p {
     margin: 0.5em auto;

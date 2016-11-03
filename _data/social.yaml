@@ -1,0 +1,15 @@
+# Social media
+generic:
+  - title: Facebook
+    url: https://www.facebook.com/dbuggen
+    class: facebook
+  - title: Instagram
+    url: https://www.instagram.com/dbuggen/
+    class: instagram
+podcast:
+  - title: iTunes
+    url: https://itunes.apple.com/us/podcast/dtugget/id1167375728
+    class: itunes
+  - title: Soundcloud
+    url: https://soundcloud.com/dtugget/
+    class: soundcloud
