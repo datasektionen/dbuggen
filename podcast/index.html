@@ -4,10 +4,20 @@ category: podcast
 img: "http://dbuggen.s3-eu-west-1.amazonaws.com/podcast.jpg"
 ---
 
-<main class="issue-{{ page.category }}">
+<main class="main-listing issue-{{ page.category }}">
   <header class="issue-name">
     <h1>dbuggens podcast</h1>
   </header>
+  <div class="social-media">
+    {% for icon in site.data.social.podcast %}
+      <div class="social-icon">
+        <a class="{{ icon.class }}" href="{{ icon.url }}">
+          {% include {{ icon.class | prepend: 'assets/' | append: '.svg' }} %}
+          <span style="visibility: hidden">{{ icon.title }}</span>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
 
   {% for post in site.posts %}
     {% if page.category == post.category %}
@@ -15,9 +25,11 @@ img: "http://dbuggen.s3-eu-west-1.amazonaws.com/podcast.jpg"
         <header class="post-header">
           <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
         </header>
-        <p>
-          {{ post.description }}
-        </p>
+        <div class="text">
+          <p>
+            {{ post.description }}
+          </p>
+        </div>
       </article>
     {% endif %}
   {% endfor %}

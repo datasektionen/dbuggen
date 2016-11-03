@@ -2,7 +2,7 @@ $base-font: "Roboto", "Helvetica", sans-serif;
 
 body {
   font-family: $base-font; // fallback
-  text-align: center;
+  text-align: left;
 }
 h1, h2, h3, h4, h5, h6 {
   width: 90%;
@@ -57,6 +57,7 @@ b {
   }
   .tags {
     font-style: italic;
+    text-align: center;
   }
   p {
     margin: 0.5em auto;
@@ -67,6 +68,10 @@ header {
   text-align: center;
 }
 
+footer {
+  text-align: center;
+}
+
 article {
   text-align: justify;
   margin: 5em auto;
@@ -74,9 +79,12 @@ article {
 
 article p {
   font-size: 1.25em;
+  @include max-width(400px) {
+    font-size: 1.1em;
+  }
   line-height: 1.6;
   margin: 1em auto;
-  text-align: center;
+  text-align: left;
 }
 
 @include max-width(600px) {
