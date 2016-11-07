@@ -1,7 +1,7 @@
 ---
 title: "Varför brygger man efterbliven öl?"
 category: 10
-order: 1
+order: 4
 author: Samuel Hertzberg
 ---
 

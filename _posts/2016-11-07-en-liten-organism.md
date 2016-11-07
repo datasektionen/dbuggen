@@ -1,7 +1,7 @@
 ---
 title: En liten organism
 category: 10
-order: 1
+order: 2
 author: Emil Lindblom
 ---
 

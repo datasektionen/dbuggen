@@ -1,7 +1,7 @@
 ---
 title: "Befolkningen i Skara kommer fira nyår redan 30 december"
 category: 10
-order: 1
+order: 8
 author: Ambrose Monk
 ---
 
