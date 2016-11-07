@@ -2,7 +2,7 @@
 title: "Befolkningen i Skara kommer fira nyår redan 30 december"
 category: 10
 order: 8
-author: Ambrose Monk
+author: Karl Hungus
 ---
 
 __“Regler är till för att brytas”__, säger Bert Larsson när jag möter upp honom på den nya träbron i Skara. En rörelse har bubblat upp bland Skaras rika arv på urban kultur. Ungdomar och vuxna går hand i hand för att trotsa det traditionsrika sättet att fira nyår när det faktiskt är nytt år. Bert och hans fru Crystal har slutat komma på ursäkter till varför man firar nyår redan den 30 december. De har redan anammat det som en ny tradition i staden.
