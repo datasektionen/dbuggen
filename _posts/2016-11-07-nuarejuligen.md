@@ -22,4 +22,4 @@ Detta steg är ett valbart, men högst rekommenderat, tillägg för oss som plug
 
 
 __Bingolott + Julmat + Julgodis + Systembolaget__.
-Det sista men ack så viktiga steget i julfirandet är att säkra mat och dryck samt underhållning till dagen J **(och i Bingolottos fall, dagen J-1)**. Tänk på att kolla upp recept innan då öppettider kan variera när det börjar dra ihop sig.
+Det sista men ack så viktiga steget i julfirandet är att säkra mat och dryck samt underhållning till dagen J *(och i Bingolottos fall, dagen J-1)*. Tänk på att kolla upp recept innan då öppettider kan variera när det börjar dra ihop sig.

@@ -9,7 +9,7 @@ Det finns en emoji som är bättre än alla andra. Oberoende av vilken emoji-upp
 
 <img src="https://dbuggen.s3.amazonaws.com/google.png" class="no-crop">
 
-En emoji vilken är det perfekta svaret på både “Vem är du?” och “Varför har du ätit upp min matlåda?”
+En emoji vilken är det perfekta svaret på både *“Vem är du?”* och *“Varför har du ätit upp min matlåda?”*
 
 <img src="https://dbuggen.s3.amazonaws.com/apple.png" class="no-crop">
 
