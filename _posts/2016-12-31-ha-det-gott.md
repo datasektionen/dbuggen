@@ -16,5 +16,5 @@ dbuggen försökte sig på en satsning på podden _(slang för podcast, red. anm
 Två gånger är en tradition brukar man säga, så “varför inte?” tänkte jag när förslaget nyårsnummer återigen kom på tal. Låt oss go out with a __bang__ med ett fantastiskt nummer, och håll utkik efter ett dbuggen-år 2017 som kommer toppa allt du någonsin sett.
 
 Ha det gött!
-_Shayan Effati_
-_Chefredaqtör 2016_
+
+_Shayan Effati, Chefredaqtör 2016_
