@@ -39,6 +39,15 @@
     background: $color;
     color: $subtext;
   }
+  .#{$name}.social-media {
+    margin-bottom: 1em;
+    .cls-1 {
+      fill: $black;
+    }
+    .social-icon:hover .cls-1 {
+      fill: $color;
+    }
+  }
 }
 
 @include theme("issue-0", "pt-sans", #0E8893, $white);
