@@ -1,0 +1,10 @@
+<div class="social-media issue-{{ page.category }}">
+  {% for icon in site.data.social.generic %}
+    <div class="social-icon">
+      <a class="{{ icon.class }}" href="{{ icon.url }}">
+        {% include {{ icon.class | prepend: 'assets/' | append: '.svg' }} %}
+        <span style="display: none">{{ icon.title }}</span>
+      </div>
+    </a>
+  {% endfor %}
+</div>

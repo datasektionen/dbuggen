@@ -5,21 +5,12 @@ img: "http://dbuggen.s3.amazonaws.com/shayans-macbook.jpg"
 ---
 
 <main class="issue-list issue-0">
-    <div class="social-media">
-      {% for icon in site.data.social.generic %}
-        <div class="social-icon">
-          <a class="{{ icon.class }}" href="{{ icon.url }}">
-            {% include {{ icon.class | prepend: 'assets/' | append: '.svg' }} %}
-            <span style="visibility: hidden">{{ icon.title }}</span>
-          </div>
-        </a>
-      {% endfor %}
-    </div>
     <nav>
         <a href="/redaqtionen">Redaqtionen</a> /
         <a href="/podcast">Podcast</a>
     </nav>
     <div class="text main-listing">
+  {% include social.html %}
     {% for issue in site.data.issues reversed %}
       <div class="issue">
         {% if issue.number and issue.number != 2 and issue.number != 7 %}
