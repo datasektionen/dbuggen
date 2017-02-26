@@ -40,8 +40,8 @@
     color: $subtext;
   }
   .#{$name}.site-footer {
-    @include link($subtext);
-    color: $subtext;
+    @include link($color);
+    color: $black;
     a {
       border-bottom: 2px dotted $subtext;
     }
@@ -57,7 +57,7 @@
   }
 }
 
-@include theme("issue-0", "futura-pt", #f54785, $white);
+@include theme("issue-0", "futura-pt", #f54785, $black);
 @include theme("issue-redaqtionen", "ff-tisa-sans-web-pro", $white, $black);
 @include theme("issue-podcast", "ff-tisa-sans-web-pro", #FF5268);
 @include theme("issue-99", "rooney-web", #008dec);
