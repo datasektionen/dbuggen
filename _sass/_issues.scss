@@ -51,7 +51,7 @@
 }
 
 @include theme("issue-0", "pt-sans", #0E8893, $white);
-@include theme("issue-redaqtionen", "rooney-web", #F7E9AA, $black);
+@include theme("issue-redaqtionen", "ff-tisa-sans-web-pro", $white, $black);
 @include theme("issue-podcast", "ff-tisa-sans-web-pro", #FF5268);
 @include theme("issue-99", "rooney-web", #008dec);
 @include theme("issue-1", "futura-pt", #ff7243);
