@@ -82,12 +82,6 @@ article + article {
   column-rule: 1px dotted #ccc;
 }
 
-.colophon {
-  @media print {
-    display: none;
-  }
-}
-
 .audiojs {
   margin-left: auto;
   margin-right: auto;
