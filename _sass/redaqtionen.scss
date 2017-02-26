@@ -1,15 +1,6 @@
-// .issue-redaqtionen.site-header {
-//     p {
-//         color: $white;
-//     }
-//     ::selection {
-//         color: $black;
-//     }
-// }
-
 .redaqtionen {
+    max-width: 1100px;
     text-align: center;
-    font-family: "rooney-web";
     .about {
         margin-bottom: 5em;
     }
@@ -29,5 +20,8 @@
     }
     .name {
         font-weight: 700;
+    }
+    ::selection {
+        background: $black;
     }
 }
