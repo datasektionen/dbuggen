@@ -1,7 +1,7 @@
 task default: %w[serve]
 
 task :serve do
-  sh "bundle exec jekyll serve -w"
+  sh "bundle exec jekyll serve -w --incremental"
 end
 
 task :deploy do
