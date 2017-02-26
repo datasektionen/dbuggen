@@ -5,12 +5,12 @@ img: "http://dbuggen.s3.amazonaws.com/shayans-macbook.jpg"
 ---
 
 <main class="issue-list issue-0">
-    <nav>
-        <a href="/redaqtionen">Redaqtionen</a> /
-        <a href="/podcast">Podcast</a>
-    </nav>
-    <div class="text main-listing">
   {% include social.html %}
+  <nav>
+      <a href="/redaqtionen">Redaqtionen</a> /
+      <a href="/podcast">Podcast</a>
+  </nav>
+  <div class="text main-listing">
     {% for issue in site.data.issues reversed %}
       <div class="issue">
         {% if issue.number and issue.number != 2 and issue.number != 7 %}
