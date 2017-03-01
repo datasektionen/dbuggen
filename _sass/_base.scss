@@ -21,8 +21,10 @@ img {
   object-position: 50% 50%;
   margin: 2em auto;
   text-align: center;
-  background: url("/assets/checkers.png");
-  &.no-crop {
+  &:not(.svg) {
+    background: url("/assets/checkers.png");
+  }
+  &.no-crop, &.svg {
     max-height: none;
   }
 }

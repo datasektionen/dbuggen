@@ -4,3 +4,19 @@ p.fria-tag {
   text-align: justify;
   max-width: 900px;
 }
+
+.svg.kaffe {
+  width: 33%;
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+iframe.map.kaffe {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  pointer-events: none;
+  border: 0;
+}
