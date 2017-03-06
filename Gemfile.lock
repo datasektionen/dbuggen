@@ -43,6 +43,8 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-feed (0.9.1)
+      jekyll (~> 3.3)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
     jekyll-watch (1.5.0)
@@ -99,6 +101,7 @@ DEPENDENCIES
   guard
   guard-livereload
   jekyll (>= 3.1.2)
+  jekyll-feed
   kramdown
   octopress-autoprefixer
   puma
@@ -107,4 +110,4 @@ DEPENDENCIES
   thin
 
 BUNDLED WITH
-   1.14.5
+   1.14.6

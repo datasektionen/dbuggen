@@ -14,4 +14,5 @@ end
 
 group :jekyll_plugins do
   gem "octopress-autoprefixer"
+  gem 'jekyll-feed'
 end
