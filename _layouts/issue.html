@@ -38,7 +38,7 @@ excerpts: false
             <a href="{{ post.url }}">Läs hela</a>
             </p>
           {% else %}
-            {{ post.content || markdownify }}
+            {{ post.content | markdownify }}
           {% endif %}
         </div>
       </article>
