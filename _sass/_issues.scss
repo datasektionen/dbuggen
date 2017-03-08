@@ -40,12 +40,12 @@
     color: $subtext;
   }
   .#{$name}.site-footer {
-    @if $color == $white {
-      @include link($black);
+    @if $color == $black {
+      @include link($white);
     } @else {
       @include link($color);
     }
-    color: $black;
+    color: $white;
     a {
       border-bottom: 2px dotted $subtext;
     }
