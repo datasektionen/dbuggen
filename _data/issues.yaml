@@ -55,3 +55,7 @@
   name: restdbuggen
   description: Det här blir resten av marsnumret
   date: "Mar 2017"
+- number: 15
+  name: nytt blod-dbuggen
+  description: Lite nya skribenter är nice
+  date: "May 2017"
