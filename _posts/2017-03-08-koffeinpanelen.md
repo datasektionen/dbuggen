@@ -25,7 +25,7 @@ Då Samuel var tvungen att vika av efter halva testmomentet presenteras kaffets 
 _Tre kända kaffeställen är inte med i dbuggens granskning. Restaurang Q var stängt vid tidpunkten för granskningen, Stories i KTH:s bibliotek hade slut på kaffe till panelens stora förtret och Brazilia förtjänar inte riktigt att vara med._
 
 --------
-![](http://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/bild2.jpg)
+<!-- ![](http://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/bild2.jpg) -->
 
 ## Open Café
 
