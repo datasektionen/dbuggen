@@ -59,3 +59,7 @@
   name: nytt blod-dbuggen
   description: Lite nya skribenter är nice
   date: "May 2017"
+- number: 16
+  name: sommardbuggen
+  description: Sommar, sommar och sol
+  date: "Jul 2017"
