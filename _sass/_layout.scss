@@ -6,6 +6,7 @@ main {
   margin: 0 auto;
   width: 80%;
   text-align: left;
+
   p, ul, ol {
     width: 90%;
   }
@@ -27,10 +28,12 @@ main {
   .text {
     font-size: 1.5em;
     margin: 0 auto;
+
     p {
       width: 95%;
       margin: 1em auto;
     }
+
     .issue-name {
       font-size: 2em;
       margin: 1em auto 0;
@@ -43,6 +46,7 @@ main {
       width: 95%;
     }
   }
+
   nav {
     font-size: 2rem;
   }
@@ -54,21 +58,26 @@ article + article {
 }
 
 .site-header {
-  margin: 0 auto 0;
+  margin: 0 auto;
+
   p {
     margin: 1em auto;
     padding: 1em;
   }
+
   h1 {
     width: 100%;
     margin: auto;
   }
+
   .logo.header-image {
     padding: 8vh 0;
+
     h1 {
       padding: 25px 0;
     }
   }
+
   .header-image {
     background-position: center 70%;
     background-size: cover;
@@ -89,6 +98,7 @@ article + article {
 
 .main-listing {
   text-align: center;
+
   p {
     text-align: center;
   }
@@ -110,5 +120,68 @@ article + article {
 }
 
 .instagram-media {
-  margin: 0 auto !important;
+  margin: 1em auto !important;
+  background: #FFF;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15);
+  margin: 1px;
+  max-width: 658px;
+  padding: 0;
+  width: 99.375%;
+  width: -webkit-calc(100% - 2px);
+  width: calc(100% - 2px);
+
+  > div {
+    padding: 8px;
+
+    > div {
+      background: #F8F8F8;
+      line-height: 0;
+      margin-top: 40px;
+      padding: 56.481481481481474% 0;
+      text-align: center;
+      width: 100%;
+
+      > div {
+        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC");
+        display: block;
+        height: 44px;
+        margin: 0 auto -44px;
+        position: relative;
+        top: -22px;
+        width: 44px;
+      }
+    }
+
+    > p {
+      color: #c9c8cd;
+      font-family: Arial,sans-serif;
+      font-size: 14px;
+      line-height: 17px;
+      margin-bottom: 0;
+      margin-top: 8px;
+      overflow: hidden;
+      padding: 8px 0 7px;
+      text-align: center;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+
+      > a {
+        color: #c9c8cd;
+        font-family: Arial,sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 17px;
+        text-decoration: none;
+      }
+
+      > time {
+        font-family: Arial,sans-serif;
+        font-size: 14px;
+        line-height: 17px;
+      }
+    }
+  }
 }
