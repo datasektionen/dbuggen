@@ -8,6 +8,9 @@ body {
   font-weight: 400;
   margin: 0 auto;
   font-size: 16px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 // images
