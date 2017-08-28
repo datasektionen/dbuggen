@@ -32,7 +32,7 @@
   description: Nånting nånting Shayan fixa
   date: "Jun 2016"
 - number: 9
-  name: nØlledbuggen
+  name: nØlledbuggen 2016
   description: Ett välkomstnummer tillägnat nØllan!
   date: "Aug 2016"
 - number: 10
@@ -63,3 +63,7 @@
   name: sommardbuggen
   description: Sommar, sommar och sol
   date: "Jul 2017"
+- number: 17
+  name: nØlledbuggen 2017
+  description: Välkommen nØllan
+  date: "Aug 2017"
