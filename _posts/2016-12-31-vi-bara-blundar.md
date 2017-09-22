@@ -2,7 +2,7 @@
 title: "Vi bara blundar"
 category: 11
 order: 3
-author: Donatella Mozzarella
+author: Josefin Nilsson
 ---
 
 2016\. Ett enda stort mörker på makronivå. Krig, död, mobbare i Vita huset och allt varmare klimat. Eventuell medgång på det personliga planet känns snabbt betydelselöst när det sätts i ett större perspektiv. Årskrönikorna gör sitt bästa för att hitta positiva nyheter från detta år, ”2016 kommer att gå till historien som ett ovanligt turbulent år – men det hände en del positiva saker också!” skriver DN. Det är bara att hoppas att vindarna kan vända en aning nästa år.
