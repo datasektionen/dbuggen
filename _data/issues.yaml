@@ -87,3 +87,7 @@
   name: keflafeldbuggen
   description: keflafeljuryn spekulerar
   date: "Dec 2017"
+- number: 23
+  name: nyårsdbuggen 2018
+  description: Gott nytt
+  date: "Jan 2018"
