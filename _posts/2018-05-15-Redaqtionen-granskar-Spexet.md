@@ -11,7 +11,7 @@ Vår färd började i de dunklaste områden i Meta. Där fann vi tre stycken spe
 
 ## Intervju med tre stycken anonyma spexM köttbitar.
 
-Vilken är eran favorit färg?
+Vilken är eran favoritfärg?
 >Grön, mörkröd och lila.
 
 Vilken är eran spirit animal?
@@ -109,6 +109,7 @@ Vad har du för position?
 
 Inside scoop på Albin Remnestål
 >ALBIN HAR INGET MED SPEXET ATT GÖRA!!!
+
 >Kommentar från Albin: Jag har gjort dom röda ridåerna på hemsida.
 
 Vad är det bästa med spexet?
