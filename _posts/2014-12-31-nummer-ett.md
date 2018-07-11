@@ -2,7 +2,7 @@
 title: "Nummer ett"
 category: 1
 order: 4
-author: "Aron Strandberg"
+author: "Äpplet Johansson"
 ---
 
 När jag nånstans kring klockan fyra i morse hade skrivit klart min korkade krönika (som, om du missade det, står först i det här numret) och hackat ihop den här sidan insåg jag att jag ville skriva nånting seriöst också. Jag kunde inte riktigt komma på någonting jag ville skriva om, eftersom allt som snurrade i huvudet var tanken att jag ändå var ganska nöjd med det här först numret av dbuggen 2015.
