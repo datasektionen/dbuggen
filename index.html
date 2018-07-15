@@ -13,7 +13,7 @@ img: "http://source.unsplash.com/9Jq5UvyXr8A/2000x3000"
   <div class="text main-listing">
     {% for issue in site.data.issues reversed %}
       <div class="issue">
-        {% if issue.number and issue.number != 2 and issue.number != 7 and issue.number != 9 and issue.number != 17%}
+        {% if issue.number and issue.number != 2 and issue.number != 7 and issue.number != 9 and issue.number != 17 and issue.number != 13%}
           <h2 class="issue-name">
             <a href="/issues/{{ issue.number }}">{{ issue.name }}</a>
           </h2>
