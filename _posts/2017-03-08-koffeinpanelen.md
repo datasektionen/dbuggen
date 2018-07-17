@@ -55,7 +55,7 @@ _Tre kända kaffeställen är inte med i dbuggens granskning. Restaurang Q var s
  Avslutningsvis diskuterades _priset_, där den sanna studenten i oss alla kom fram. "Det är lite dyrt asså" och "Lite i överkant" menade Pontus respektive Samuel, och Äpplet menade att lokalen spelar in i priset. "Det är för dyrt. Asså du betalar ju mycket för lokalen, men nja" var hans åsikt.
 
 ------
-![](http://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/bild3.jpg)
+
 
 ## THS Café
 
@@ -86,7 +86,6 @@ _Luktupplevelsen_ var något som panelen var fåordig om, det var varken mycket 
 Om temperaturen splittrade panelen så slöts alla samman med hyllningar kring kaffets _pris_. "Priset, det var bra" konstaterade Martin medan Samuel gav priset ett riktigt högt betyg och menade att "Jag skulle skämmas om jag betalar under 10kr... Och det är lite för dyrt om det kostar mer än så".
 
 --------------
-![](http://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/bild4.jpg)
 
 ## Espresso House
 
