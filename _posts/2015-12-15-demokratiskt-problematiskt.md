@@ -4,10 +4,12 @@ category: podcast
 custom_path: podcast
 feed: demokratiskt-problematiskt
 link: "http://dbuggen.s3-eu-west-1.amazonaws.com/Demokratiskt_Problematiskt_Ep1.mp3"
-speaker: "Aron Strandberg, Axel Samuelsson, Jesper Bränn"
+speaker: "Äpplet Johansson, Axel Samuelsson, Jesper Bränn"
 description: "dbuggens premiär i podcastande tar världen med storm! Temat är demokratik, problemati, och hur fungerar ens ord?"
 duration: "19:03"
 keywords: "dbuggen, sektionspolitik, data"
+secret: true
+hide: true
 ---
 <script src="/audiojs/audio.min.js"></script>
 <script>

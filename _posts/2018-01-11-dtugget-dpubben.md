@@ -8,6 +8,8 @@ speaker: "Typ alla"
 description: "I detta specialavsnitt så är alla besökare på dpubben inbjudna att delta. Snacket, kvalitén, ljudnivån, promillehalten med mera är högst varierande"
 duration: "77:51"
 keywords: "dbuggen, dtugget, datasektionen"
+secret: true
+hide: true
 ---
 <script src="/audiojs/audio.min.js"></script>
 <script>
