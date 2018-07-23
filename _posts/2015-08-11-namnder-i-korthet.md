@@ -1,7 +1,7 @@
 ---
 title: "Nämnder i korthet"
 category: 4
-author: "Aron Strandberg"
+author: "Äpplet Johansson"
 tags: ["reklam"]
 order: 6
 hide: true

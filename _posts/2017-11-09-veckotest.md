@@ -4,7 +4,7 @@ category: 19
 order: 2
 author: Redaqtionen
 ---
-# Aron
+# Äpplet
 
 **Dag 0**  
 Japp, jag noll-indexerar mina dagar. Något annat borde väl en datalog skämmas för, säger jag och hör i bakgrunden ett dovt avgrundsvrål komma från Viggos kontor. För den som ännu inte haft förmånen att läsa kursen DD1352 – algoritmer, datastrukturer och komplexitet på KTH kan jag avslöja att Viggo Kann (en av KTHs främsta forskare inom datalogi) faktiskt 1-indexerar sina arrayer.
