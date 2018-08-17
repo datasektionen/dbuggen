@@ -39,5 +39,5 @@ b+yVLPa7nc8cFXhzXIcrGJP9dDkeRmqUdU2kI+j3UyES
 
 
 <!-- Start of CuterCounter Code -->
-<a href="http://www.cutercounter.com/" target="_blank"><img src="http://www.cutercounter.com/hit.php?id=23252&nd=6&style=12" border="0" alt="visitor counter" style="display: none;"></a>
+<a href="http://www.cutercounter.com/" target="_blank"  style="display: none;"><img src="http://www.cutercounter.com/hit.php?id=23252&nd=6&style=12" border="0" alt="visitor counter" style="display: hidden;"></a>
 <!-- End of CuterCounter Code -->
