@@ -18,3 +18,7 @@ Det är nämligen så att **återhållsamhet** är vårt största utmaning; ett 
 Avslutningsvis skulle jag vilja avsluta med ett par visa ord varvid denna redaqtör lever:
 
 _Med många artiklar kommer många ansvar. Med långa artiklar kommer långa ansvar. Med artiklar kommer ansvar. artiklar ansvar. artlar anvar. ala ana. aa aa. aaaa. AAAA. AAAAAAAAA._
+
+<!-- Start of CuterCounter Code -->
+<a href="http://www.cutercounter.com/" target="_blank"><img src="http://www.cutercounter.com/hit.php?id=23252&nd=6&style=12" border="0" alt="visitor counter"></a>
+<!-- End of CuterCounter Code -->
