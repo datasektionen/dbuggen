@@ -36,8 +36,3 @@ b+yVLPa7nc8cFXhzXIcrGJP9dDkeRmqUdU2kI+j3UyES
 =/MzX
 
 -----END PGP MESSAGE-----
-
-
-<!-- Start of CuterCounter Code -->
-<a href="http://www.cutercounter.com/" target="_blank" style="background-color: white;"><img src="http://www.cutercounter.com/hit.php?id=23252&nd=6&style=12" border="0" alt="visitor counter" style="display: hidden;"></a>
-<!-- End of CuterCounter Code -->
