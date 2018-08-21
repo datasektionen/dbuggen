@@ -1,7 +1,7 @@
 ---
 title: "Hur man stavar till dbuggen"
 category: 27
-order: 1
+order: 3
 author: "Chefredaqtör, Patric Lantz"
 ---
 

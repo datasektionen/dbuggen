@@ -1,7 +1,7 @@
 ---
 title: "HMA (Hemligt Meddelande till Allmänheten)"
 category: 27
-order: 3
+order: 5
 author: "Viskande Fredrik"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "dbuggen: Världens svåraste jobb"
 category: 27
-order: 2
+order: 4
 author: "Albin Remnestål"
 ---
 
