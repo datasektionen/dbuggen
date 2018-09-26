@@ -3,7 +3,7 @@ title: "Min favvodadda krympte i tvätten"
 category: 17
 order: 4
 author: Mirre Mops
-hide: true
+hide: false
 ---
 
 Det spöregnade och jag fick en känsla att det skulle bli en sorglig dag den morgonen, men jag hade aldrig kunnat föreställa mig att en sådan traumatisk upplevelse skulle inträffa. Jag har gråtit två gånger i mitt liv, när jag föddes och den här dagen. Allt började med att jag drog på mig mina nytvättade byxor och min nytvättade skjorta. Jag försökte att vända på mitt första intryck av hur dagen skulle gå genom att känna mig fräsch, det funkade lika dåligt som när White Star Line bestämde sig för att bygga en båt.

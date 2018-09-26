@@ -2,10 +2,10 @@
 title: "Vi bara blundar"
 category: 11
 order: 3
-author: Delia Mörker
+author: Josefin Nilsson
 ---
 
-2016\. Ett enda stort mörker på makronivå. Krig, död, mobbare i Vita huset och allt varmare klimat. Eventuell medgång på det personliga planet känns snabbt betydelselöst när det sätts i ett större perspektiv. Årskrönikorna gör sitt bästa för att hitta positiva nyheter från detta år, ”2016 kommer att gå till historien som ett ovanligt turbulent år – men det hände en del positiva saker också!” skriver DN. Det är bara att hoppas att vindarna kan vända en aning nästa år.
+2016\. Ett enda stort m på makronivå. Krig, död, mobbare i Vita huset och allt varmare klimat. Eventuell medgång på det personliga planet känns snabbt betydelselöst när det sätts i ett större perspektiv. Årskrönikorna gör sitt bästa för att hitta positiva nyheter från detta år, ”2016 kommer att gå till historien som ett ovanligt turbulent år – men det hände en del positiva saker också!” skriver DN. Det är bara att hoppas att vindarna kan vända en aning nästa år.
 
 På mångas mobiler dyker pushnotiser från tidningar upp titt som tätt för att berätta om ett ännu ett nytt bakslag för världen.  Men varför matas med all denna negativitet? Vi har det ju jämförelsevis väldigt bra här uppe i norr, är det inte bättre att bara vara lycklig i sin egna lilla bubbla?
 

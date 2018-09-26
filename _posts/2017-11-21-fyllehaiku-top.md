@@ -2,7 +2,7 @@
 title: "Fyllehaiku"
 category: 20
 order: 2
-author: Emil, Mutch, Teo, Samuel, Pontus, Heine
+author: Emil, Micke, Teo, Samuel, Pontus, Heine
 ---
 
 ### 18:00 - Sen höst och bakfylla.

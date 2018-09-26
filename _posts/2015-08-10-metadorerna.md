@@ -4,7 +4,7 @@ category: 4
 author: "Per Nyberg, Lokalchef"
 tags: ["reklam"]
 order: 10
-hide: true
+hide: false
 ---
 
 <div class="two-columns">

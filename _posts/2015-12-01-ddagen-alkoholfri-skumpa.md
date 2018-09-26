@@ -1,7 +1,7 @@
 ---
 title: Företag bojkottar D-Dagen 2016
 category: 5
-author: Äpplet Johansson
+author: Aron Strandberg
 tags: satir
 order: 1
 ---

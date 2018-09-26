@@ -3,7 +3,7 @@ title: "Välkommen till KTH, nØllan!"
 category: 4
 author: ""
 order: 13
-hide: true
+hide: false
 ---
 
 <p style="text-align: center;">

@@ -1,10 +1,10 @@
 ---
 title: "Nämnder i korthet"
 category: 4
-author: "Äpplet Johansson"
+author: "Aron Strandberg"
 tags: ["reklam"]
 order: 6
-hide: true
+hide: false
 ---
 
 Några av de nämnder som inte skrev en längre artikel får här en kort beskrivning av Redaqtionen!

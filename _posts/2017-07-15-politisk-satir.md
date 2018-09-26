@@ -2,7 +2,7 @@
 title: "Satir på Instagram"
 category: 16
 order: 5
-author: Äpplet Johansson
+author: Aron Strandberg
 ---
 
 Fördelarna med det nuvarande politiska läget i det stora vita huset på 1600 Pennsylvania Avenue är både små och sällsynta,

@@ -4,7 +4,7 @@ category: 4
 author: "BQ, Sektionsidrottsledare"
 tags: ["reklam"]
 order: 9
-hide: true
+hide: false
 ---
 
 Hej nØllan!

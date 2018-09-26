@@ -2,7 +2,7 @@
 title: "När kommer tuben?"
 category: 20
 order: 1
-author: DJ Deep
+author: Mikael Forsmark
 ---
 # dbuggen har producerat poesi på höga (promille)nivåer
 
@@ -16,7 +16,7 @@ author: DJ Deep
 
 ### Så gick haikuskapandet till
 
-dbuggens redaktion bestående av Emil, Heine, Mutch, Pontus, Samuel och Teo samlades en lagom deprimerande novemberkväll i en kall studentlägenhet och författade 10 haikus per person fördelade på 10 omgångar. Innan varje haikuomgång intogs en alkoholenhet (motsvarande 33cl starköl eller 4cl starksprit) inom 30 minuter samtidigt som den kommande omgångens tema bestämdes. I slutet av varje haikuomgång läste alla upp sin nyss skrivna haiku för gruppen innan nästa haikuomgång påbörjades. Alla haikus författades med papper och penna och det som skrivits ned fick ej korrigeras. Därmed varnas känsliga läsare för ett fåtal oförlåtliga diktfel.
+dbuggens redaktion bestående av Emil, Heine, Micke, Pontus, Samuel och Teo samlades en lagom deprimerande novemberkväll i en kall studentlägenhet och författade 10 haikus per person fördelade på 10 omgångar. Innan varje haikuomgång intogs en alkoholenhet (motsvarande 33cl starköl eller 4cl starksprit) inom 30 minuter samtidigt som den kommande omgångens tema bestämdes. I slutet av varje haikuomgång läste alla upp sin nyss skrivna haiku för gruppen innan nästa haikuomgång påbörjades. Alla haikus författades med papper och penna och det som skrivits ned fick ej korrigeras. Därmed varnas känsliga läsare för ett fåtal oförlåtliga diktfel.
 
 I slutet av kvällen summerades alla haikus och varje temas bästa haiku valdes ut av gruppen, och dessa haikus finns presenterade i sammanställning nedan. På teman där det var hård konkurrens valdes även så kallade _Honorable Mentions_. Vet du inte vad en haiku är? Googla.
 
@@ -32,7 +32,7 @@ I slutet av kvällen summerades alla haikus och varje temas bästa haiku valdes 
 
 ### 18:26 - _Kunskap_
 
-#### Kunskapens källa<br/>Förgiftar likt ormens bett<br/>Äpplet var äckligt
+#### Kunskapens källa<br/>Förgiftar likt ormens bett<br/>Aron var äckligt
 
 #### _Pontus Broberg_
 
@@ -71,7 +71,7 @@ I slutet av kvällen summerades alla haikus och varje temas bästa haiku valdes 
 
 #### Hur mörkt är svart guys? <br/> Färg är socialt påhitt <br/> Svart är allt som finns
 
-#### _DJ Deep_
+#### _Mikael Forsmark_
 
 ------
 
@@ -84,7 +84,7 @@ I slutet av kvällen summerades alla haikus och varje temas bästa haiku valdes 
 ### Honorable Mention:
 #### Går fram på gatan <br/> Mellangärdet värker typ <br/> När kommer tuben?
 
-#### _DJ Deep_
+#### _Mikael Forsmark_
 
 ------
 

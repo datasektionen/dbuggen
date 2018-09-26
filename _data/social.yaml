@@ -7,9 +7,9 @@ generic:
     url: https://www.instagram.com/dbuggen/
     class: instagram
 podcast:
-  - title: Cat Bounce
-    url: http://cat-bounce.com/
+  - title: iTunes
+    url: https://itunes.apple.com/us/podcast/dtugget/id1167375728
     class: itunes
-  - title: Eel Slap
-    url: http://eelslap.com/
+  - title: Soundcloud
+    url: https://soundcloud.com/dtugget/
     class: soundcloud

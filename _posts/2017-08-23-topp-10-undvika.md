@@ -3,7 +3,7 @@ title: "Topp 10 saker du bör undvika att göra på KTH"
 category: 17
 order: 5
 author: Marcus Heine
-hide: true
+hide: false
 ---
 
 Tjena nØllan! Allt väl? Kul att höra!
