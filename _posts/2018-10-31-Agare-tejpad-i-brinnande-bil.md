@@ -18,6 +18,6 @@ author: "Patric Lantz"
 Vi frågade honom även om han ser positivt på händelsen, men dessvärre fick vi inte mycket till svar så vi valde därför att ta ett annat av hans citat.
 > Jag har gjort dom röda ridåerna på Metaspexets hemsida!!!
 
-Den här "heroiska instantsen" har kopplats samman med en annan incident som skedde 22:a Oktober då en personbil fattade eld på en restaurang i centrala #Stockholm. Det visade sig vara exakt samma incident även fast dom skedde på olika datum med olika bilar och olika personer involverade.
+Den här "heroiska insatsen" har kopplats samman med en annan incident som skedde 22:a Oktober då en personbil fattade eld på en restaurang i centrala #Stockholm. Det visade sig vara exakt samma incident även fast dom skedde på olika datum med olika bilar och olika personer involverade.
 
 <img src="https://dbuggen.s3.amazonaws.com/nollfaktakoll2.png">
