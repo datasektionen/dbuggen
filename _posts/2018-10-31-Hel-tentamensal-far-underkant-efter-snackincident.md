@@ -1,5 +1,5 @@
 ---
-title: "Hel tentamensal från underkänt efter snackincident"
+title: "Hel tentamensal får underkänt efter snackincident"
 category: 28
 order: 8
 author: "Slobodan Soza"
