@@ -84,8 +84,7 @@ hide: false
   </article>
 
   <article>
-    <img src="http://i.imgur.com/866bcp2.jpg">
-    <h2>Shayan Effati / Konglig Öfverdrif</h2>
+    <h2>Shayan / Konglig Öfverdrif</h2>
   </article>
 
   <article>
@@ -146,18 +145,15 @@ hide: false
   </article>
 
   <h1>Mottagningen 2014</h1>
-  <img src="http://i.imgur.com/ZRaZUm8.jpg">
   <img src="http://i.imgur.com/07reqgY.jpg">
   <img src="http://i.imgur.com/VAcYGov.jpg">
   <img src="http://i.imgur.com/ITEFXHQ.jpg">
-  <img src="http://i.imgur.com/8ldWTgF.jpg">
   <img src="http://i.imgur.com/ZnrHqrL.jpg">
   <img src="http://i.imgur.com/yotxRQp.jpg">
   <img src="http://i.imgur.com/25DAlkt.jpg">
   <img src="http://i.imgur.com/jj9Wl4v.jpg">
   <img src="http://i.imgur.com/VG22vDt.jpg">
   <img src="http://i.imgur.com/e4xlQ6S.jpg">
-  <img src="http://i.imgur.com/cGVNBJE.jpg">
   <img src="http://i.imgur.com/gqOerxm.jpg">
   <img src="http://i.imgur.com/GCRvEaM.jpg">
   <img src="http://i.imgur.com/Sy8ahqV.jpg">
