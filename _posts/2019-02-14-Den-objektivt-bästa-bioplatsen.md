@@ -27,7 +27,7 @@ I praktiken kommer jag inte lurka utanför biografer utan i själva verket obser
 
 Nedan följer ett kort stycke väldigt diskret matematik som bevisar att resonemanget är korrekt:
 
-![bevis](https://imgur.com/7kEy60Q.png)
+<img class="svg" src="https://imgur.com/7kEy60Q.png">
 
 ### Avgränsningar
 
@@ -38,7 +38,7 @@ För att kunna jämföra platsköp vid biografer av olika form och layout kommer
 ## Resultat
 Efter att ha surfat in på _platsväljaren_ för samtliga filmvisningar, tre gånger om dagen i 91 dagar har en tillräcklig mängd data insamlats för att resultatet inte ska variera mer än 2% per 10% bortfall av godtycklig data. Sammanlagt har ca. 600'000 biljettköp observerats varav ungefär 125'000 av dessa från filmvisningar med mer än 80% lediga platser.
 
-![distribution](https://imgur.com/yKBezYX.png)
+<img class="svg" src="https://imgur.com/yKBezYX.png">
 
 Dessa två till synes kanske mystiska kurvor beskriver fördelningen av köpta platser i både _x- och y-led_; d.v.s. till höger/vänster respektive fram/bak i biografen. Diagrammets intervall sträcker sig från 0 till 1, där position (0, 0) motsvarar längst ned till vänster, närmast bioduken, och (1, 1) motsvarar högst upp till höger, längst bak i biografen.
 
@@ -46,7 +46,7 @@ Den blåa kurvan, som beskriver platsfördelningen parallellt med bioduken, visa
 
 För att bättre illustrera fördelningen på ett sätt som mer liknar den vy som en användare av Filmstadens platsväljare ser, så har båda fördelningsfunktionerna kombinerats för att skapa en najs heatmap: 🔥🗺️  
 
-![heatmap](https://imgur.com/eI79Znj.png)
+<img class="svg" src="https://imgur.com/eI79Znj.png">
 
 Detta diagram visar låg frekvens i en mörk blå ton, respektive mycket hög frekvens i en mörk röd ton. På motstående sida av diagrammets koordinataxlar visas motsvarande fördelningsfunktion. För att ge bilden lite mer sammanhang kan jag påpeka att bioduken alltså motsvaras av **x-axeln** i denna jämförelse.
 
