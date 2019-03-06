@@ -92,9 +92,4 @@ För er som vill få ut maximal njutning denna fetischdag så har [Albin](https:
 
 Grafen visar att man snabbt peakar på [Bullar och Bröd's](https://www.bullarochbrod.se/) semlor för att sedan bli helt förnedrad av Skabbens på tok för generiska och illa utformade semlor. Men mot slutet så går njutningen up mot en liten mini peak när man stoppar i sig Bibblan och 7-Elevens krämiga semlor.
 
-
-
 Vi på Redaqtionen vill önska vår lilla läsarbas en skön fetischdag! Se till å njut!
-
-<img class="svg" src="https://dbuggen.s3.amazonaws.com/fetisch-dbuggen/aron2.jpg"/>
-
