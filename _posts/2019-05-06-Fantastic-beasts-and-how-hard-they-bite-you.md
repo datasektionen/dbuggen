@@ -4,8 +4,6 @@ category: 31
 order: 2
 author: "Douglas Fischer"
 ---
-Fantastic beasts and how hard they bite you
-Douglas Fischer
 För ett par månader sedan så prokrastinerade jag hela min framtid som datatekniker genom att surfa på https://www.youtube.com. Där finns det många saker att se, bland annat så fanns det en serie som hette ”The sting zone”. Denna serie gick ut på att någon vildmarksgrabb iförd cowboy-hatt gick runt och blev stucken av olika insekter och grönsaker (se kaktusar). Ha, vilken idiot, tänkte jag. Tills jag såg hur mycket pengar han tjänade. Helt plötsligt så kände jag att hade jag en mening i livet. Men jag kunde ju inte gå runt och bli stucken av saker, så dum är ju inte jag, så jag beslöt mig för att gå runt och bli biten av olika varelser istället. 
 Med stelkrampssprutan i högsta hugg så begav jag mig ut i världen för att smaka på det riktiga livet, eller snarare för att livet skulle få smaka på mig. Redan innan jag lämnat mitt hem så fick jag uppleva mitt första bett, för jag hade klämt min trettiofjärde ryggkota i gallergrinden. Aj som fan, det gjorde ont, sade jag innan jag fortsatte ut. Under de senaste månaderna har flugit och farit över jorden och blivit biten av allt möjligt. Här är en ~~tabell~~ ~~lista~~ ~~array~~ sak som visar olika varelser och om det gjorde ont att bli biten eller inte.
 

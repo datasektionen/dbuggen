@@ -29,7 +29,7 @@ Kommentar: Hög poäng ges för hög acceleration. Osäker på hur detta ska bed
 ## Styrningsförmåga
 Poäng: 4/10
 
-Kommentar: Hög poäng ges för hög styrningsförmåga. Jag bedömer detta, precis som acceleration, att vara ganska svårbedömt. Men när man försöker manövrera omkring mellan alla 
+Kommentar: Hög poäng ges för hög styrningsförmåga. Jag bedömer detta, precis som acceleration, att vara ganska svårbedömt. Men när man försöker manövrera omkring mellan alla stressade studenter händer det ofta att stolbasen trasslar in sig och man måste be om förlåtelse.
 
 ## Amplitud
 Poäng: 3/10
