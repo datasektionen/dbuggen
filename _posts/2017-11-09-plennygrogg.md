@@ -2,7 +2,7 @@
 title: "Sprit med inslag av Plenny"
 category: 19
 order: 5
-author: Pontus Broberg
+author: Bellman Snickersson
 ---
 Vi gjorde två stycken drinkar för att se hur Plenny skulle smaka om man fick i sig lite alkohol också!
 

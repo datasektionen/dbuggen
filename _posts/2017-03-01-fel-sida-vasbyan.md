@@ -2,7 +2,7 @@
 title: "På fel sida Väsbyån"
 category: 12
 order: 3
-author: Pontus Broberg
+author: Bellman Snickersson
 ---
 
 Pendeltåget mot Märsta är tio minuter sent och plattform 15/16 på Stockholms Centralstation börjar fyllas på med allt fler och fler människor. Människor som efter en lång och hård arbetsdag börjar röra sig hemåt för att få sig en ledig stund men för mig har min arbetsdag bara börjat. Det har nämligen äntligen blivit dags för mig att åka på SLs 36e linje i ca 30 minuter för att till sist hamna i Upplands Väsby där jag ska få följa motorcykelgänget Dödskvartetten denna eftermiddag.

@@ -71,7 +71,7 @@ Efterhand så vande jag mig nästan helt till min nya diet. Jag har dock i efter
 Efter den första perioden av hunger mådde jag mycket bra, jag hade mycket energi och kände mig allround tipptopp. Precis innan experimentet avbröts mådde jag mycket bra, speciellt i tarmområdet. Min mage var i total harmoni, jag gick på toa en gång varannan dag och släppte väder kanske en gång per dygn. Det var en helt ny värld för mig som brukar vara ganska uppblåst och ha ont i magen.
 Efter veckan med Plenny shake var jag glad att få börja äta fast föda igen. Det jag tar med mig är att hur bra jag och min mage kändes. Jag har sedan dess vävt in Plenny shake i min kost och ser det som ett fullvärdigt alternativ till maten jag annars äter.
 
-# Pontus
+# Bellman
 
 Jag var ganska nervös när jag började. Jag visste att mottagningen var stressig nog och att jag egentligen inte behövde ännu ett stressmoment i min vardag. Å andra sidan såg jag fram emot testet för jag undrade verkligen hur min kropp skulle reagera på detta. Det jag var mest skeptisk mot var om det skulle vara gott eller inte. Jag kan direkt säga att vissa smaker faktiskt var goda, som till exempel jordgubb, choklad och banan. Tyvärr så var det konsistensen som verkligen sög. Jag har otroligt svårt för vissa typer av konsistenser och denna var en av dom. Pulvret löste sig inte riktigt i vattnet så varje klunk var mjölig och lite sträv. Jag känner ändå att jag blev mätt av en “måltid” men det höll inte i sig lika länge som en vanlig måltid kan jag tycka. Första dagen smakade jag bland annat vanilj och mango. Fy fan asså. Aldrig mer.
 

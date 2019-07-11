@@ -2,7 +2,7 @@
 title: "dbuggen skriver högskoleprovet pt2"
 category: 31
 order: 6
-author: "Pontus Broberg"
+author: "Bellman Snickersson"
 ---
 Juste, jag glömde skriva vilket resultat jag fick. 
 
