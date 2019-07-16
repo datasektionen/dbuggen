@@ -3,6 +3,8 @@ title: "Starka citat - Starkare resultat"
 category: 29
 order: 2
 author: "Zeus “🅱️icke” Abrahamsson"
+hide: true
+secret: true
 ---
 Genom världshistorien har pampiga uttryck och klipska citat varit något som gemene man hämtat kraft från och refererat till för att i de tuffaste stunderna ha en form av kompass i svårnavigerade situationer. Småstäders användande av slogans (som Jossan så nyanserat skrev om i [förra numret](https://dbu.gg/issues/28)) för att vända sin byhålas tristhet till något charmigt samt romarnas besatthet vid att föreviga sina med- och motgångar med [korta latinska konstateranden](https://sv.wikipedia.org/wiki/Veni_vidi_vici) är några exempel på historiska användningsområden, men frågan är om denna tendens nog ändå har kulminerat fullständigt nu under 2010-talet då man knappt kan besöka en taffligt inredd studentetta utan att ändå mötas av storslagna ordkombinationer på någon tavla i hörnet som är tänkta att ge lite vardagsinspiration. Då dbuggen är en tidskrift som ständigt strävar efter att vara i absolut samspel med samtidsandan så kändes det därmed fullt naturligt att ta till sig denna trend, slänga in den i den fullt lika populära träningstrenden och se lite vad som händer. Vad sker egentligen med träningsresultaten när man ger sig på ett flåsigt gympass med ett stärkande citat på tröjan?
 ## Tröja 1: “SAVE THE WORLD”
