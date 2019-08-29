@@ -9,3 +9,4 @@ images/
 *.sublime-workspace
 
 .jekyll-metadata
+.jekyll-cache
