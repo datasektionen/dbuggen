@@ -6,7 +6,7 @@ author: Emil Lindblom
 ---
 För att utvidga våra gastronomiska kunskaper valde vi att tillaga några traditionella rätter, ja cupcakes är traditionellt, fast med Vetemjöl utbytt mot Plenny-pulver. Det vi valde att tillaga var pannkakor, cupcakes och bröd. Nedan följer en högst subjektiv utvärdering av varje rätt med recept inkluderat.
 
-![](http://dbuggen.s3-eu-west-1.amazonaws.com/swejoy/måltid.jpg)
+<!--![](http://dbuggen.s3-eu-west-1.amazonaws.com/swejoy/måltid.jpg)-->
 
 # Pannkakor
 
