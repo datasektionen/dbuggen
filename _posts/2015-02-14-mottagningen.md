@@ -3,8 +3,7 @@ title: "Om mottagningen"
 category: 2
 author: Redaqtionen
 order: 1
-hide: true
-secret: true
+hide: false
 ---
 
 <style>
