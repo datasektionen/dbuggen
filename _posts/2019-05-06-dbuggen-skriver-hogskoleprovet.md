@@ -2,7 +2,7 @@
 title: "dbuggen skriver högskoleprovet"
 category: 31
 order: 1
-author: "Bellman Snickersson"
+author: "Pontus Broberg"
 ---
 14e April 2018 var en solig dag. Vårvärmen hade nyligen svept in över landet (läs Stockholm) och alla sveriges arbetslösa vaknade med dunderångest. Utanför Norra Reals Gymnasieskola stod jag och några hundra andra människor med Seven Eleven-kaffet i handen och en enorm gul klump gomorron i ögongipan(?). Denna dag var det nämligen dags för Högskoleprovet och jag och min kollega, redaqtör Emil hade anmält oss. 
 

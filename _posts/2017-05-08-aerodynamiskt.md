@@ -11,11 +11,11 @@ Grupp 15 beta på dbuggens institut för forskning och felsteg har i linje med d
 *Metod:*  
 Häftet rivs på mitten när vindtunnelmekaniker Steffe tittar lite argt på det. Det som nu är Gymnasiematte i konfettiform läggs i en prydlig hög på golvet i det kalla cylindriska stålvalv som är vindtunneln. ”Såja, smäll på skiten nu” säger överste felstegsmakare Sofia von Schnittzheimen i sin vita labbrock.  
 *Resultat:*  
-Pappret tumlar runt som snöflingor i en upptjackad snöglob. ”Fint”, tycker Bellman.
+Pappret tumlar runt som snöflingor i en upptjackad snöglob. ”Fint”, tycker Pontus.
 
 **Exemplar 2:** Discrete Mathematics från kurs SF1688 Diskret matematik  
 *Metod:*  
-Då boken nog är för tung för att lyfta från marken så ska den kastas in när vinden är igång. ”Heuristic solutions!” skriker SchnussHampfen och börjar rita word clouds på väggen. ”Fint”, tycker Bellman.  
+Då boken nog är för tung för att lyfta från marken så ska den kastas in när vinden är igång. ”Heuristic solutions!” skriker SchnussHampfen och börjar rita word clouds på väggen. ”Fint”, tycker Pontus.  
 *Resultat:*  
 När Schaffholter langar in den där jäveln får den världens flipp och hugger en prao-elev på mitten.
 
@@ -23,7 +23,7 @@ När Schaffholter langar in den där jäveln får den världens flipp och hugger
 *Metod:*  
 Shit vad synd med hon prao-eleven alltså men vi kör på samma grej igen. Sniffpilfen är snart klar med word cloudet med fräscha ledord, ”Big data” suckar hon och börjar pilla på en golvplatta.  
 *Resultat:*  
-Stiltzpiltzen bryter 3 ryggkotor när hon till slut plockar upp boken. ”Ajfan” säger hon och tappar boken som får världens flipp och hugger ena halvan av prao-eleven på mitten. Skakandes lägger hon till binärsökning i wordcloudet och dör sedan på fläcken. ”Fint” tycker Bellman.
+Stiltzpiltzen bryter 3 ryggkotor när hon till slut plockar upp boken. ”Ajfan” säger hon och tappar boken som får världens flipp och hugger ena halvan av prao-eleven på mitten. Skakandes lägger hon till binärsökning i wordcloudet och dör sedan på fläcken. ”Fint” tycker pontus.
 
 *Slutsats:*  
 TODO//Stiffschnitzel

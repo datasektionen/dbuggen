@@ -2,7 +2,7 @@
 title: "Koffeinpanelens drivkraft - Genesis"
 category: 25
 order: 3
-author: "Zeus Nybryggd"
+author: "Micke Nybryggd"
 ---
 
 Det har nog inte undgått någon att artikeln som satte ord på en hel generations känslor och gjorde ett starkt avtryck på dbuggens och Osqledarens journalism, [kaffedbuggen](http://dbu.gg/issues/13), publicerades för ungefär 394 dagar sedan. Betydelsen av dess innehåll går inte att överdriva: Facebookinlägg lajkades, den svarta brygden flödade och [Pressbyrån genomförde en omfattande renovering](https://www.instagram.com/p/Ba6NI_XgczF/?taken-by=dbuggen) efter Koffeinpanelens jämförelse mellan dess kaffemaskin och en båtmotor. Jag talar nog för oss alla när jag säger att kaffedbuggen förde oss en och annan kaffekopp närmare meningen med livet.

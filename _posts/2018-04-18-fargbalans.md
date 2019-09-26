@@ -22,7 +22,7 @@ All denna tumult var dock inte helt förgäves för redaqtionen hade nu nått en
 När vi skapade formuläret för studien mötte vi ett till problem. Under vårt långa bråk insåg vi att de omgivande färgerna påverkade våra uppfattningar väldigt mycket, så vilken färg skulle vi omringa färgen med i frågeformuläret?
 Eftersom olika färgkombinationer skapar olika starka kontraster som i sin tur påverkar vad ögat registrerar **[disclaimer: jag är inte ögonforskare]** så resonerade vi att _100% kontrast_ skulle påverka uppfattningen minst **[disclaimer: jag är inte kontrastforskare.]**
 
-Denna kontrast uppnåddes genom att invertera färgen, men du kan inte tro vad som hände sen. Det visade sig att färgens invers var minst lika svår för oss att avgöra. Denna gång blev det inga bråk, men ingen kunde bestämma sig för vad de tyckte heller. Legenden säger att Bellman fortfarande funderar. Den blålila färgen från innan var _Yin_ och denna nya gulgröna färg var _Yang_. Därför passade vi på att fråga våra läsare om båda och slå två flugor i en sten.
+Denna kontrast uppnåddes genom att invertera färgen, men du kan inte tro vad som hände sen. Det visade sig att färgens invers var minst lika svår för oss att avgöra. Denna gång blev det inga bråk, men ingen kunde bestämma sig för vad de tyckte heller. Legenden säger att Pontus fortfarande funderar. Den blålila färgen från innan var _Yin_ och denna nya gulgröna färg var _Yang_. Därför passade vi på att fråga våra läsare om båda och slå två flugor i en sten.
 
 <img src="https://imgur.com/zu8l3JC.gif">
 
