@@ -2,9 +2,9 @@
 title: "Spännande tankar"
 category: 21
 order: 7
-author: Bellman Snickersson
+author: Pontus Broberg
 ---
-Här kommer en samling tankar som jag, Bellman Karin Snickersson IV, tycker är spännande. En djupdykning i intressanta frågor som jag ställt mig själv helt enkelt. För fler spännande tankar kan du alltid fråga mig vad som helst.
+Här kommer en samling tankar som jag, Pontus Karin Broberg IV, tycker är spännande. En djupdykning i intressanta frågor som jag ställt mig själv helt enkelt. För fler spännande tankar kan du alltid fråga mig vad som helst.
 
 **Damm**  
 Jävligt spännande fenomen ändå. Liksom vad är damm ens? Det är så kul att studera damm, det bara ligger där på golvet i stora bollar. Det väger typ ingenting heller, så fort jag går förbi den där stora gråa bollen bredvid mitt köksbord så flyttar den sig några centimeter. Haha, såå coolt. Har ni sett, förresten, när solen lyser in genom fönstret och man ser massa små grejer som rör sig i ljuset. Det är faktiskt inte solstrålepartiklar fick jag veta nyligen, det är damm. Så sjukt coolt, jag som alltid trott att damm bara låg på golvet när det egentligen typ flyger omkring i rummet. Jag undrar hur det flyger omkring, jag är så himla fascinerad av damm. Jag funderar på att börja forska om var damm kommer ifrån, undrar om det finns någon som vet.

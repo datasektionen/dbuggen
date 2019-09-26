@@ -2,7 +2,7 @@
 title: "Horoskop med MWUANA"
 category: 31
 order: 4
-author: "Juarez Gonzales"
+author: "Joar Rutqvist"
 ---
 MWUANA gästar astrologihörnan och ger goda råd för just dig det kommande månvarvet.
 
