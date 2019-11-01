@@ -2,7 +2,7 @@
 title: "En guide till väntetiderna vid Bergshamratuben"
 category: 32
 order: 4
-author: "Mikeal Forsmark"
+author: "Mikael Forsmark"
 ---
 
 *Nog har vi alla varit där. Planlöst spatserat i riktning mot tunnelbanan och fått syn på de uråldriga och pixliga skyltarnas dom - 2 minuter till nästa tunnelbana. “Perfekt 👌” tänker du, ställer dig slött i rulltrappan och tar fram mobilen för att få den där extra minuten skärmtid som ditt undermedvetna tycks tycka att du behöver. Färden ner för rulltrappan tar slut, du stoppar ner mobilen i fickan bara för att mötas av det skräniga och dissonanta lätet som bara kan betyda en sak - Tunnelbanans dörrar stängs och rätt som det är så rullar tåget bort tillsammans med ditt hopp att komma i tid för en gång skull. Hur kunde det ske ännu en gång?*

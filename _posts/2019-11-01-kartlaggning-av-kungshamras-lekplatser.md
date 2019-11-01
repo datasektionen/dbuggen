@@ -2,7 +2,7 @@
 title: "Kartläggning av Kungshamras lekplatser"
 category: 32
 order: 5
-author: "Wiliam Agnér"
+author: "William Agnér"
 ---
 
 I SSSBs studentområde Kungshamra bor det utan tvekan mycket studenter, vilket präglas av sena efterfester, nattligt micropoppande samt Arons löprundor. En samhällsgrupp som tycks falla i glömska i Kungshamra är barnen. Därför har dbuggen, som de nobla samhällskämpar vi är, bestämt sig för att göra en djupdykande undersökning i just barnens favoritlek…..lek. Lek är viktigt för ett barns mentala utveckling (läs frundheimerutredningen från förra veckan), och den optimala platsen att vistas för att utföra lek är ju givetvis en lekpark. Vem kan glömma gångerna man satt och beräknade cosinusvärdet för den vänstra järnstången i gungmojängen när man tappert försökte att få gungan att gå i omloppsbana runt gungställningen, eller då Albin släppte en hink med sand i huvudet på mig på dagis, dra åt helvete Albin. Men vad fanken väntar vi på. På med snorkeln och syrgastuben, för nu rackarns rödbetor i min resväska ska vi djupdyka.
