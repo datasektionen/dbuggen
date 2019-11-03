@@ -1,7 +1,7 @@
 ---
 title: "Hur många skivor finns det på en gurka?"
 category: 32
-order: 1
+order: 2
 author: "Dr. Gürken"
 ---
 
