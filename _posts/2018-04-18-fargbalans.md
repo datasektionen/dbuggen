@@ -5,7 +5,7 @@ order: 1
 author: Albin Remnestål
 ---
 
-För ungefär tre veckor sedan när omtentornas tunga skugga började lägga sig över campus och alla flitiga studenter började vässa sina pennor, bläddra i sina böcker och lära sig innantill; började redaqtionen prokrastinera på allvar. I denna kreativitetens och intellektets hotspot föddes en av de kanske viktigaste frågorna som denna tidskrift någonsin undersökt, i klass med _[livets fråga](http://dbu.gg/livets-fraga/)_ som svarades så sent som i höstas. **Så vad är det för fråga?**
+För ungefär tre veckor sedan när omtentornas tunga skugga började lägga sig över campus och alla flitiga studenter började vässa sina pennor, bläddra i sina böcker och lära sig innantill; började redaqtionen prokrastinera på allvar. I denna kreativitetens och intellektets hotspot föddes en av de kanske viktigaste frågorna som denna tidskrift någonsin undersökt, i klass med _[livets fråga](https://dbu.gg/livets-fraga/)_ som svarades så sent som i höstas. **Så vad är det för fråga?**
 
 Jo du kära läsare, det ska jag berätta.
 
@@ -17,7 +17,7 @@ Konflikten var total och orden flög som pilar över rummet. Banderiljärerna bl
 
 Efter ett tag hade vi glömt vad vi bråkade om och kastade våra vapen till marken. Hur kunde det blivit så här? META var förstört. Alla hade vi sagt oförlåtliga saker om varandra och ingen var längre säker på vilken färg de tyckte att det var. Åren gick och lugnet infann sig återigen i lokalen och redaqtionen fick tillbaka sitt karaktärstypiska förnuft och besinning. Men färgen blev aldrig bortglömd.
 
-All denna tumult var dock inte helt förgäves för redaqtionen hade nu nått en avgörande insikt. Precis som en klok läsare senare skulle belysa i en kommentar på Facebook var detta alltså en **definitionsfråga!** Alltså inte en... redan-ett-faktumfråga? Vaghetsfråga? Aja skitsamma, för att svara på denna fråga räckte inte 4 tvivelaktiva redaqtörers kombinerade deduktionsförmåga (försök säga det snabbt 10 gånger) utan vi var ju såklart tvungna att vända oss till vår kära läsarbas som är, om än _[mycket, mycket liten](http://osqledaren.se/artikel/dbuggen-tar-over-osqledaren)_, sprängfylld med starka åsikter. Enda sättet att få svar på denna fråga är om dbuggens läsare når konsensus.
+All denna tumult var dock inte helt förgäves för redaqtionen hade nu nått en avgörande insikt. Precis som en klok läsare senare skulle belysa i en kommentar på Facebook var detta alltså en **definitionsfråga!** Alltså inte en... redan-ett-faktumfråga? Vaghetsfråga? Aja skitsamma, för att svara på denna fråga räckte inte 4 tvivelaktiva redaqtörers kombinerade deduktionsförmåga (försök säga det snabbt 10 gånger) utan vi var ju såklart tvungna att vända oss till vår kära läsarbas som är, om än _[mycket, mycket liten](https://osqledaren.se/artikel/dbuggen-tar-over-osqledaren)_, sprängfylld med starka åsikter. Enda sättet att få svar på denna fråga är om dbuggens läsare når konsensus.
 
 När vi skapade formuläret för studien mötte vi ett till problem. Under vårt långa bråk insåg vi att de omgivande färgerna påverkade våra uppfattningar väldigt mycket, så vilken färg skulle vi omringa färgen med i frågeformuläret?
 Eftersom olika färgkombinationer skapar olika starka kontraster som i sin tur påverkar vad ögat registrerar **[disclaimer: jag är inte ögonforskare]** så resonerade vi att _100% kontrast_ skulle påverka uppfattningen minst **[disclaimer: jag är inte kontrastforskare.]**

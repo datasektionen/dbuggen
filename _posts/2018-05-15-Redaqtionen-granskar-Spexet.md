@@ -134,4 +134,4 @@ Spox?
 
 Wow, vilken resa vi gjorde med alla spuxande spixisar. Vi ser väldigt mycket fram emot att kolla på spexet under föreställningshelgen!
 
-Se till att köpa biljetter till det absolut bästa spexet på hela KTH [här](http://metaspexet.datasektionen.se/butik/)!
+Se till att köpa biljetter till det absolut bästa spexet på hela KTH [här](https://metaspexet.datasektionen.se/butik/)!

@@ -6,7 +6,7 @@ author: Emil Lindblom
 ---
 För att utvidga våra gastronomiska kunskaper valde vi att tillaga några traditionella rätter, ja cupcakes är traditionellt, fast med Vetemjöl utbytt mot Plenny-pulver. Det vi valde att tillaga var pannkakor, cupcakes och bröd. Nedan följer en högst subjektiv utvärdering av varje rätt med recept inkluderat.
 
-<!--![](http://dbuggen.s3-eu-west-1.amazonaws.com/swejoy/måltid.jpg)-->
+<!--![](https://dbuggen.s3-eu-west-1.amazonaws.com/swejoy/måltid.jpg)-->
 
 # Pannkakor
 
@@ -18,7 +18,7 @@ För att utvidga våra gastronomiska kunskaper valde vi att tillaga några tradi
 - 3 ägg
 - 3 msk smält smör
 
-![](http://dbuggen.s3-eu-west-1.amazonaws.com/swejoy/pannkaka.jpg)
+![](https://dbuggen.s3-eu-west-1.amazonaws.com/swejoy/pannkaka.jpg)
 
 Det självklara valet. Det enkla valet. Att steka pannkakor är något alla kan, eller ja alltså på riktigt du bör fan kunna. Jag valde att inkludera en länk till receptet om du mot förmodan inte vet vad du ska göra med alla ingredienser men ärligt alltså... Att steka **dessa** pannkakor däremot, det får Dark Souls att likna något din treåring skulle klara av. Hela pannkaksstekningen började med en skrattfest mot att redaktör Pontus inte kunde vända en pannkaka men herrejävlar vilken pärs det var att steka denna blandning från helvetet. Det är högst oklart hur många pannkakor det blev och det är högst oklart om det ens är rimligt att kalla dem något annat än en röra. Vid en enstaka stekning lyckades jag med den till synes omöjliga uppgiften att hålla en pannkaka i en del, värt att nämna är dock att pannkakan var så nära trasig det går att komma utan att faktiskt bli trasig.
 
@@ -46,7 +46,7 @@ Angående hur det faktiskt smakade så kan vi lämna det vid att även om stekni
 
 - 0.5 st ägg
 
-![](http://dbuggen.s3-eu-west-1.amazonaws.com/swejoy/batch1.jpg)
+![](https://dbuggen.s3-eu-west-1.amazonaws.com/swejoy/batch1.jpg)
 
 **Batch 2:**
 
@@ -62,7 +62,7 @@ Angående hur det faktiskt smakade så kan vi lämna det vid att även om stekni
 
 - 0.5 st ägg
 
-![](http://dbuggen.s3-eu-west-1.amazonaws.com/swejoy/batch2.jpg)
+![](https://dbuggen.s3-eu-west-1.amazonaws.com/swejoy/batch2.jpg)
 
 Att baka bröd är sjukt underskattat. Enkelheten i hur man kan baka färskt och riktigt nice bröd är slående. Jag har inte bakat bröd sedan typ mellanstadiet men lär göra det igen någon gång efter detta. Någonting vi fort märkte var att Plenny har en tendens att inte jäsa speciellt bra, typ exakt ingenting.
 
@@ -98,9 +98,9 @@ Batch 2: 5/7
 - 5 msk florsocker
 - 0.5 flaska Gul karamellfärg
 
-![](http://dbuggen.s3-eu-west-1.amazonaws.com/swejoy/cupcakes.jpg)
+![](https://dbuggen.s3-eu-west-1.amazonaws.com/swejoy/cupcakes.jpg)
 
 Cupcakes. Möjligheterna är oändliga. Man kan i princip skapa vad som helst med dessa bakelser från himmelen. Frostingen här är pricken över i:et, grädden på moset, den heliga graalen. Det allra viktigaste är  karamellfärgen som ger den sin riktigt goda kemiska smak. När du blandat färdigt frostingen märker du säkert att den är fett keff, då häller du i smält smör tills den får en någorlunda hyfsad konsistens. Du vet hur vanliga muffins ser ut? Så där fluffiga och fina? Typ så ska ju cupcakes se ut. Dessa cupcakes kommer inte att se ut så. Alltså cupcakes är ju lite att glorifiera dessa plattor vi framställde. Jag skyller egentligen på muffinsformarna som inte pallade trycket. All bullshit aside though, de smakade verkligen fantastiskt.
 
-**Summa summarum:**   
+**Summa summarum:**
 6/7 (ett minus för muffinsformarna)

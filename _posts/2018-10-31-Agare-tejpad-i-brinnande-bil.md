@@ -9,7 +9,7 @@ author: "Patric Lantz"
 
 <img src="https://dbuggen.s3.amazonaws.com/nollfaktakoll.png">
 
-[dbuggen](http://dbu.gg) försökte nå ut till [@nollfaktakoll](https://twitter.com/nollfaktakoll/), men detta visade sig vara svårt då ägaren till kontot var okänt. Men efter mycket research så fick vi reda på att det var vår alldeles egna redaqtör Albin Remnestål som har hand om kontot. dbuggen nådde ut till Albin för en kommentar:
+[dbuggen](https://dbu.gg) försökte nå ut till [@nollfaktakoll](https://twitter.com/nollfaktakoll/), men detta visade sig vara svårt då ägaren till kontot var okänt. Men efter mycket research så fick vi reda på att det var vår alldeles egna redaqtör Albin Remnestål som har hand om kontot. dbuggen nådde ut till Albin för en kommentar:
 
 >Haha shit
 
