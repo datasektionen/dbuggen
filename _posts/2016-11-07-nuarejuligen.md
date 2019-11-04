@@ -14,7 +14,7 @@ Detta är faktiskt dags, typ nu, särskilt om du vill beställa från nätet. F�
 
 
 __Pyssel + Gran + Julbelysning__.
-För min del är detta redan spikat, då jag brukar släpa fram pyntet i samband med att julmust brukar dyka upp i butikerna (lite mer kött på benen vad gäller julmust kan fås i <a href="http://dbu.gg/julmust/">dbuggens uttömmande test</a>). Stöp egna ljus, gör ett pepparkakshus (eller husvagn) eller fixa super special custom pynt till granis.
+För min del är detta redan spikat, då jag brukar släpa fram pyntet i samband med att julmust brukar dyka upp i butikerna (lite mer kött på benen vad gäller julmust kan fås i <a href="https://dbu.gg/julmust/">dbuggens uttömmande test</a>). Stöp egna ljus, gör ett pepparkakshus (eller husvagn) eller fixa super special custom pynt till granis.
 
 
 __(Lill-jul + Secret Santa)__.

@@ -13,7 +13,7 @@ Karl Hungus mathörna **Koriander & Hummus** presenterar stolt det första recep
 
 ## Hungus Fungus
 
-![](http://i.imgur.com/3m32S3C.jpg)
+![](https://i.imgur.com/3m32S3C.jpg)
 
 <p class="center subtitle">
   <i>(hemskt ledsen för avsaknaden av fungus på bilden. och ja, jag suger som matfotograf)</i>

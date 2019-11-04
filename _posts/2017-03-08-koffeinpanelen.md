@@ -3,12 +3,12 @@ title: "Mm, det luktar någonting... Det är inte bensin, men typ"
 category: 13
 order: 1
 author: Mikael Forsmark
-s3: "http://dbuggen.s3-eu-west-1.amazonaws.com/kaffe"
+s3: "https://dbuggen.s3-eu-west-1.amazonaws.com/kaffe"
 ---
 
 ## dbuggen har testat Campus Valhallavägens kaffeställen.
 
-![](http://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/bild1.jpg)
+![](https://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/bild1.jpg)
 
 **Tentor, labbar, CSN. När en KTH-student börjar tala ut om sin nervsprättande vardag är det lätt för utomstående att börja spekulera i vad för substanser som ger studenter 750 liv. Är det bensin, kokain, bloddoping? I vissa fall är det säkert en kombination av ovanstående, men något som med säkerhet håller KTH-students hjärnmaskineri relativt rostfritt är brygden från Etiopiens buskland - Kaffe.**
 
@@ -25,14 +25,14 @@ Då Samuel var tvungen att vika av efter halva testmomentet presenteras kaffets 
 _Tre kända kaffeställen är inte med i dbuggens granskning. Restaurang Q var stängt vid tidpunkten för granskningen, Stories i KTH:s bibliotek hade slut på kaffe till panelens stora förtret och Brazilia förtjänar inte riktigt att vara med._
 
 --------
-<!--![](http://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/bild2.jpg)-->
+<!--![](https://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/bild2.jpg)-->
 
 ## Open Café
 
-**Vad:** Ekologiskt kaffe, Indonesia  
-**Pris:** 20kr med studentrabatt (annars 25kr)  
-**Serverad i:** Vit porslinkopp  
-**Betyg:** 61,7% bra  
+**Vad:** Ekologiskt kaffe, Indonesia
+**Pris:** 20kr med studentrabatt (annars 25kr)
+**Serverad i:** Vit porslinkopp
+**Betyg:** 61,7% bra
 **Kommentar:** _Smakupplevelsen_ var något som uppskattades av hela panelen med höga betyg rakt igenom, "Jag tycker att kaffet är väldigt solid" menade Pontus som fick medhåll från Aron. "Väldigt gott faktiskt", löd hans professionella åsikt.
 
 <div>
@@ -59,12 +59,12 @@ _Tre kända kaffeställen är inte med i dbuggens granskning. Restaurang Q var s
 
 ## THS Café
 
-<img class="svg kaffe espresso-house" src="http://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/billigast.svg">
+<img class="svg kaffe espresso-house" src="https://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/billigast.svg">
 
-**Vad:** Bryggkaffe  
-**Pris:** 10kr med studentrabatt, 9kr med kaffekort, (annars 15kr)  
-**Serverad i:** Vit porslinkopp  
-**Betyg:** 66,7% bra  
+**Vad:** Bryggkaffe
+**Pris:** 10kr med studentrabatt, 9kr med kaffekort, (annars 15kr)
+**Serverad i:** Vit porslinkopp
+**Betyg:** 66,7% bra
 **Kommentar:** _Smaken_ upplevdes som något mer ljummen jämfört med Open Café. "Inte alls lika komplex i smaken som Open Café, på gott och på ont. Levererar dock det man vill ha - Koffeinkick" menade Micke, en åsikt som delades av Pontus: "Det smakar gott, men smakar inte lika gott som Open Café. Det är nära, bra smak". "Det är ju ett helt annat fokus än Open Café. Skarpare" stämde Martin in medan Aron inte var imponerad. "Det smakar inte jättemycket, det smakar mest varmt vatten" menade han.
 
 <div>
@@ -89,12 +89,12 @@ Om temperaturen splittrade panelen så slöts alla samman med hyllningar kring k
 
 ## Espresso House
 
-<img class="svg kaffe espresso-house" src="http://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/best.svg">
+<img class="svg kaffe espresso-house" src="https://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/best.svg">
 
-**Vad:** SPB Gathaiti samt San Lorenzo  
-**Pris:** 33kr respektive 28kr  
-**Serverad i:** Vit porslinkopp  
-**Betyg:** SPB Gathaiti: 61,8% bra. San Lorenzo: 71% bra.  
+**Vad:** SPB Gathaiti samt San Lorenzo
+**Pris:** 33kr respektive 28kr
+**Serverad i:** Vit porslinkopp
+**Betyg:** SPB Gathaiti: 61,8% bra. San Lorenzo: 71% bra.
 **Kommentar:** Då det här fanns två varianter på bryggkaffe så beställdes givetvis båda in för det journalistiska värdets skull.
 
 <div>
@@ -120,16 +120,16 @@ Avslutningsvis diskuterades kaffetyperna _priser_, där de fina smakupplevelsern
 
 --------
 
-![](http://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/samuel.gif)
+![](https://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/samuel.gif)
 
 ## Pressbyrån
 
-<img class="svg kaffe espresso-house" src="http://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/sämst.svg">
+<img class="svg kaffe espresso-house" src="https://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/sämst.svg">
 
-**Vad:** Maskinkaffe  
-**Pris:** 10kr med studentrabatt  
-**Serverad i:** Takeaway-mugg  
-**Betyg:** 49,6% bra  
+**Vad:** Maskinkaffe
+**Pris:** 10kr med studentrabatt
+**Serverad i:** Takeaway-mugg
+**Betyg:** 49,6% bra
 **Kommentar:** Det famösa Pressbyrånkaffets rykte hade nått panelens öron sedan innan, och här visade det sig att panelen hade mött sin nemesis. Det var inga lovord som ljöd kring _smaken_. "Aah, nä, nä, nä. Smakar lite bränd bulle" menade Aron samtidigt som Martin fann kaffets bismak besvärande: "Väldigt bäskt. Hänger kvar i munnen" suckade han.
 
 <div>
@@ -153,14 +153,14 @@ Med all denna tragik i bagaget kom dock _temperaturen_ att värdesättas högre.
 
 ----------------------
 
-<img class="no-crop" src="http://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/bild6.jpg" alt="">
+<img class="no-crop" src="https://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/bild6.jpg" alt="">
 
 ## 7-eleven
 
-**Vad:** Bryggkaffe  
-**Pris:** 10kr med studentrabatt  
-**Serverad i:** Takeaway-mugg  
-**Betyg:** 59,4% bra  
+**Vad:** Bryggkaffe
+**Pris:** 10kr med studentrabatt
+**Serverad i:** Takeaway-mugg
+**Betyg:** 59,4% bra
 **Kommentar:** Detta kaffeställe som ofta beskrivs som Pressbyråns antagonist kom att gå segrande ur den kampen. Panelen fann kaffets _smak_ som någorlunda acceptabelt. "Jag har druckit det här mycket, känner mig bekväm i smaken. Bekant, men inte jättegod" filosoferade Martin och fick medhåll från Pontus. "Så medelmåtta det kan bli. Det är lite äckligt, men ändå kaffe" menade han.
 
 <div>
@@ -180,14 +180,14 @@ Därmed kom återigen kaffets _temperatur_ att rädda det totala betyget. "Värm
 
 ---------
 
-![](http://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/bild7.jpg)
+![](https://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/bild7.jpg)
 
 ## META
 
-**Vad:** Bryggkaffe  
-**Pris:** Helt j\*vla gratis  
-**Serverad i:** Vit porslinkopp direkt ur micron  
-**Betyg:** 59,4% bra  
+**Vad:** Bryggkaffe
+**Pris:** Helt j\*vla gratis
+**Serverad i:** Vit porslinkopp direkt ur micron
+**Betyg:** 59,4% bra
 **Kommentar:** Avslutningsvis besöktes Data och Medias kära sektionslokal META, vars kaffebryggare har kämpat väl i generationer. Detta speglade av sig i omdömena kring _smaken_, där klagomål kring smaken varvades med sentimentala utspel. "Jag har haft ynnesten att konsummera den här brygden i tre år, och det smakar dåligt avkalkad maskin. Fränt" berättade Micke medan Martin jämförde smakupplevelsen med en klassisk baksmälla. "Det är inte gott, en äcklig bäska hänger kvar ett tag. Man kan dränka det med en ny klunk, men man skjuter bara upp problemen" suckade han medan kvällens sjunde kopp uppenbarligen började spegla av sig i Arons sinnesstämning. "Jag börjar överväga att det är något fel med mina smaklökar. Jag tänker på potatismos i högstadiet, riktigt dålig mat som ger ångest. Ändå oddly addictive, man kan inte sluta dricka" svamlade han.
 
 <div>
@@ -211,7 +211,7 @@ Föga förvånande kom _priset_ att hyllas stort. "Helt gratis!" jublade Martin 
 
 -----------------
 
-![](http://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/bild8.jpg)
+![](https://dbuggen.s3-eu-west-1.amazonaws.com/kaffe/bild8.jpg)
 
 ## Avslutande ord
 **Bästa kaffet** på Campus Valhallavägen är alltså _San Lorenzo_ från Espresso House, som trots sitt pris vägdes upp av dess heltäckande upplevelse, tätt följd av _THS Cafés_ bryggkaffe. Detta kaffe kom således att bli Campus **prisvärdaste kaffet** då det även var det billigaste kaffet.

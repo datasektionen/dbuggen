@@ -40,7 +40,7 @@ secret: true
 
   <header>
     <h1 style="font-size: 4.5vw;">
-      <a href="http://datasektionen.se/mottagningen/janifattar">SÖK MOTTAGNINGEN!</a>
+      <a href="https://datasektionen.se/mottagningen/janifattar">SÖK MOTTAGNINGEN!</a>
     </h1>
   </header>
 
@@ -57,7 +57,7 @@ secret: true
     </p>
     <p>
       Du söker på den här så kallade "hyperlänken" som är precis här nedanför:
-    <a href="http://datasektionen.se/mottagningen/janifattar">datasektionen.se/mottagningen/janifattar</a>
+    <a href="https://datasektionen.se/mottagningen/janifattar">datasektionen.se/mottagningen/janifattar</a>
     </p>
     <p>
       Vi ses på intervju!
@@ -76,7 +76,7 @@ secret: true
    </article>
 
    <article>
-     <img src="http://i.imgur.com/kfh1ifI.jpg">
+     <img src="https://i.imgur.com/kfh1ifI.jpg">
      <h2>Björn Englesson / Storebror</h2>
    </article>
 
@@ -93,14 +93,14 @@ secret: true
   </article>
 
   <article>
-    <img src="http://i.imgur.com/0jOQgGx.jpg">
+    <img src="https://i.imgur.com/0jOQgGx.jpg">
     <h2>Agnes Åman / Lillasyster</h2>
   </article>
 
   <article><p><q>#GÖREBAAHHH</q></p></article>
 
   <article>
-    <img src="http://i.imgur.com/dprMmzl.jpg">
+    <img src="https://i.imgur.com/dprMmzl.jpg">
     <h2>Eric Blomquist / Konglig Indrif</h2>
   </article>
 
@@ -109,7 +109,7 @@ secret: true
   </article>
 
   <article>
-    <img src="http://i.imgur.com/Vg1ZBk7.jpg">
+    <img src="https://i.imgur.com/Vg1ZBk7.jpg">
     <h2>Henry Eklind / lil' B</h2>
   </article>
 
@@ -118,7 +118,7 @@ secret: true
   </article>
 
   <article>
-    <img src="http://i.imgur.com/syDgOmB.jpg">
+    <img src="https://i.imgur.com/syDgOmB.jpg">
     <h2>Hanna Nyblom / Konglig Direktifdrif</h2>
   </article>
 
@@ -128,7 +128,7 @@ secret: true
   </article>
 
   <article>
-    <img src="http://i.imgur.com/31Xqucu.jpg">
+    <img src="https://i.imgur.com/31Xqucu.jpg">
     <h2>Per Hellström / Mamma</h2>
   </article>
 
@@ -137,7 +137,7 @@ secret: true
   </article>
 
   <article>
-    <img src="http://i.imgur.com/BWy3weR.jpg">
+    <img src="https://i.imgur.com/BWy3weR.jpg">
     <h2>Jesper Bränn / Samdoquise</h2>
   </article>
 
@@ -146,36 +146,36 @@ secret: true
   </article>
 
   <h1>Mottagningen 2014</h1>
-  <img src="http://i.imgur.com/07reqgY.jpg">
-  <img src="http://i.imgur.com/VAcYGov.jpg">
-  <img src="http://i.imgur.com/ITEFXHQ.jpg">
-  <img src="http://i.imgur.com/ZnrHqrL.jpg">
-  <img src="http://i.imgur.com/yotxRQp.jpg">
-  <img src="http://i.imgur.com/25DAlkt.jpg">
-  <img src="http://i.imgur.com/jj9Wl4v.jpg">
-  <img src="http://i.imgur.com/VG22vDt.jpg">
-  <img src="http://i.imgur.com/e4xlQ6S.jpg">
-  <img src="http://i.imgur.com/gqOerxm.jpg">
-  <img src="http://i.imgur.com/GCRvEaM.jpg">
-  <img src="http://i.imgur.com/Sy8ahqV.jpg">
-  <img src="http://i.imgur.com/DmCppHG.jpg">
-  <img src="http://i.imgur.com/YjRXlyY.jpg">
-  <img src="http://i.imgur.com/YYzcx3w.jpg">
-  <img src="http://i.imgur.com/CFvxUHz.jpg">
-  <img src="http://i.imgur.com/y3a2Znq.jpg">
-  <img src="http://i.imgur.com/fqatN3r.jpg">
-  <img src="http://i.imgur.com/uUwvEot.jpg">
-  <img src="http://i.imgur.com/StbWb0H.jpg">
-  <img src="http://i.imgur.com/P8PX5Mj.jpg">
-  <img src="http://i.imgur.com/yCEltPp.jpg">
-  <img src="http://i.imgur.com/lwSi21b.jpg">
-  <img src="http://i.imgur.com/171USeW.jpg">
-  <img src="http://i.imgur.com/AxMtLMo.jpg">
-  <img src="http://i.imgur.com/GPfXw0a.jpg">
+  <img src="https://i.imgur.com/07reqgY.jpg">
+  <img src="https://i.imgur.com/VAcYGov.jpg">
+  <img src="https://i.imgur.com/ITEFXHQ.jpg">
+  <img src="https://i.imgur.com/ZnrHqrL.jpg">
+  <img src="https://i.imgur.com/yotxRQp.jpg">
+  <img src="https://i.imgur.com/25DAlkt.jpg">
+  <img src="https://i.imgur.com/jj9Wl4v.jpg">
+  <img src="https://i.imgur.com/VG22vDt.jpg">
+  <img src="https://i.imgur.com/e4xlQ6S.jpg">
+  <img src="https://i.imgur.com/gqOerxm.jpg">
+  <img src="https://i.imgur.com/GCRvEaM.jpg">
+  <img src="https://i.imgur.com/Sy8ahqV.jpg">
+  <img src="https://i.imgur.com/DmCppHG.jpg">
+  <img src="https://i.imgur.com/YjRXlyY.jpg">
+  <img src="https://i.imgur.com/YYzcx3w.jpg">
+  <img src="https://i.imgur.com/CFvxUHz.jpg">
+  <img src="https://i.imgur.com/y3a2Znq.jpg">
+  <img src="https://i.imgur.com/fqatN3r.jpg">
+  <img src="https://i.imgur.com/uUwvEot.jpg">
+  <img src="https://i.imgur.com/StbWb0H.jpg">
+  <img src="https://i.imgur.com/P8PX5Mj.jpg">
+  <img src="https://i.imgur.com/yCEltPp.jpg">
+  <img src="https://i.imgur.com/lwSi21b.jpg">
+  <img src="https://i.imgur.com/171USeW.jpg">
+  <img src="https://i.imgur.com/AxMtLMo.jpg">
+  <img src="https://i.imgur.com/GPfXw0a.jpg">
 
   <header>
     <h1>
-      <a href="http://datasektionen.se/mottagningen/janifattar">SÖK!</a>
+      <a href="https://datasektionen.se/mottagningen/janifattar">SÖK!</a>
     </h1>
     <h2>
       <span class="heart">&hearts;</span> / Redaqtionen &amp; Titel

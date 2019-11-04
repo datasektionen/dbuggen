@@ -12,4 +12,4 @@ Den andra drinken hade 2cl Mörk rom, 2cl St Germain, 4cl vaniljplenny och toppa
 
 En nackdel med båda drinkarna är att de behövde röras om innan varje klunk eftersom pulvret väldigt snabbt la sig i botten av glaset. Detta blev en extra nackdel när vi hade kolsyrad groggvirke i eftersom kolsyran försvann ganska snabbt. Skulle därför rekommendera “sour”-varianten om man vill göra drinkar med Plenny så man kan röra om den mycket utan att förstöra drinken allt för mycket.
 
-![](http://dbuggen.s3-eu-west-1.amazonaws.com/swejoy/sour.jpg)
+![](https://dbuggen.s3-eu-west-1.amazonaws.com/swejoy/sour.jpg)

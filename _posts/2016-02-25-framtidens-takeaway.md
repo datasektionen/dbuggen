@@ -13,4 +13,4 @@ Du köper ett gäng pizzor och när du kommer till THS Café inser du att det ko
 
 Sju timmar in i framtiden så är det här inte ett problem. Med högst ergonomiska nästan-påsar av plast så tillåts du bära både oändliga mängder pizza och kaffe samtidigt, med den extra fördelen att det inte går att bränna sig av innehållet i behållarna.
 
-<img src="http://dbuggen.s3-eu-west-1.amazonaws.com/takeaway.jpg" class="no-crop">
+<img src="https://dbuggen.s3-eu-west-1.amazonaws.com/takeaway.jpg" class="no-crop">
