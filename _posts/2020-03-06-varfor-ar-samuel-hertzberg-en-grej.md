@@ -1,7 +1,7 @@
 ---
 title: "Varför är Samuel Hertzberg en grej?"
 category: 33
-order: 6
+order: 7
 author: "Tim ‘Har mer pengar än dig, tönt’ Cook"
 ---
 
