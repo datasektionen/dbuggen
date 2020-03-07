@@ -103,9 +103,18 @@
 .issue-33.site-header a,
 .issue-33.site-header a:visited {
   letter-spacing: 3vw;
-  font-size: 2.5vw;
+  font-size: 3.5vw;
   color: #ffff00;
   padding: 12vh 0;
+}
+
+.issue-33 {
+  h1 {
+    font-size: 2.5rem;
+  }
+  header.issue-name h1 {
+    font-size: 3.5rem;
+  }
 }
 
 .site-header .logo.header-image {
