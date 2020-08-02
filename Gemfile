@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'bundler', '~> 2.1.4'
+gem 'bundler'
 gem 'jekyll', '~> 4.0'
 gem 'kramdown'
 gem 'rack-jekyll'
