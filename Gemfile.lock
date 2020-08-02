@@ -120,7 +120,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  bundler
+  bundler (~> 2.1.4)
   guard
   guard-livereload
   jekyll (~> 4.0)
@@ -133,4 +133,4 @@ DEPENDENCIES
   thin
 
 BUNDLED WITH
-   2.0.1
+   2.1.4
