@@ -4,8 +4,13 @@ Datasektionens tidning, fast på webben! Även sektionens mest seriösa repo på
 dbu.gg är en jekyll-app. För att kunna deployas på dokku är den dock fulhackad till en Rack-app.
 
 ### Setup
+Install ruby and ruby-dev
+```
+$ sudo apt-get install ruby
+$ sudo apt-get install ruby-dev
+```
 
-If you need to, install bundler
+Install bundler
 ```
 $ gem install bundler
 ```
