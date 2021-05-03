@@ -29,7 +29,7 @@ Site is now live at `localhost:9000`
 
 
 ### Deploying
-dbuggen is hosted on datasektionens dokku server. To deploy, first ask someone important to add your ssh key in the right place. Then, push to the remote `git push dokku@medusa.datasektionen.se:dbuggen` to deploy.
+dbuggen is hosted on datasektionens dokku server. To deploy, first ask someone important to add your ssh key in the right place. Then, push to the remote `git push dokku@medusa.datasektionen.se:dbuggen` to deploy. Make sure to also push to the master branch of this repo to keep dokku and Github in sync, preventing merge conflicts.
 
 Here's a bunch of other, maybe relevant, commands
 ```sh
