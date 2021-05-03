@@ -1,7 +1,7 @@
 ---
 title: "En pratstund med Tâm"
 category: 35
-order: 4
+order: 5
 author: "Henrik"
 ---
 När jag pitchade idén att "*intervjua Tâm*" till redaktionen behövdes
@@ -38,7 +38,7 @@ tentauppgifter.
 
 
 Tâm började med pedagogiken på gymnasiet, när han endast hade varit i
-Sverige i drygt ett år.
+Sverige i drygt två år.
 
 *"Jag pratade knappt någon svenska, och när jag hade så dålig svenska så
 undvek jag att prata över huvud taget."*
