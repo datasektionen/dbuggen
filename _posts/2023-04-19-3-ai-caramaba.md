@@ -1,8 +1,8 @@
 ---
-title: "Dbuggens begynnelse"
+title: "AI Caramba!"
 category: 36
 order: 3
-author: "AI Caramba!"
+author: "Fredrik"
 ---
 **"ChatGPT, vad är det?". Detta är en fråga endast nördar kunde besvara för bara ett halvår sedan. Numera vet varenda Handelsstudent och deras dementa, men ack så rika, mormor hur man fuskar sig genom livet med denna stora språkmodell skapad av OpenAI.**
 
