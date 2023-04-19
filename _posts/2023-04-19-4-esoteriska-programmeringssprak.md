@@ -2,7 +2,7 @@
 title: "Det där med esoteriska programmeringsspråk"
 category: 36
 order: 4
-author: "Niklas"
+author: "Daniel"
 ---
 
 **Dyk in i en värld där man programmerar i svårlästa, esoteriska syntax, inte för att det är praktiskt, utan bara för att man kan.**
