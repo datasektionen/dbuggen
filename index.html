@@ -12,19 +12,19 @@ img: "https://source.unsplash.com/9Jq5UvyXr8A/2000x3000"
   </nav>
   <div class="text main-listing">
     {% for issue in site.data.issues reversed %}
-      {% if issue.hide !=  true and issue.secret != true %}
-        <div class="issue">
-            <h2 class="issue-name">
-              <a href="/issues/{{ issue.number }}">{{ issue.name }}</a>
-            </h2>
-            {% if issue.date %}
-              <h5 class="issue-date">
-                {{ issue.date }}
-              </h5>
-            {% endif %}
-            <p>{{ issue.description }}</p>
-        </div>
-      {% endif %}
+      <div class="issue">
+        {% if issue.number and issue.number != 2 and issue.number != 7 and issue.number != 9 and issue.number != 17 %}
+          <h2 class="issue-name">
+            <a href="/issues/{{ issue.number }}">{{ issue.name }}</a>
+          </h2>
+          {% if issue.date %}
+            <h5 class="issue-date">
+              {{ issue.date }}
+            </h5>
+          {% endif %}
+          <p>{{ issue.description }}</p>
+        {% endif %}
+      </div>
     {% endfor %}
   </div>
 </main>
