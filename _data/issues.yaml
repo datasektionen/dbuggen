@@ -7,6 +7,7 @@
   subtitle: numret där vi sålde ut oss billigare än Karjalan på kryssningen
   description: Ett nummer om mottagningen
   date: "Feb 2015"
+  secret: true
 - number: 3
   name: teambuildingdbuggen
   description: "Ett nummer om IORs teambuilding, gjort under IORs teambuilding"
@@ -27,6 +28,7 @@
   name: mottagningsdbuggen
   description: Varför du ska söka Mottagningen 2016
   date: "Feb 2016"
+  secret: true
 - number: 8
   name: sommaren är kort-dbuggen
   description: Nånting nånting Shayan fixa
@@ -35,6 +37,7 @@
   name: nØlledbuggen 2016
   description: Ett välkomstnummer tillägnat nØllan!
   date: "Aug 2016"
+  secret: true
 - number: 10
   name: hyperboliskt dbuggen
   description: Denna gång med vatten över huvudet
@@ -67,6 +70,7 @@
   name: nØlledbuggen 2017
   description: Välkommen nØllan
   date: "Aug 2017"
+  secret: true
 - number: 18
   name: d(a)buggen
   description: You better be a right dabber
@@ -139,3 +143,8 @@
   name: Return of d bugg
   description: dbuggen är tillbaka. På riktigt.
   date: "Maj 2021"
+- number: 36
+  name: Return of d bugg - The sequel
+  description: dbuggen är tillbaka. På riktigt. Alltså på riktigt.
+  date: "April 2023"
+  hide: true
