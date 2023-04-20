@@ -10,7 +10,7 @@ Fort Minor beskriver i sin låt Kom ihåg namnet (eng. Remember the name) hur f�
 
 Baserad på Minors studie har jag konstruerat den här koden för att beräkna procentsatserna för att förstå ett ord:
 
-```python
+```py
 import sys
 
 def generate_name_attributes(name):
