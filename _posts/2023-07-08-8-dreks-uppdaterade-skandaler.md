@@ -35,4 +35,5 @@ Anonym (samma som i Skandal 2.0): “Det är inte värt att rösta den andra gå
 dBuggen-redaktör är för trött (och för full) för att skriva ner hur det fortsatte, fast minns att det inte blev bättre.
 
 "Voteit aged like fine wine." - Filip Ramslöv
+
 "Voteit aged like fine milk." - Felix Murnion
