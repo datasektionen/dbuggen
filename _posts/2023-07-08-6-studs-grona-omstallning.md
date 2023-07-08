@@ -1,7 +1,7 @@
 ---
 title: "Studs gröna omställning"
 category: 37
-order: 5
+order: 7
 author: "Fredrik, Melvin och Valle"
 ---
 I takt med att klimatet går åt helvete blir det allas ansvar att hjälpa till. THS och Datasektionen är inget undantag. Sektionen har på senare dagar kommit att leda arbetet mot ett hållbart sektionsliv. THS har skrivit och implementerat en klimatpolicy som för det mesta följs. Bilen har sedan årsskiftet gått på biodrivmedel och matsvinn minskas med behållkylen. De flesta nämnder följer alltså redan sektionens klimatpolicy ritualistiskt men det finns fortfarande mycket kvar att göra.

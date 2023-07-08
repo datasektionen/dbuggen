@@ -1,7 +1,7 @@
 ---
 title: "D-Reks uppdaterade skandaler"
 category: 37
-order: 7
+order: 8
 author: "Valle"
 ---
 **OBS! För att läsa den här uppdateringen behövs det att läsa artikeln ["D-Reks Tysta Skandaler"](/7-dreks-tysta-skandaler/) (i förra numret) först.**
