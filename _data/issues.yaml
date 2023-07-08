@@ -147,3 +147,8 @@
   name: Return of d bugg - The sequel
   description: dbuggen är tillbaka. På riktigt. Alltså på riktigt.
   date: "April 2023"
+- number: 37
+  name: d midsommar buggen
+  description: dbuggen önskar sektionen en härlig sommar!
+  date: "Juli 2023"
+  hide: true
