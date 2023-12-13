@@ -151,8 +151,3 @@
   name: d midsommar buggen
   description: dbuggen önskar sektionen en härlig sommar!
   date: "Juli 2023"
-- number: 38
-  name: djulbuggen
-  description: dbuggen önskar sektionen en riktigt god helg!
-  date: "December 2023"
-  hide: true
