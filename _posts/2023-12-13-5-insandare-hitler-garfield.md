@@ -4,7 +4,7 @@ category: 38
 order: 5
 author: "Anonym"
 ---
-<img class="gif" alt="Che Fred getting addicted to gambling. She never leaves the casino now." src="https://dbuggen.s3.eu-west-1.amazonaws.com/issue-2023-december/h-garfield.jpg">
+<img class="gif" alt="Hitler Garfield." src="https://dbuggen.s3.eu-west-1.amazonaws.com/issue-2023-december/h-garfield.jpg">
 
 I den senaste utgåvan av dBuggen, den anrika dJbuleumsdBuggen 2023, så sammanställde redaqtionen dBuggens "greatest hits". En av dessa hits var dock inte så great, om ni bläddrar (eller scrollar om ni på något vis fått tillgång till den digitala versionen som aldrig släpptes) till sida 99 så ser ni den älskade karaktären Garfield. Men det är inte en vanlig Garfield som den ni läste om i er barndom. Garfielden som redaqtionen valde att inkludera i den enda versionen av dBuggen som våra stackars alumner någonsin kommer läsa i resten av deras liv präglas av sin  kosmetiska liknelse med självaste Adolf Hitler. På slutfesten, dagen då sektionens historia ska firas och uppskattas, så valde redaqtionen att visa ett av dess mörkaste tillfällen. Redaqtionen har visat total respektlöshet gentemot sektionens historia och dess medlemmar vars släkter själva blivit drabbade av Hitlers handlingar.
 

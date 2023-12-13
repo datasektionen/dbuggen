@@ -4,7 +4,7 @@ category: 38
 order: 8
 author: "Jonathan"
 ---
-<img class="jpg" alt="Che Fred getting addicted to gambling. She never leaves the casino now." src="https://dbuggen.s3.eu-west-1.amazonaws.com/issue-2023-december/alingsas.jpg">
+<img class="jpg" alt="Tombstone showing with the text Alingsås BK Bandylag Damer *1978." src="https://dbuggen.s3.eu-west-1.amazonaws.com/issue-2023-december/alingsas.jpg">
 
 För ett litet tag sedan behövde jag tyvärr bege mig ner till Göteborg för att kräva besittningsrätt på ett arv efter en gammal buntförvants bortgång. Vanligtvis brukar jag genomföra den här resan med bil men efter att mitt körkort blivit konfiskerat när jag försökt köpa energidryck var detta inte längre ett alternativ och apostlahästar var, vid tillfället, inte heller något alternativ (tappa inte knivar gott folk!). Jag var istället tvungen att sätta mitt hopp och mig själv på SJ snabbtåg X2000 mellan Stockholms Centralstation och Göteborgs Centralstation. Sagt som gjort, jag ställer mig på perrongen exakt kl 09.34, tåget avgick från stationen 08.34, jag hade tagit fel på tiden. 93 minuter senare, efter att i sista sekund köpt en sista-minutenbiljett, kliver jag på ett nytt snabbtåg. Jag sätter mig på min plats belägen bredvid en herre, någonstans mellan 80 och döden, med en något gänglig gestalt även fast han bara är en person.
 
