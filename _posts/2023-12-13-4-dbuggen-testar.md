@@ -15,20 +15,3 @@ Gul: Mer lättsmält och kritsmulorna fastnar inte i halsen på samma sätt som 
 Grön: Exotisk, men har tyvärr en pikant och bitter eftersmak.
 
 Att äta krita kanske inte är det klokaste. Gå till Sleven istället, men om du CSN:et förlorat rekommenderas de gula kritorna. Gul krita är en delikatess.
-
-
-
----
-
-notes:
-
-Krita är gott
-
-data:
-
-[https://www.youtube.com/watch?v=f3QeMbep4w0](https://www.youtube.com/watch?v=f3QeMbep4w0
-)
-
-Kritor finns i E3
-
-
