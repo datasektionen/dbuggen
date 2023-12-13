@@ -41,3 +41,4 @@ Till grannarna, skulle du ha några, är den bästa julklappen enligt en enkät 
 
 Årets julklapp är en upplaga av dbuggen, Sveriges i synnerhet anrikaste tidning - den perfekta gåvan för alla åldrar och samhällsstånd.
 
+<img class="png" alt="A glorious onion." src="https://dbuggen.s3.eu-west-1.amazonaws.com/issue-2023-december/christmas-gift.png">
