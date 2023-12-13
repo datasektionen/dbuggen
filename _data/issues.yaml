@@ -155,3 +155,4 @@
   name: djulbuggen
   description: dbuggen önskar sektionen en riktigt god helg!
   date: "December 2023"
+  hide: true
