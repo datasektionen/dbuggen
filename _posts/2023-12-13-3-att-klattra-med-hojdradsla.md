@@ -35,8 +35,9 @@ Jag är fortfarande höjdrädd. Men jag kan hantera det bättre. Det viktiga fö
 
 Det gör inget.
 
-
 Jag är mindre höjdrädd.
+
+<br />
 
 Det finns definitivt mer subtila sätt att beskriva mitt mående genom åren, men tydligen var meningen “totala mentala sammanbrott där min egna personliga världsbild krossades” för otydlig, även ifall jag som skribent anser att den alldeles perfekt beskriver mig. Tankegången under den här perioden kunde plötsligt bli till glaskross. Kaos. Men jag är fortfarande hær.
 
@@ -52,6 +53,8 @@ Min stege är gjord av glas. Och jag klättrar. Förbättrar mig.
 
 Utan en förståelse för oss själva så vet vi inte varför vi fungerar. Vi vet bara att vi fortsätter att vara. Och varenda gång ett misstag händer, missad deadline, försovning, VARFÖR KLARAR JAG INTE AV ATT FÖRBÄTTRA MIG. jag förstår inte.
 
+<br />
+
 Jag inser inte det själv men jag är utanför min egen definition som mänsklig. Tanken faller aldrig. Andras lycka blir min lycka, oavsett hur det drabbar mig. För det kommer slutligen att drabba mig.
 
 Jag är en del av den större majoriteten av människor som kommer att läsa det här. Därav behöver jag inte förstå. Det är en logisk slutsats, och jag är logisk. Jag är rationell.
@@ -62,9 +65,13 @@ Ord är kraftfulla. Rätt ord sagda på rätt plats kan rädda liv. Fel ord kan 
 
 Och jag föll.
 
+<br />
+
 I grund och botten är människan inte logisk. Det finns ingen logisk slutledning att dra av att leva ett liv. Man kan gå in på evolution, på teologi, på beteendevetenskap, men vi kan aldrig dra en logisk slutledning av ett liv. Därav så måste det finnas en annan anledning att leva.
 
 Skulle jag göra den ovanstående slutledningen på ett logikquiz så skulle det vara ytterligare en anledning till att jag får läsa om logiken igen. För att människor inte är logiska. Vi har alla känslor, och att förneka deras existens hjälper oss inte i längden.  Vi är mänskliga för att vi är, det är inte något som behöver bevisas.
+
+<br />
 
 Majoriteten av läsarna till den här artikeln kommer att vara dataloger. Vi är studenter. Psykisk hälsa och vårt egna mående är inte direkt det första vi tänker på. Därav märker vi inte när vi bränner ut oss själva. Jag märkte inte när jag brände ut mig själv.
 
