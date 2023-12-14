@@ -9,6 +9,7 @@ Julen är här, vilket innebär att den artificiellt skapade traditionen av öve
 ### Familjen
 
 **Till barnen**
+
 Till dina barn, skulle du ha några, bör du i år ge dem syskon. Befolkningen måste kraftigt öka för att möta konsumtionskraven från den kommande kraftigt ökande befolkningen. Därmed uppmuntrar redaqtionen samtliga föräldrar att införskaffa 30% fler barn, avrundat uppåt till närmaste heltal + 1.
 
 **Till föräldrarna**

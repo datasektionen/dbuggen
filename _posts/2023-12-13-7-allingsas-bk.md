@@ -1,7 +1,7 @@
 ---
 title: "Alingsås BK är död, länge leve Alingsås BK"
 category: 38
-order: 8
+order: 7
 author: "Jonathan"
 ---
 <img class="jpg" alt="Tombstone showing with the text Alingsås BK Bandylag Damer *1978." src="https://dbuggen.s3.eu-west-1.amazonaws.com/issue-2023-december/alingsas.jpg">
