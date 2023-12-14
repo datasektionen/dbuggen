@@ -1,7 +1,7 @@
 ---
 title: "Om sektionsengagemang och sånt"
 category: 38
-order: 7
+order: 6
 author: "Jakob"
 ---
 
