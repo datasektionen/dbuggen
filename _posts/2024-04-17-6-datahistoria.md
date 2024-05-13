@@ -10,7 +10,7 @@ Nog har ni väl sett de nyantagnas namnskyltar. Det är hålkort. Sådana använ
 Lyckligtvis fanns också sedan 1971 en timesharingdator som användes på en del kurser. Då satt studenterna vid en terminal (det fanns från början åtta terminaler) i källaren och skrev in sitt program. Det gick att köra programmet många gånger samma dag. När det var dags att gå hem skrev man ut programmet på en hålremsa, som man tog med hem och sen läste in när det var dags för nästa session vid terminalen. Programspråket var Basic. På den datorn gjorde jag mitt exjobb. Gissa om det blev många långa hålremsor.
 År 1974 fick vi tillgång till en mer kraftfull interaktiv dator som man kunde köra via textterminaler. 
 
-<img class="jpg" alt="Woman sitting at old computer at home" src="https://yoggi.datasektionen.se/namnder/dbuggen/KERSTINSHEMMAKONTOR">
+<img class="jpg" alt="Woman sitting at old computer at home" src="https://dsekt-assets.s3.amazonaws.com/namnder/dbuggen/KERSTINSHEMMAKONTOR">
 
 *Under min föräldraledighet 1977 gör jag en uppgift åt jobbet på en hemlånad textterminal med tillhörande modem.*
 
@@ -24,7 +24,7 @@ KTH hade en helt annan organisation på den tiden. Det fanns inga skolor men ett
 
 Utvecklingen av datatekniken var ju snabb. Sverige hade ju haft en egen datorindustri och statsmakterna ville ju att Sverige skulle ligga i framkant. En utredning tillsattes. Och 1981 kom en rapport från UHÄ:s datareferensgrupp om ”Förstärkning av högre utbildning och forskning inom dataområdet”. 
 
-<img class="jpg" alt="Datatekniklinjen description 1981" src="https://yoggi.datasektionen.se/namnder/dbuggen/datareferensgruppen">
+<img class="jpg" alt="Datatekniklinjen description 1981" src="https://dsekt-assets.s3.amazonaws.com/namnder/dbuggen/datareferensgruppen">
 
 *Utdrag ur rapporten. Kolla typografin.*
 
