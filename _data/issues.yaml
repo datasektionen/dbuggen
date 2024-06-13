@@ -12,10 +12,10 @@
   name: teambuildingdbuggen
   description: "Ett nummer om IORs teambuilding, gjort under IORs teambuilding"
   date: "Maj 2015"
-- #number: 4
-  #name: den riktigt bra-dbuggen
-  #description: När hösten är på väg levererar vi kvalitet
-  #date: "Aug 2015"
+- number: 4
+  name: den riktigt bra-dbuggen
+  description: När hösten är på väg levererar vi kvalitet
+  date: "Aug 2015"
 - number: 5
   name: juldbuggen
   description: Nu är julstämningen på topp!
@@ -75,10 +75,10 @@
   name: d(a)buggen
   description: You better be a right dabber
   date: "Okt 2017"
-- #number: 19
-  #name: swejoydbuggen
-  #description: Dryck > mat
-  #date: "Nov 2017"
+- number: 19
+  name: swejoydbuggen
+  description: Dryck > mat
+  date: "Nov 2017"
 - number: 20
   name: haikudbuggen
   description: fem, sju, fem
@@ -107,26 +107,26 @@
   name: Metaspexial
   description: Tagga det bästa Metaspexet någonsin!
   date: "Maj 2018"
-- #number: 27
-  #name: nØlledbuggen
-  #description: nØllan har invaderat KTH
-  #date: "Augusti 2018"
+- number: 27
+  name: nØlledbuggen
+  description: nØllan har invaderat KTH
+  date: "Augusti 2018"
 - number: 28
   name: nytt blod-dbuggen 2018
   description: Redaqtionen har fått fler medlemmar! Men hur kom dom med egentligen?
   date: "Oktober 2018"
-- #number: 29
-  #name: reincarnation-dbuggen
-  #description: Redaqtionen är återuppfödd!
-  #date: "Februari 2019"
+- number: 29
+  name: reincarnation-dbuggen
+  description: Redaqtionen är återuppfödd!
+  date: "Februari 2019"
 - number: 30
   name: Fetischdagendbuggen
   description: Redaqtionen njuter av semlor
   date: "Mars 2019"
-- #number: 31
-  #name: Testa, utforska, analyseradbuggen
-  #description: Redaqtionen testar, utforskar och analyserar olika ämnen!
-  #date: "Juni 2019"
+- number: 31
+  name: Testa, utforska, analyseradbuggen
+  description: Redaqtionen testar, utforskar och analyserar olika ämnen!
+  date: "Juni 2019"
 - number: 32
   name: Novembernummer
   description: November är här, läs av din novemberdepression med dessa intressanta artiklar!
