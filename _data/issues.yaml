@@ -131,7 +131,6 @@
   name: Novembernummer
   description: November är här, läs av din novemberdepression med dessa intressanta artiklar!
   date: "November 2019"
-  secret: true
 - number: 33
   name: d(ecennie)buggen
   description: När resten av världens journalister är distraherade av COVID-19 passar redaqtionen på
@@ -148,7 +147,6 @@
   name: Return of d bugg - The sequel
   description: dbuggen är tillbaka. På riktigt. Alltså på riktigt.
   date: "April 2023"
-  secret: true
 - number: 37
   name: d midsommar buggen
   description: dbuggen önskar sektionen en härlig sommar!
@@ -161,4 +159,3 @@
   name: Totalitärdbuggen
   description: Nytt år, ny dbuggen, nytt "val" och ny chedred 
   date: "April 2023"
-  secret: true
