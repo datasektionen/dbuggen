@@ -14,7 +14,7 @@ job "dbuggen" {
       provider = "nomad"
       tags = [
         "traefik.enable=true",
-        "traefik.http.routers.dbuggen.rule=Host(`dbu.gg`)",
+        "traefik.http.routers.dbuggen.rule=Host(`dbu.gg`)||Host(`www.dbu.gg`)",
         "traefik.http.routers.dbuggen.tls.certresolver=default",
       ]
     }
