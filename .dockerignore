@@ -1,0 +1,14 @@
+_site
+.sass-cache
+
+.DS_store
+
+images/
+
+*.sublime-project
+*.sublime-workspace
+
+.jekyll-metadata
+.jekyll-cache
+.dockerignore
+Dockerfile
