@@ -2,7 +2,7 @@
 title: "Fetischdagen"
 category: 30
 order: 1
-author: "Patric Lantz & Albin Remnestål"
+author: "Patric Lantz & Alburrito"
 ---
 
 Idag är det fettisdagen, men många av dbuggens läsare känner säkert till den mer som fetischdagen. Namnet fettisdagen härstammar nämligen från fetischdagen eftersom att den största svenska fetischen är semlor. Vi på dbuggen vill värna om våra läsares fetischer och därför så har vi gjort en undersökning om vilket ställe på campus som levererar de bästa semlorna! Denna undersökning skedde dock för exakt ett år sedan, så den kan vara lite utdaterad.

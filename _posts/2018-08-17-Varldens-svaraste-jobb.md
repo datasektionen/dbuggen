@@ -2,7 +2,7 @@
 title: "dbuggen: Världens svåraste jobb"
 category: 27
 order: 4
-author: "Albin Remnestål"
+author: "Alburrito"
 ---
 
 Att redaqtionens uppgift hör till de viktigaste, svåraste och mest prestigefyllda uppgifterna i världen, ja kanske till och med på sektionen, är ett faktum som ingen bestrider. Att bevisa dbuggens enorma signifikans är en så trivial uppgift att samtliga matematikprofessorer på KTH skrattade mig rakt i ansiktet när jag bad dem härleda beviset. Ja, inte ens Chalmers mest låglevlade matematikstudenter hade problem att bevisa dbuggens värde.

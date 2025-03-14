@@ -5,7 +5,7 @@ order: 2
 author: "Mohammad och Patric"
 ---
 
-Metaspexet? Vad är det egentligen? Det är något jag (chefredaqtör Patric) och vanlig redaqtör Momme har frågat oss sedan vi träffade Albin Remnestål(färgexpert) för första gången. För att ta reda på detta så begav vi oss ut för att leta upp några spoxande spuxisar.
+Metaspexet? Vad är det egentligen? Det är något jag (chefredaqtör Patric) och vanlig redaqtör Momme har frågat oss sedan vi träffade Alburrito(färgexpert) för första gången. För att ta reda på detta så begav vi oss ut för att leta upp några spoxande spuxisar.
 
 Vår färd började i de dunklaste områden i Meta. Där fann vi tre stycken spexM kött!
 
@@ -99,7 +99,7 @@ Har du tittat in i en svetslåga alldeles för länge någon gång?
 Spox?
 >Önskar att jag hade - Jesper Larsson 2018
 
-När vi hade pratat med två underchefer så ville vi leta upp “the top dog”, Direqteur, i Metaspexet. Från vår anonyma källa, Albin Remnestål, så fick vi reda på att hon stod bredvid Johan Hamredal. Och precis som Albin sa så var hon där i sin storhet, the big boss, El Capitan, Emmeli Hansson.
+När vi hade pratat med två underchefer så ville vi leta upp “the top dog”, Direqteur, i Metaspexet. Från vår anonyma källa, Alburrito, så fick vi reda på att hon stod bredvid Johan Hamredal. Och precis som Albin sa så var hon där i sin storhet, the big boss, El Capitan, Emmeli Hansson.
 
 Vad heter du?
 >Emmeli Hansson
@@ -107,7 +107,7 @@ Vad heter du?
 Vad har du för position?
 >Direqteur/Producent
 
-Inside scoop på Albin Remnestål
+Inside scoop på Alburrito
 >ALBIN HAR INGET MED SPEXET ATT GÖRA!!!
 
 >Kommentar från Albin: Jag har gjort dom röda ridåerna på hemsida.

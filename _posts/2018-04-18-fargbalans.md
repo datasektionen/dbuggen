@@ -2,7 +2,7 @@
 title: "Färgbalans"
 category: 25
 order: 1
-author: Albin Remnestål
+author: Alburrito
 ---
 
 För ungefär tre veckor sedan när omtentornas tunga skugga började lägga sig över campus och alla flitiga studenter började vässa sina pennor, bläddra i sina böcker och lära sig innantill; började redaqtionen prokrastinera på allvar. I denna kreativitetens och intellektets hotspot föddes en av de kanske viktigaste frågorna som denna tidskrift någonsin undersökt, i klass med _[livets fråga](https://dbu.gg/livets-fraga/)_ som svarades så sent som i höstas. **Så vad är det för fråga?**

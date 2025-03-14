@@ -2,7 +2,7 @@
 title: "Den objektivt bästa bioplatsen"
 category: 29
 order: 6
-author: "A. Remnestål et al."
+author: "A. Burrito et al."
 ---
 ## Introduktion
 
