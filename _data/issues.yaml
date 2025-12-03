@@ -158,4 +158,28 @@
 - number: 39
   name: Totalitärdbuggen
   description: Nytt år, ny dbuggen, nytt "val" och ny chedred 
-  date: "April 2023"
+  date: "April 2024"
+- number: 40
+  name: Lokaldbuggen
+  description: ""
+  date: "Juli 2024"
+- number: 41
+  name: Vampyrdbuggen
+  description: ""
+  date: "Oktober 2024"
+- number: 42
+  name: Kristodbuggen
+  description: ""
+  date: "December 2024"
+- number: 43
+  name: Igloodbuggen
+  description: ""
+  date: "April 2025"
+- number: 44
+  name: Skvallerdbuggen
+  description: ""
+  date: "Juli 2025"
+# - number: 45
+#   name: Milleniedbuggen
+#   description: "" 
+#   date: "November 2025"
