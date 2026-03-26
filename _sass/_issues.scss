@@ -147,21 +147,3 @@ code {
   font-size: 0.9rem;
   font-style: italic;
 }
-
-.pdf-link {
-  display: block;
-  margin: 10px 0;
-  font-size: 1.2em;
-  text-decoration: none;
-  color: inherit;
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-.pdf-iframe {
-  border: none;
-  margin: 20px 0;
-  width: 100%;
-  height: 600px;
-}

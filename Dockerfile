@@ -1,4 +1,4 @@
-FROM docker.io/ruby:3.1 AS build
+FROM docker.io/ruby:2.7.6 AS build
 
 WORKDIR /app
 
@@ -7,8 +7,6 @@ RUN apt update && apt install -y nodejs && rm -rf /var/lib/apt/lists/*
 
 COPY . .
 
-# Ensure bundler version matches the one in Gemfile.lock (2.4.15)
-RUN gem install bundler -v 2.4.15
 RUN bundle install
 
 RUN jekyll build

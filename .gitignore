@@ -10,6 +10,3 @@ images/
 
 .jekyll-metadata
 .jekyll-cache
-
-# Docker Compose
-.env
