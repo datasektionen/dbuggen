@@ -11,4 +11,11 @@ services:
       - .:/app:cached
       - /app/.sass-cache
       - /app/.jekyll-cache
-    command: bundle exec jekyll serve --host 0.0.0.0 --port 4000 --livereload --livereload-port 35729 --force_polling --verbose
+      - /app/apps/dnd/node_modules
+    command:
+      - sh
+      - -c
+      - >-
+        npm --prefix apps/dnd ci &&
+        bundle exec rake dnd:build &&
+        bundle exec jekyll serve --host 0.0.0.0 --port 4000 --livereload --livereload-port 35729 --force_polling --verbose
