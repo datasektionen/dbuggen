@@ -1,0 +1,49 @@
+<style>
+  .dbuggen-dnd-launcher {
+    position: fixed;
+    right: calc(16px + env(safe-area-inset-right, 0px));
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+    z-index: 100;
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #ddac5e;
+    border-radius: 50%;
+    background: #121011;
+    color: #ffe0a0;
+    box-shadow: 0 3px 12px #0004;
+    text-decoration: none;
+  }
+  .dbuggen-dnd-launcher:hover { background: #292019; }
+  .dbuggen-dnd-launcher:focus-visible { outline: 3px solid #f54785; outline-offset: 4px; }
+  .dbuggen-dnd-launcher svg { width: 26px; height: 26px; }
+  .dbuggen-dnd-launcher-tooltip {
+    position: absolute;
+    right: 0;
+    bottom: calc(100% + 10px);
+    width: max-content;
+    max-width: calc(100vw - 48px);
+    box-sizing: border-box;
+    padding: 8px 12px;
+    border: 1px solid #ddac5e;
+    border-radius: 6px;
+    background: #121011;
+    color: #ffe0a0;
+    font: 14px/1.4 Arial, sans-serif;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  .dbuggen-dnd-launcher:hover .dbuggen-dnd-launcher-tooltip,
+  .dbuggen-dnd-launcher:focus-visible .dbuggen-dnd-launcher-tooltip { opacity: 1; visibility: visible; }
+  @media print { .dbuggen-dnd-launcher { display: none; } }
+</style>
+<a class="dbuggen-dnd-launcher" href="{{ '/dnd/' | prepend: site.baseurl }}" aria-label="Öppna DND – Ödets Kast">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linejoin="round" aria-hidden="true" focusable="false">
+    <path d="M12 2 22 8v9l-10 5-10-5V8Z M12 2 7 9h10L12 2Z M7 9l5 10 5-10 M2 8l5 1-5 8 10 2 10-2-5-8 5-1 M12 19v3" />
+  </svg>
+  <span class="dbuggen-dnd-launcher-tooltip" aria-hidden="true">DND · Ödets Kast</span>
+</a>
