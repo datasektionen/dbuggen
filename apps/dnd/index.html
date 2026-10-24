@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07080b" />
+    <meta name="description" content="En fysisk polyedrisk tärningssimulator för Ödets Kast." />
+    <title>Ödets Kast · Tärningssimulator</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="scene" id="app-scene" aria-labelledby="arena-title">
+      <div class="grain" aria-hidden="true"></div>
+      <div class="vignette" aria-hidden="true"></div>
+      <div class="embers" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      </div>
+
+      <header class="top-bar">
+        <div class="top-bar-leading">
+          <a class="dbuggen-home" href="/" aria-label="Tillbaka till dbuggen" data-i18n-aria-label="header.backToDbuggen"><span aria-hidden="true">←</span> dbuggen</a>
+          <p class="location" id="campaign-context" aria-live="polite">Ingen kampanj · Fristående kast</p>
+        </div>
+        <div class="crest" aria-hidden="true"><span>✦</span></div>
+        <div class="top-actions">
+          <button class="campaigns-button" id="campaigns-open" type="button" aria-label="Öppna kampanjer. Ingen kampanj vald." aria-controls="campaigns-dialog" aria-expanded="false">
+            <svg class="campaigns-button-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 21V4" />
+              <path d="M5 5h11l-2 4 2 4H5" />
+            </svg>
+          </button>
+          <button class="settings-button" id="settings-open" type="button" aria-label="Öppna inställningar" aria-controls="settings-dialog" aria-expanded="false" data-i18n-aria-label="header.openSettings">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.09a2 2 0 0 1 1 1.74v.5a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.38a2 2 0 0 0-.73-2.73l-.15-.09a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2Z" />
+              <circle cx="12" cy="12" r="3" />
+            </svg>
+          </button>
+          <button class="history-button" id="history-open" type="button" aria-label="Visa kasthistorik" aria-controls="history-dialog" aria-expanded="false" data-i18n-aria-label="header.openHistory">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M19 17V5a2 2 0 0 0-2-2H6" />
+              <path d="M8 21h9a2 2 0 0 0 2-2v-2H8v2a2 2 0 0 1-4 0V5a2 2 0 0 1 4 0v3H4" />
+              <path d="M11 8h5M11 12h5" />
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <div class="simulator-shell">
+        <div class="scene-column">
+          <section class="arena-panel" aria-labelledby="arena-title">
+            <div class="arena-heading">
+              <div>
+                <p class="eyebrow" id="arena-eyebrow">Fysisk D20-simulering</p>
+                <h1 id="arena-title" data-i18n="arena.title">Kasta genom mörkret</h1>
+              </div>
+              <p class="arena-status" id="arena-status">Tärningen väntar</p>
+            </div>
+
+            <div class="dice-viewport" id="dice-viewport" data-state="idle">
+              <canvas id="dice-canvas" aria-hidden="true"></canvas>
+              <button class="arena-roll-hit" id="die" type="button" aria-label="Kasta en tredimensionell D20"></button>
+              <div class="scene-loading" id="scene-loading" role="status" data-i18n="arena.loading">Väcker tärningen…</div>
+              <div class="fallback-dice" id="fallback-dice" aria-hidden="true">
+                <div class="fallback-die is-active">12</div>
+                <div class="fallback-die">12</div>
+              </div>
+              <div class="throw-origin" aria-hidden="true"><span></span></div>
+            </div>
+
+            <div class="arena-footer" aria-hidden="true">
+              <span>✧</span>
+              <p data-i18n="arena.footer">Klicka på spelplanen eller använd knappen för att kasta</p>
+              <span>✧</span>
+            </div>
+          </section>
+
+          <section class="preset-shelf" aria-label="Förinställningar" data-i18n-aria-label="presets.shelfLabel">
+            <button class="presets-open" id="presets-open" type="button" aria-controls="presets-dialog" aria-expanded="false">
+              <span class="presets-open-mark" aria-hidden="true">✦</span>
+              <span class="presets-open-copy">
+                <small data-i18n="presets.eyebrow">Snabbval</small>
+                <strong data-i18n="presets.title">Förinställningar</strong>
+              </span>
+              <span class="presets-count-badge" id="presets-count-badge" aria-hidden="true">0</span>
+              <span class="presets-open-arrow" aria-hidden="true">›</span>
+            </button>
+            <div class="recent-presets">
+              <div class="recent-presets-heading">
+                <span data-i18n="presets.recent">Senast använda</span>
+                <span id="recent-presets-summary">Inga förinställningar</span>
+              </div>
+              <div class="recent-presets-list" id="recent-presets-list" role="group" aria-label="Senast använda förinställningar" data-i18n-aria-label="presets.recentLabel"></div>
+              <p class="recent-presets-empty" id="recent-presets-empty" data-i18n="presets.shelfEmpty">Spara ditt nuvarande kast som en förinställning.</p>
+            </div>
+            <p class="sr-only" id="preset-application-status" aria-live="polite"></p>
+          </section>
+        </div>
+
+        <aside class="control-panel" aria-label="Välj tärning" data-i18n-aria-label="dice.choose">
+          <div class="roll-actions" id="roll-actions" data-has-rolled="false">
+            <button id="roll-again" class="roll-button" type="button">
+              <span class="button-copy">Kasta tärning</span>
+              <span class="button-icon" aria-hidden="true">↻</span>
+            </button>
+            <button id="roll-reset" class="roll-reset-button" type="button" aria-label="Nytt kast: återställ kastläge och modifierare" data-i18n-aria-label="roll.resetAria" hidden>
+              <span data-i18n="roll.reset">Nytt kast</span>
+              <span aria-hidden="true">✦</span>
+            </button>
+          </div>
+
+          <section class="dice-picker">
+            <div class="dice-options" role="radiogroup" aria-label="Tärningstyp">
+              <button class="die-option" type="button" role="radio" aria-checked="false" data-die-type="d4" aria-label="Välj D4">
+                <span class="die-glyph glyph-d4" aria-hidden="true">4</span><b>D4</b>
+              </button>
+              <button class="die-option" type="button" role="radio" aria-checked="false" data-die-type="d6" aria-label="Välj D6">
+                <span class="die-glyph glyph-d6" aria-hidden="true">6</span><b>D6</b>
+              </button>
+              <button class="die-option" type="button" role="radio" aria-checked="false" data-die-type="d8" aria-label="Välj D8">
+                <span class="die-glyph glyph-d8" aria-hidden="true">8</span><b>D8</b>
+              </button>
+              <button class="die-option" type="button" role="radio" aria-checked="false" data-die-type="d10" aria-label="Välj D10">
+                <span class="die-glyph glyph-d10" aria-hidden="true">10</span><b>D10</b>
+              </button>
+              <button class="die-option" type="button" role="radio" aria-checked="false" data-die-type="d12" aria-label="Välj D12">
+                <span class="die-glyph glyph-d12" aria-hidden="true">12</span><b>D12</b>
+              </button>
+              <button class="die-option is-selected" type="button" role="radio" aria-checked="true" data-die-type="d20" aria-label="Välj D20">
+                <span class="die-glyph glyph-d20" aria-hidden="true">20</span><b>D20</b>
+              </button>
+            </div>
+            <button class="roll-mode-button" id="roll-mode" type="button" data-mode="normal" aria-label="Kastläge: Normalt. Aktivera för Fördel.">
+              <span data-i18n="mode.label">Kastläge</span>
+              <strong id="roll-mode-value">Normalt</strong>
+              <i aria-hidden="true">↻</i>
+            </button>
+            <div class="modifier-control" role="group" aria-labelledby="modifier-label">
+              <span id="modifier-label" data-i18n="modifier.label">Modifierare</span>
+              <div class="modifier-stepper">
+                <button id="modifier-decrease" type="button" aria-label="Minska modifieraren med ett">−</button>
+                <input
+                  id="modifier-value"
+                  type="text"
+                  inputmode="text"
+                  value="0"
+                  role="spinbutton"
+                  aria-label="Modifierare, från minus 99 till plus 99"
+                  aria-valuemin="-99"
+                  aria-valuemax="99"
+                  aria-valuenow="0"
+                  autocomplete="off"
+                  spellcheck="false"
+                />
+                <button id="modifier-increase" type="button" aria-label="Öka modifieraren med ett">+</button>
+              </div>
+            </div>
+            <label class="rule-toggle critical-toggle" id="critical-toggle-row" data-enabled="true" data-i18n-tooltip="check.criticalsDescription">
+              <span class="rule-toggle-copy">
+                <span class="rule-toggle-label" data-i18n="check.criticals">Kritiska utfall</span>
+                <small class="sr-only" id="critical-toggle-description" data-i18n="check.criticalsDescription">Naturlig 1 och 20</small>
+              </span>
+              <span class="rule-toggle-control">
+                <input id="critical-toggle" type="checkbox" checked aria-describedby="critical-toggle-description" />
+                <span class="rule-switch-track" aria-hidden="true"><i></i></span>
+                <span class="rule-toggle-state" id="critical-toggle-state" aria-hidden="true">På</span>
+              </span>
+            </label>
+            <label class="rule-toggle" id="difficulty-toggle-row" data-enabled="true" data-i18n-tooltip="check.difficultyDescription">
+              <span class="rule-toggle-copy">
+                <span class="rule-toggle-label" data-i18n="check.difficulty">Svårighetsgrad</span>
+                <small class="sr-only" id="difficulty-toggle-description" data-i18n="check.difficultyDescription">Mål för modifierad total</small>
+              </span>
+              <span class="rule-toggle-control">
+                <input id="difficulty-toggle" type="checkbox" checked aria-describedby="difficulty-toggle-description" />
+                <span class="rule-switch-track" aria-hidden="true"><i></i></span>
+                <span class="rule-toggle-state" id="difficulty-toggle-state" aria-hidden="true">På</span>
+              </span>
+            </label>
+            <div class="difficulty-control" id="difficulty-control" role="group" aria-labelledby="difficulty-value-label" data-enabled="true">
+              <span id="difficulty-value-label" data-i18n="check.difficulty">Svårighetsgrad</span>
+              <div class="difficulty-stepper">
+                <button id="difficulty-decrease" type="button" aria-label="Minska svårighetsgraden med ett">−</button>
+                <input
+                  id="difficulty-value"
+                  type="text"
+                  inputmode="text"
+                  value="15"
+                  role="spinbutton"
+                  aria-label="Svårighetsgrad, från 1 till 99"
+                  aria-valuemin="1"
+                  aria-valuemax="99"
+                  aria-valuenow="15"
+                  autocomplete="off"
+                  spellcheck="false"
+                />
+                <button id="difficulty-increase" type="button" aria-label="Öka svårighetsgraden med ett">+</button>
+              </div>
+            </div>
+          </section>
+
+          <section class="outcome-panel failure" aria-label="Resultat" aria-live="polite">
+            <div class="outcome-rule"></div>
+            <p class="outcome-label" id="outcome-label">Misslyckat</p>
+            <div class="total"><span id="roll-value">12</span></div>
+            <p class="roll-breakdown" id="roll-breakdown" hidden></p>
+            <p class="outcome-text" id="outcome-text">Mekanismen står emot ditt försök.</p>
+            <div class="outcome-rule mirror"></div>
+          </section>
+
+          <div class="roll-meta" id="roll-meta">
+            <span class="critical-meta-enabled" id="critical-meta-enabled">
+              <span><b>1</b> <span data-i18n="outcome.catastropheMeta">Katastrof</span></span>
+              <i></i>
+              <span><b>20</b> <span data-i18n="outcome.criticalMeta">Kritiskt</span></span>
+            </span>
+            <span class="critical-meta-disabled" id="critical-meta-disabled" data-i18n="check.criticalsDisabled" hidden>Kritiska utfall avstängda</span>
+          </div>
+
+          <p class="physics-note" data-i18n="physics.note">Fysiskt kast · Säkert slumpat utfall</p>
+        </aside>
+      </div>
+    </main>
+
+    <dialog class="campaigns-dialog" id="campaigns-dialog" aria-modal="true" aria-labelledby="campaigns-title" aria-describedby="campaigns-summary">
+      <section class="campaigns-popover" id="campaigns-popover" data-view="list">
+        <header class="campaigns-header">
+          <div class="campaigns-header-leading">
+            <button class="campaigns-back" id="campaigns-back" type="button" aria-label="Tillbaka till kampanjer" data-i18n-aria-label="campaigns.back" data-i18n-tooltip="campaigns.back" hidden>
+              <svg class="campaign-control-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m15 18-6-6 6-6" />
+              </svg>
+            </button>
+            <div class="campaigns-header-copy">
+              <p class="eyebrow" data-i18n="campaigns.eyebrow">Äventyr</p>
+              <h2 id="campaigns-title" data-i18n="campaigns.title">Kampanjer</h2>
+              <p id="campaigns-summary" aria-live="polite"></p>
+            </div>
+          </div>
+          <div class="campaigns-header-actions">
+            <button class="campaigns-new" id="campaigns-new" type="button" aria-label="Ny kampanj" data-i18n-aria-label="campaigns.new" data-i18n-tooltip="campaigns.new">
+              <svg class="campaign-control-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 5v14M5 12h14" />
+              </svg>
+              <span class="campaigns-new-label" data-i18n="campaigns.new">Ny kampanj</span>
+            </button>
+            <button class="campaigns-close" id="campaigns-close" type="button" aria-label="Stäng kampanjer" data-i18n-aria-label="campaigns.close" data-i18n-tooltip="campaigns.close">
+              <svg class="campaign-control-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m7 7 10 10M17 7 7 17" />
+              </svg>
+            </button>
+          </div>
+        </header>
+
+        <div class="campaigns-content">
+          <section class="campaigns-list-view" id="campaigns-list-view" aria-labelledby="campaigns-list-title">
+            <h3 class="sr-only" id="campaigns-list-title" data-i18n="campaigns.list">Sparade kampanjer</h3>
+            <div class="campaigns-search-shell" id="campaigns-search-shell" hidden>
+              <label class="campaigns-search" for="campaigns-search">
+                <svg class="campaign-search-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="11" cy="11" r="6" />
+                  <path d="m16 16 4 4" />
+                </svg>
+                <span class="sr-only" data-i18n="campaigns.searchLabel">Sök kampanjer</span>
+                <input id="campaigns-search" type="search" autocomplete="off" spellcheck="false" placeholder="Sök kampanjer" data-i18n-placeholder="campaigns.searchPlaceholder" />
+              </label>
+              <p class="campaigns-search-summary" id="campaigns-search-summary" aria-live="polite"></p>
+            </div>
+            <ul class="campaigns-list" id="campaigns-list"></ul>
+            <div class="campaigns-no-results" id="campaigns-no-results" hidden>
+              <h3 data-i18n="campaigns.noResultsTitle">Ingen kampanj hittades</h3>
+              <p data-i18n="campaigns.noResultsText">Prova ett annat namn.</p>
+            </div>
+            <p class="campaigns-list-help" data-i18n="campaigns.listHelp">Historik och förinställningar följer den valda kampanjen.</p>
+          </section>
+
+          <form class="campaigns-editor" id="campaign-create" novalidate hidden>
+            <div class="campaigns-editor-heading">
+              <p class="eyebrow" data-i18n="campaigns.createEyebrow">Nytt äventyr</p>
+              <h3 data-i18n="campaigns.createTitle">Skapa kampanj</h3>
+            </div>
+            <label class="campaign-name-field" for="campaign-create-name">
+              <span data-i18n="campaigns.name">Visningsnamn</span>
+              <input id="campaign-create-name" type="text" maxlength="80" autocomplete="off" aria-describedby="campaign-create-help campaign-create-error campaign-create-storage-error" />
+              <small id="campaign-create-help" data-i18n="campaigns.nameHelp">Välj ett kort namn som är lätt att känna igen.</small>
+              <small class="campaign-field-error" id="campaign-create-error" hidden data-i18n="campaigns.nameError">Ange ett namn med högst 80 tecken.</small>
+            </label>
+            <p class="campaign-transfer-note" id="campaign-create-description"></p>
+            <p class="campaign-storage-error" id="campaign-create-storage-error" role="alert" hidden data-i18n="campaigns.storageError">Kampanjen kunde inte sparas. Dina befintliga kast och förinställningar är oförändrade.</p>
+            <div class="campaign-editor-actions">
+              <button class="campaign-primary" type="submit" data-i18n="campaigns.createAndSwitch">Skapa och byt</button>
+              <button class="campaign-secondary" id="campaign-create-cancel" type="button" data-i18n="common.cancel">Avbryt</button>
+            </div>
+          </form>
+
+          <form class="campaigns-editor" id="campaign-manage" novalidate hidden>
+            <div class="campaigns-editor-heading">
+              <p class="eyebrow" data-i18n="campaigns.manageEyebrow">Kampanjdetaljer</p>
+              <h3 id="campaign-manage-title"></h3>
+              <p id="campaign-manage-counts"></p>
+            </div>
+            <label class="campaign-name-field" for="campaign-manage-name">
+              <span data-i18n="campaigns.name">Visningsnamn</span>
+              <input id="campaign-manage-name" type="text" maxlength="80" autocomplete="off" aria-describedby="campaign-manage-help campaign-manage-error campaign-manage-storage-error" />
+              <small id="campaign-manage-help" data-i18n="campaigns.renameHelp">Att byta namn påverkar inte kampanjens innehåll.</small>
+              <small class="campaign-field-error" id="campaign-manage-error" hidden data-i18n="campaigns.nameError">Ange ett namn med högst 80 tecken.</small>
+            </label>
+            <p class="campaign-storage-error" id="campaign-manage-storage-error" role="alert" hidden data-i18n="campaigns.storageErrorShort">Ändringen kunde inte sparas. Försök igen.</p>
+            <div class="campaign-editor-actions campaign-rename-actions">
+              <button class="campaign-primary" type="submit" data-i18n="campaigns.saveName">Spara namn</button>
+            </div>
+            <div class="campaign-danger-zone">
+              <button class="campaign-secondary campaign-delete" id="campaign-delete" type="button" data-i18n="campaigns.delete">Radera kampanj</button>
+            </div>
+            <section class="campaign-delete-confirmation" id="campaign-delete-confirmation" role="alertdialog" aria-modal="true" aria-labelledby="campaign-delete-title" aria-describedby="campaign-delete-description" hidden>
+              <p class="eyebrow" data-i18n="campaigns.deleteEyebrow">Permanent åtgärd</p>
+              <h4 id="campaign-delete-title" data-i18n="campaigns.deleteTitle">Radera kampanjen?</h4>
+              <p id="campaign-delete-description"></p>
+              <div>
+                <button class="campaign-confirm-delete" id="campaign-confirm-delete" type="button" data-i18n="campaigns.deleteConfirm">Radera permanent</button>
+                <button class="campaign-cancel-delete" id="campaign-cancel-delete" type="button" data-i18n="common.cancel">Avbryt</button>
+              </div>
+            </section>
+          </form>
+        </div>
+      </section>
+    </dialog>
+    <p class="sr-only" id="campaign-status" aria-live="polite"></p>
+
+    <dialog class="presets-dialog" id="presets-dialog" aria-modal="true" aria-labelledby="presets-title" aria-describedby="presets-dialog-summary">
+      <section class="presets-modal" id="presets-modal" data-view="library">
+        <header class="presets-header">
+          <button class="presets-back" id="presets-back" type="button" aria-label="Tillbaka till förinställningar" data-i18n-aria-label="presets.back" hidden>
+            <span aria-hidden="true">‹</span>
+          </button>
+          <div class="presets-header-copy">
+            <p class="eyebrow" data-i18n="presets.eyebrow">Snabbval</p>
+            <h2 id="presets-title" data-i18n="presets.title">Förinställningar</h2>
+            <p id="presets-dialog-summary" aria-live="polite">Inga sparade förinställningar</p>
+          </div>
+          <div class="presets-header-actions">
+            <button class="presets-new" id="presets-new" type="button">
+              <span aria-hidden="true">＋</span>
+              <span data-i18n="presets.new">Ny förinställning</span>
+            </button>
+            <button class="presets-close" id="presets-close" type="button" aria-label="Stäng förinställningar" data-i18n-aria-label="presets.close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+        </header>
+
+        <div class="presets-body">
+          <section class="presets-library" id="presets-library" aria-labelledby="presets-library-title">
+            <h3 class="sr-only" id="presets-library-title" data-i18n="presets.library">Bibliotek</h3>
+            <label class="presets-search" for="presets-search">
+              <span aria-hidden="true">⌕</span>
+              <input id="presets-search" type="search" autocomplete="off" spellcheck="false" placeholder="Sök förinställningar" data-i18n-placeholder="presets.searchPlaceholder" />
+            </label>
+            <p class="presets-search-summary" id="presets-search-summary" aria-live="polite"></p>
+            <ul class="presets-list" id="presets-list"></ul>
+            <div class="presets-library-empty" id="presets-library-empty">
+              <span aria-hidden="true">✦</span>
+              <h3 data-i18n="presets.emptyTitle">Inga förinställningar ännu</h3>
+              <p data-i18n="presets.emptyText">Spara kastläget du använder just nu och hitta det här senare.</p>
+              <button id="presets-empty-new" type="button" data-i18n="presets.createFirst">Skapa den första</button>
+            </div>
+            <div class="presets-no-results" id="presets-no-results" hidden>
+              <span aria-hidden="true">⌕</span>
+              <h3 data-i18n="presets.noResultsTitle">Ingen träff</h3>
+              <p data-i18n="presets.noResultsText">Prova ett annat namn.</p>
+            </div>
+          </section>
+
+          <section class="preset-detail-pane" id="preset-detail-pane" aria-labelledby="preset-detail-title">
+            <div class="preset-detail-empty" id="preset-detail-empty">
+              <span aria-hidden="true">✧</span>
+              <h3 id="preset-detail-title" data-i18n="presets.selectTitle">Välj en förinställning</h3>
+              <p data-i18n="presets.selectText">Granska ett sparat kast eller skapa ett nytt från dina nuvarande kontroller.</p>
+            </div>
+
+            <article class="preset-preview" id="preset-preview" hidden>
+              <header class="preset-preview-header">
+                <span class="preset-preview-die die-glyph glyph-d20" id="preset-preview-die" data-die-type="d20">D20</span>
+                <div>
+                  <p class="eyebrow" data-i18n="presets.savedPreset">Sparad förinställning</p>
+                  <h3 id="preset-preview-name"></h3>
+                  <p id="preset-preview-summary"></p>
+                </div>
+              </header>
+              <div class="preset-preview-sections">
+                <section class="preset-preview-section" aria-labelledby="preset-preview-roll-title">
+                  <h4 id="preset-preview-roll-title" data-i18n="presets.rollSettings">Kastinställningar</h4>
+                  <dl class="preset-preview-fields">
+                    <div><dt data-i18n="mode.label">Kastläge</dt><dd id="preset-preview-mode"></dd></div>
+                    <div><dt data-i18n="modifier.label">Modifierare</dt><dd id="preset-preview-modifier"></dd></div>
+                  </dl>
+                </section>
+                <section class="preset-preview-section" id="preset-preview-d20-section" aria-labelledby="preset-preview-d20-title">
+                  <h4 id="preset-preview-d20-title" data-i18n="presets.d20Rules">D20-regler</h4>
+                  <dl class="preset-preview-fields">
+                    <div><dt data-i18n="check.difficulty">Svårighetsgrad</dt><dd id="preset-preview-difficulty"></dd></div>
+                    <div><dt data-i18n="check.criticals">Kritiska utfall</dt><dd id="preset-preview-criticals"></dd></div>
+                  </dl>
+                </section>
+              </div>
+              <footer class="preset-preview-actions">
+                <button class="preset-use" id="preset-use" type="button" data-i18n="presets.use">Använd förinställning</button>
+                <button class="preset-edit" id="preset-edit" type="button" data-i18n="presets.edit">Redigera</button>
+                <button class="preset-delete" id="preset-delete" type="button" data-i18n="presets.delete">Radera</button>
+              </footer>
+              <div class="preset-delete-confirmation" id="preset-delete-confirmation" hidden role="alert">
+                <p data-i18n="presets.deleteQuestion">Radera den här förinställningen permanent?</p>
+                <div>
+                  <button class="preset-confirm-delete" id="preset-confirm-delete" type="button" data-i18n="presets.deleteConfirm">Radera</button>
+                  <button class="preset-cancel-delete" id="preset-cancel-delete" type="button" data-i18n="common.cancel">Avbryt</button>
+                </div>
+              </div>
+            </article>
+
+            <form class="preset-editor" id="preset-editor" novalidate hidden>
+              <header class="preset-editor-heading">
+                <div>
+                  <p class="eyebrow" id="preset-editor-eyebrow">Nytt snabbval</p>
+                  <h3 id="preset-editor-title">Ny förinställning</h3>
+                </div>
+              </header>
+
+              <label class="preset-name-field" for="preset-name">
+                <span data-i18n="presets.name">Namn</span>
+                <input id="preset-name" name="name" type="text" maxlength="80" autocomplete="off" aria-describedby="preset-name-help preset-name-error" />
+                <small id="preset-name-help" data-i18n="presets.nameHelp">Ge kastet ett kort namn som känns igen i snabbvalen.</small>
+                <small class="preset-field-error" id="preset-name-error" hidden data-i18n="presets.nameError">Ange ett namn med högst 80 tecken.</small>
+              </label>
+
+              <fieldset class="preset-fieldset preset-die-fieldset">
+                <legend data-i18n="dice.type">Tärningstyp</legend>
+                <div class="preset-die-options" role="radiogroup" aria-label="Tärningstyp" data-i18n-aria-label="dice.type">
+                  <button type="button" role="radio" data-preset-die="d4" aria-checked="false"><span class="die-glyph glyph-d4" aria-hidden="true">4</span><b>D4</b></button>
+                  <button type="button" role="radio" data-preset-die="d6" aria-checked="false"><span class="die-glyph glyph-d6" aria-hidden="true">6</span><b>D6</b></button>
+                  <button type="button" role="radio" data-preset-die="d8" aria-checked="false"><span class="die-glyph glyph-d8" aria-hidden="true">8</span><b>D8</b></button>
+                  <button type="button" role="radio" data-preset-die="d10" aria-checked="false"><span class="die-glyph glyph-d10" aria-hidden="true">10</span><b>D10</b></button>
+                  <button type="button" role="radio" data-preset-die="d12" aria-checked="false"><span class="die-glyph glyph-d12" aria-hidden="true">12</span><b>D12</b></button>
+                  <button type="button" role="radio" data-preset-die="d20" aria-checked="true"><span class="die-glyph glyph-d20" aria-hidden="true">20</span><b>D20</b></button>
+                </div>
+              </fieldset>
+
+              <fieldset class="preset-fieldset">
+                <legend data-i18n="mode.label">Kastläge</legend>
+                <div class="preset-mode-options" role="radiogroup" aria-label="Kastläge" data-i18n-aria-label="mode.label">
+                  <button type="button" role="radio" data-preset-mode="normal" aria-checked="true" data-i18n="mode.normal">Normalt</button>
+                  <button type="button" role="radio" data-preset-mode="advantage" aria-checked="false" data-i18n="mode.advantage">Fördel</button>
+                  <button type="button" role="radio" data-preset-mode="disadvantage" aria-checked="false" data-i18n="mode.disadvantage">Nackdel</button>
+                </div>
+              </fieldset>
+
+              <div class="preset-roll-fields">
+                <div class="preset-number-row">
+                  <label for="preset-modifier" data-i18n="modifier.label">Modifierare</label>
+                  <div class="preset-stepper">
+                    <button id="preset-modifier-decrease" type="button" aria-label="Minska modifieraren med ett" data-i18n-aria-label="modifier.decrease">−</button>
+                    <input id="preset-modifier" type="text" inputmode="text" value="0" aria-label="Modifierare" />
+                    <button id="preset-modifier-increase" type="button" aria-label="Öka modifieraren med ett" data-i18n-aria-label="modifier.increase">+</button>
+                  </div>
+                </div>
+                <label class="preset-rule-toggle" id="preset-criticals-row" data-i18n-tooltip="check.criticalsDescription">
+                  <span><span class="preset-rule-toggle-label" data-i18n="check.criticals">Kritiska utfall</span><small class="sr-only" id="preset-criticals-description" data-i18n="check.criticalsDescription">Naturlig 1 och 20</small></span>
+                  <span class="settings-toggle-control">
+                    <input id="preset-criticals-enabled" type="checkbox" checked aria-describedby="preset-criticals-description" />
+                    <span class="rule-switch-track" aria-hidden="true"><i></i></span>
+                    <span class="preset-rule-toggle-state" id="preset-criticals-state" aria-hidden="true">På</span>
+                  </span>
+                </label>
+                <label class="preset-rule-toggle" id="preset-difficulty-row" data-i18n-tooltip="check.difficultyDescription">
+                  <span><span class="preset-rule-toggle-label" data-i18n="check.difficulty">Svårighetsgrad</span><small class="sr-only" id="preset-difficulty-description" data-i18n="check.difficultyDescription">Mål för modifierad total</small></span>
+                  <span class="settings-toggle-control">
+                    <input id="preset-difficulty-enabled" type="checkbox" checked aria-describedby="preset-difficulty-description" />
+                    <span class="rule-switch-track" aria-hidden="true"><i></i></span>
+                    <span class="preset-rule-toggle-state" id="preset-difficulty-state" aria-hidden="true">På</span>
+                  </span>
+                </label>
+                <div class="preset-number-row preset-difficulty-value" id="preset-difficulty-value-row">
+                  <label for="preset-difficulty" data-i18n="presets.difficultyValue">DC-värde</label>
+                  <div class="preset-stepper">
+                    <button id="preset-difficulty-decrease" type="button" aria-label="Minska svårighetsgraden med ett" data-i18n-aria-label="check.decreaseDifficulty">−</button>
+                    <input id="preset-difficulty" type="text" inputmode="text" value="15" aria-label="Svårighetsgrad" />
+                    <button id="preset-difficulty-increase" type="button" aria-label="Öka svårighetsgraden med ett" data-i18n-aria-label="check.increaseDifficulty">+</button>
+                  </div>
+                </div>
+              </div>
+
+              <footer class="preset-editor-actions">
+                <button class="preset-save" id="preset-save" type="submit" data-i18n="presets.save">Spara förinställning</button>
+                <button class="preset-editor-cancel" id="preset-editor-cancel" type="button" data-i18n="common.cancel">Avbryt</button>
+              </footer>
+            </form>
+
+            <section class="preset-unsaved-confirmation" id="preset-unsaved-confirmation" role="alertdialog" aria-modal="true" aria-labelledby="preset-unsaved-title" aria-describedby="preset-unsaved-text" hidden>
+              <p class="eyebrow" data-i18n="presets.unsavedEyebrow">Osparade ändringar</p>
+              <h3 id="preset-unsaved-title" data-i18n="presets.unsavedTitle">Vad vill du göra?</h3>
+              <p id="preset-unsaved-text" data-i18n="presets.unsavedText">Spara ändringarna innan du lämnar redigeringen.</p>
+              <div>
+                <button class="preset-unsaved-save" id="preset-unsaved-save" type="button" data-i18n="presets.saveChanges">Spara</button>
+                <button class="preset-unsaved-discard" id="preset-unsaved-discard" type="button" data-i18n="presets.discard">Kasta ändringar</button>
+                <button class="preset-unsaved-cancel" id="preset-unsaved-cancel" type="button" data-i18n="common.cancel">Avbryt</button>
+              </div>
+            </section>
+          </section>
+        </div>
+      </section>
+    </dialog>
+
+    <dialog class="settings-dialog" id="settings-dialog" aria-modal="true" aria-labelledby="settings-title">
+      <section class="settings-popover">
+        <header class="settings-header">
+          <div>
+            <p class="eyebrow" data-i18n="settings.eyebrow">Spelbordet</p>
+            <h2 id="settings-title" data-i18n="settings.title">Inställningar</h2>
+          </div>
+          <button class="settings-close" id="settings-close" type="button" aria-label="Stäng inställningar" data-i18n-aria-label="settings.close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </header>
+
+        <div class="settings-content">
+          <section class="settings-section" aria-labelledby="settings-language-title">
+            <div class="settings-section-heading">
+              <div>
+                <h3 id="settings-language-title" data-i18n="settings.language">Språk</h3>
+                <p data-i18n="settings.languageDescription">Välj språk för hela gränssnittet</p>
+              </div>
+            </div>
+            <div class="settings-segments language-options" role="radiogroup" aria-labelledby="settings-language-title">
+              <button type="button" role="radio" data-language="sv" aria-checked="true">Svenska</button>
+              <button type="button" role="radio" data-language="en" aria-checked="false">English</button>
+            </div>
+          </section>
+
+          <section class="settings-section" aria-labelledby="settings-fps-title">
+            <div class="settings-section-heading">
+              <div>
+                <h3 id="settings-fps-title" data-i18n="settings.frameRate">Bildfrekvens</h3>
+                <p data-i18n="settings.frameRateDescription">Begränsa rendering för jämnare prestanda</p>
+              </div>
+            </div>
+            <div class="settings-segments fps-options" role="radiogroup" aria-labelledby="settings-fps-title">
+              <button type="button" role="radio" data-fps="auto" aria-checked="true" data-i18n="settings.auto">Auto</button>
+              <button type="button" role="radio" data-fps="30" aria-checked="false">30</button>
+              <button type="button" role="radio" data-fps="60" aria-checked="false">60</button>
+              <button type="button" role="radio" data-fps="120" aria-checked="false">120</button>
+            </div>
+          </section>
+
+          <section class="settings-section" aria-labelledby="settings-sound-title">
+            <label class="settings-toggle" id="settings-sound-row" data-enabled="true">
+              <span>
+                <strong id="settings-sound-title" data-i18n="settings.sound">Ljud</strong>
+                <small data-i18n="settings.soundDescription">Tärnings- och gränssnittseffekter</small>
+              </span>
+              <span class="settings-toggle-control">
+                <input id="settings-sound" type="checkbox" checked />
+                <span class="rule-switch-track" aria-hidden="true"><i></i></span>
+                <b id="settings-sound-state" aria-hidden="true">På</b>
+              </span>
+            </label>
+          </section>
+
+          <section class="settings-section settings-colors" aria-labelledby="settings-colors-title">
+            <div class="settings-section-heading">
+              <div>
+                <h3 id="settings-colors-title" data-i18n="settings.colors">Tärningsfärger</h3>
+                <p data-i18n="settings.colorsDescription">Anpassa den valda tärningens palett</p>
+              </div>
+              <div class="settings-die-preview die-glyph glyph-d20" id="settings-die-preview" data-die-type="d20" aria-label="Förhandsvisning av D20">20</div>
+            </div>
+            <div class="settings-dice-options" role="radiogroup" aria-labelledby="settings-colors-title">
+              <button type="button" role="radio" data-settings-die="d4" aria-checked="false">D4</button>
+              <button type="button" role="radio" data-settings-die="d6" aria-checked="false">D6</button>
+              <button type="button" role="radio" data-settings-die="d8" aria-checked="false">D8</button>
+              <button type="button" role="radio" data-settings-die="d10" aria-checked="false">D10</button>
+              <button type="button" role="radio" data-settings-die="d12" aria-checked="false">D12</button>
+              <button type="button" role="radio" data-settings-die="d20" aria-checked="true">D20</button>
+            </div>
+            <div class="settings-palette-controls">
+              <label class="settings-color-control">
+                <span data-i18n="settings.face">Ytor</span>
+                <span class="settings-color-input">
+                  <input id="settings-color-face" type="color" value="#929ca2" />
+                  <output for="settings-color-face">#929CA2</output>
+                </span>
+              </label>
+              <label class="settings-color-control">
+                <span data-i18n="settings.edge">Kanter</span>
+                <span class="settings-color-input">
+                  <input id="settings-color-edge" type="color" value="#20272c" />
+                  <output for="settings-color-edge">#20272C</output>
+                </span>
+              </label>
+              <label class="settings-color-control">
+                <span data-i18n="settings.number">Siffror</span>
+                <span class="settings-color-input">
+                  <input id="settings-color-number" type="color" value="#f5f0df" />
+                  <output for="settings-color-number">#F5F0DF</output>
+                </span>
+              </label>
+            </div>
+          </section>
+        </div>
+
+        <footer class="settings-footer">
+          <button class="settings-reset" id="settings-reset" type="button" data-i18n="settings.reset">Återställ standardinställningar</button>
+          <div class="settings-reset-confirmation" id="settings-reset-confirmation" hidden>
+            <p data-i18n="settings.resetQuestion">Återställ språk, prestanda och alla färger?</p>
+            <div>
+              <button class="settings-confirm-reset" id="settings-confirm-reset" type="button" data-i18n="settings.resetAll">Återställ alla</button>
+              <button class="settings-cancel-reset" id="settings-cancel-reset" type="button" data-i18n="common.cancel">Avbryt</button>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </dialog>
+
+    <dialog class="history-dialog" id="history-dialog" aria-modal="true" aria-labelledby="history-title" aria-describedby="history-summary">
+      <section class="history-drawer">
+        <header class="history-header">
+          <div>
+            <p class="eyebrow" data-i18n="history.eyebrow">Ödets spår</p>
+            <h2 id="history-title" data-i18n="history.title">Kasthistorik</h2>
+            <p class="history-summary" id="history-summary" aria-live="polite">Inga sparade kast</p>
+          </div>
+          <button class="history-close" id="history-close" type="button" aria-label="Stäng kasthistorik" data-i18n-aria-label="history.close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </header>
+
+        <div class="history-content">
+          <ol class="history-list" id="history-list" aria-label="Tidigare tärningskast" data-i18n-aria-label="history.list"></ol>
+          <div class="history-empty" id="history-empty">
+            <span class="history-empty-mark" aria-hidden="true">⌁</span>
+            <h3 data-i18n="history.emptyTitle">Inga kast ännu</h3>
+            <p data-i18n="history.emptyText">Dina avslutade tärningskast samlas här.</p>
+          </div>
+        </div>
+
+        <footer class="history-footer" id="history-footer" hidden>
+          <button class="history-clear" id="history-clear" type="button" data-i18n="history.clear">Rensa historik</button>
+          <div class="history-clear-confirmation" id="history-clear-confirmation" hidden>
+            <p data-i18n="history.clearQuestion">Rensa alla sparade kast?</p>
+            <div>
+              <button class="history-confirm-clear" id="history-confirm-clear" type="button" data-i18n="history.clearAll">Rensa alla</button>
+              <button class="history-cancel-clear" id="history-cancel-clear" type="button" data-i18n="common.cancel">Avbryt</button>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </dialog>
+
+    <div class="hover-tooltip" id="hover-tooltip" role="tooltip" popover="manual"></div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
