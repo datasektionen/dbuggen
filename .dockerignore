@@ -12,3 +12,9 @@ images/
 .jekyll-cache
 .dockerignore
 Dockerfile
+
+# Build DND in the image using Linux dependencies
+.git
+apps/dnd/node_modules
+apps/dnd/.vite
+dnd
