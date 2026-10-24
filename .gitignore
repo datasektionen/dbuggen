@@ -13,3 +13,8 @@ images/
 
 # Docker Compose
 .env
+
+# DND source dependencies and generated public bundle
+/apps/dnd/node_modules/
+/apps/dnd/.vite/
+/dnd/
