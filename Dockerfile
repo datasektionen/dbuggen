@@ -1,17 +1,19 @@
-FROM docker.io/ruby:3.1 AS build
+FROM docker.io/node:22-bookworm-slim AS node
+FROM docker.io/ruby:3.1-bookworm AS build
 
 WORKDIR /app
 
-ENV DEBIAN_FRONTEND=noninteractive
-RUN apt update && apt install -y nodejs && rm -rf /var/lib/apt/lists/*
+# Both toolchains are build-time only; the runtime still serves static files.
+COPY --from=node /usr/local/ /usr/local/
+
+COPY Gemfile Gemfile.lock ./
+RUN gem install bundler -v 2.4.15 && bundle install
+
+COPY apps/dnd/package.json apps/dnd/package-lock.json ./apps/dnd/
+RUN npm --prefix apps/dnd ci
 
 COPY . .
-
-# Ensure bundler version matches the one in Gemfile.lock (2.4.15)
-RUN gem install bundler -v 2.4.15
-RUN bundle install
-
-RUN jekyll build
+RUN bundle exec rake dnd:test assets:precompile
 
 FROM docker.io/busybox:1-musl
 WORKDIR /app
